@@ -16,5 +16,10 @@ namespace ProjetoG3_Fotografo
         {
             InitializeComponent();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("ola");
+        }
     }
 }
