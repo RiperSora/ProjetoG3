@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ProjetoG3_Fotografo
 {
-    public partial class Login : Form
+    public partial class Funcionario : Form
     {
-        public Login()
+        public Funcionario()
         {
             InitializeComponent();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Funcionario_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
