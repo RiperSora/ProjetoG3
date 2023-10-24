@@ -20,6 +20,8 @@ namespace ProjetoG3_Fotografo
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello");
+            MessageBox.Show("World");
+            MessageBox.Show("Olá");
         }
     }
 }
