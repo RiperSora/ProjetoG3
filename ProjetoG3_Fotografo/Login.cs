@@ -22,6 +22,7 @@ namespace ProjetoG3_Fotografo
             MessageBox.Show("Hello");
             MessageBox.Show("World");
             MessageBox.Show("Olá");
+            MessageBox.Show("teste");
         }
     }
 }
