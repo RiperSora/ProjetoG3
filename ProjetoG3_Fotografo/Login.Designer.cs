@@ -172,7 +172,7 @@
             this.TxtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtSenha.Location = new System.Drawing.Point(71, 158);
             this.TxtSenha.Name = "TxtSenha";
-            this.TxtSenha.PasswordChar = '\0';
+            this.TxtSenha.PasswordChar = '*';
             this.TxtSenha.PlaceholderText = "";
             this.TxtSenha.SelectedText = "";
             this.TxtSenha.ShadowDecoration.CustomizableEdges = customizableEdges6;
