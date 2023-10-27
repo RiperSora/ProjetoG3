@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetoG3_Fotografo
 {
-    public partial class Login : Form
+    public partial class RecadastrarSenha : Form
     {
-        public Login()
+        public RecadastrarSenha()
         {
             InitializeComponent();
         }
