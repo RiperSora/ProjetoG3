@@ -94,7 +94,7 @@
             this.btnConfiguracao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.ForeColor = System.Drawing.Color.Silver;
-            this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(58)))), ((int)(((byte)(148)))));
+            this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
             this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnConfiguracao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
