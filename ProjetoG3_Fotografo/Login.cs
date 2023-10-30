@@ -16,5 +16,19 @@ namespace ProjetoG3_Fotografo
         {
             InitializeComponent();
         }
+
+        #region 
+        private void AlteracaoSenha()
+        {
+            RecadastrarSenha recadastrarSenha = new RecadastrarSenha();
+            recadastrarSenha.Show();
+            this.Hide();
+        }
+        #endregion
+
+        private void LinkAlteracaoSenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AlteracaoSenha();
+        }
     }
 }

@@ -34,5 +34,10 @@ namespace ProjetoG3_Fotografo
         {
 
         }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
