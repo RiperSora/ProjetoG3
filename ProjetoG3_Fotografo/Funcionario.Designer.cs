@@ -33,9 +33,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Funcionario));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Funcionario));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -138,6 +138,10 @@
             this.btnFotos.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnFotos.ForeColor = System.Drawing.Color.Silver;
             this.btnFotos.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnFotos.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFotos.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnFotos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnFotos.Image = ((System.Drawing.Image)(resources.GetObject("btnFotos.Image")));
             this.btnFotos.Location = new System.Drawing.Point(3, 318);
             this.btnFotos.Name = "btnFotos";
             this.btnFotos.ShadowDecoration.CustomizableEdges = customizableEdges6;
@@ -160,7 +164,7 @@
             this.btnFuncionario.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnFuncionario.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnFuncionario.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnFuncionario.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnFuncionario.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
             this.btnFuncionario.Location = new System.Drawing.Point(3, 256);
             this.btnFuncionario.Name = "btnFuncionario";
@@ -183,7 +187,9 @@
             this.bntCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bntCliente.ForeColor = System.Drawing.Color.Silver;
             this.bntCliente.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.bntCliente.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.bntCliente.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bntCliente.HoverState.ForeColor = System.Drawing.Color.White;
+            this.bntCliente.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.bntCliente.Image = ((System.Drawing.Image)(resources.GetObject("bntCliente.Image")));
             this.bntCliente.Location = new System.Drawing.Point(3, 196);
             this.bntCliente.Name = "bntCliente";
@@ -209,6 +215,9 @@
             this.btnHome.ForeColor = System.Drawing.Color.Silver;
             this.btnHome.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnHome.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHome.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.Location = new System.Drawing.Point(0, 136);
             this.btnHome.Name = "btnHome";
