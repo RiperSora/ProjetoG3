@@ -7,6 +7,9 @@
     <Compile Update="Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CriacaoEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Eventos.cs">
       <SubType>Form</SubType>
     </Compile>
