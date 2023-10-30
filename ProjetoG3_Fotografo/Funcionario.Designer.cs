@@ -35,11 +35,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Funcionario));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Funcionario));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -152,7 +152,7 @@
             this.btnFotos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnFotos.FillColor = System.Drawing.Color.Transparent;
             this.btnFotos.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFotos.ForeColor = System.Drawing.Color.White;
+            this.btnFotos.ForeColor = System.Drawing.Color.Silver;
             this.btnFotos.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnFotos.Location = new System.Drawing.Point(3, 318);
             this.btnFotos.Name = "btnFotos";
@@ -172,14 +172,18 @@
             this.btnFuncionario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnFuncionario.FillColor = System.Drawing.Color.Transparent;
             this.btnFuncionario.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFuncionario.ForeColor = System.Drawing.Color.White;
+            this.btnFuncionario.ForeColor = System.Drawing.Color.Silver;
             this.btnFuncionario.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnFuncionario.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFuncionario.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnFuncionario.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
             this.btnFuncionario.Location = new System.Drawing.Point(3, 256);
             this.btnFuncionario.Name = "btnFuncionario";
             this.btnFuncionario.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.btnFuncionario.Size = new System.Drawing.Size(217, 61);
             this.btnFuncionario.TabIndex = 3;
-            this.btnFuncionario.Text = "EVENTOS";
+            this.btnFuncionario.Text = "Eventos";
             this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // bntCliente
@@ -193,7 +197,7 @@
             this.bntCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.bntCliente.FillColor = System.Drawing.Color.Transparent;
             this.bntCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bntCliente.ForeColor = System.Drawing.Color.White;
+            this.bntCliente.ForeColor = System.Drawing.Color.Silver;
             this.bntCliente.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.bntCliente.Location = new System.Drawing.Point(3, 196);
             this.bntCliente.Name = "bntCliente";
@@ -216,7 +220,7 @@
             this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnHome.FillColor = System.Drawing.Color.Transparent;
             this.btnHome.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.ForeColor = System.Drawing.Color.Silver;
             this.btnHome.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
@@ -240,8 +244,8 @@
             this.guna2GradientPanel1.Controls.Add(this.btnHome);
             this.guna2GradientPanel1.CustomizableEdges = customizableEdges13;
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(1)))), ((int)(((byte)(55)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(75)))), ((int)(((byte)(180)))));
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(100)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(121)))), ((int)(((byte)(145)))));
             this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
