@@ -84,6 +84,7 @@
             // btnConfiguracao
             // 
             this.btnConfiguracao.BorderRadius = 10;
+            this.btnConfiguracao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConfiguracao.CustomizableEdges = customizableEdges1;
             this.btnConfiguracao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnConfiguracao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -119,6 +120,7 @@
             // btnFotos
             // 
             this.btnFotos.BackColor = System.Drawing.Color.Transparent;
+            this.btnFotos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFotos.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnFotos.CustomizableEdges = customizableEdges5;
             this.btnFotos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -143,6 +145,7 @@
             // btnFuncionario
             // 
             this.btnFuncionario.BackColor = System.Drawing.Color.Transparent;
+            this.btnFuncionario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFuncionario.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnFuncionario.CustomizableEdges = customizableEdges7;
             this.btnFuncionario.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -168,6 +171,7 @@
             // bntCliente
             // 
             this.bntCliente.BackColor = System.Drawing.Color.Transparent;
+            this.bntCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bntCliente.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.bntCliente.CustomizableEdges = customizableEdges9;
             this.bntCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -211,6 +215,7 @@
             // guna2Button1
             // 
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.guna2Button1.CustomizableEdges = customizableEdges11;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
