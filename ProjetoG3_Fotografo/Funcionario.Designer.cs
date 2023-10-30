@@ -39,23 +39,21 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfiguracao = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnFotos = new Guna.UI2.WinForms.Guna2Button();
             this.btnFuncionario = new Guna.UI2.WinForms.Guna2Button();
             this.bntCliente = new Guna.UI2.WinForms.Guna2Button();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,7 +108,6 @@
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel2.CustomizableEdges = customizableEdges3;
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -118,17 +115,6 @@
             this.guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.guna2Panel2.Size = new System.Drawing.Size(220, 135);
             this.guna2Panel2.TabIndex = 15;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tw Cen MT", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(22, 47);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(185, 36);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Click Produções";
             // 
             // btnFotos
             // 
@@ -203,45 +189,14 @@
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
             // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHome.BorderColor = System.Drawing.Color.White;
-            this.btnHome.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnHome.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.btnHome.CustomizableEdges = customizableEdges11;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.Silver;
-            this.btnHome.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnHome.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
-            this.btnHome.Location = new System.Drawing.Point(0, 136);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.PressedColor = System.Drawing.Color.White;
-            this.btnHome.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnHome.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.btnHome.Size = new System.Drawing.Size(220, 61);
-            this.btnHome.TabIndex = 1;
-            this.btnHome.Text = "Home";
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.Controls.Add(this.guna2Button1);
             this.guna2GradientPanel1.Controls.Add(this.btnFotos);
             this.guna2GradientPanel1.Controls.Add(this.tableLayoutPanel1);
             this.guna2GradientPanel1.Controls.Add(this.btnFuncionario);
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel2);
             this.guna2GradientPanel1.Controls.Add(this.bntCliente);
-            this.guna2GradientPanel1.Controls.Add(this.btnHome);
             this.guna2GradientPanel1.CustomizableEdges = customizableEdges13;
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
@@ -252,6 +207,30 @@
             this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 501);
             this.guna2GradientPanel1.TabIndex = 15;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.guna2Button1.CustomizableEdges = customizableEdges11;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Silver;
+            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(0, 129);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.guna2Button1.Size = new System.Drawing.Size(217, 61);
+            this.guna2Button1.TabIndex = 16;
+            this.guna2Button1.Text = "Serviços";
             // 
             // Funcionario
             // 
@@ -264,8 +243,6 @@
             this.Load += new System.EventHandler(this.Funcionario_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -276,11 +253,10 @@
         private Guna.UI2.WinForms.Guna2Button btnFotos;
         private Guna.UI2.WinForms.Guna2Button btnFuncionario;
         private Guna.UI2.WinForms.Guna2Button bntCliente;
-        private Guna.UI2.WinForms.Guna2Button btnHome;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private TableLayoutPanel tableLayoutPanel1;
         private Panel panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
