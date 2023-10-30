@@ -16,5 +16,10 @@ namespace ProjetoG3_Fotografo
         {
             InitializeComponent();
         }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
