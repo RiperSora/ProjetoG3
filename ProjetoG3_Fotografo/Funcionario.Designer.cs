@@ -85,22 +85,24 @@
             // 
             // btnConfiguracao
             // 
-            this.btnConfiguracao.BorderRadius = 20;
+            this.btnConfiguracao.BorderRadius = 10;
             this.btnConfiguracao.CustomizableEdges = customizableEdges1;
             this.btnConfiguracao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnConfiguracao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnConfiguracao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnConfiguracao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConfiguracao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(39)))), ((int)(((byte)(117)))));
-            this.btnConfiguracao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnConfiguracao.ForeColor = System.Drawing.Color.White;
+            this.btnConfiguracao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfiguracao.ForeColor = System.Drawing.Color.Silver;
             this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(58)))), ((int)(((byte)(148)))));
+            this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnConfiguracao.Location = new System.Drawing.Point(19, 12);
             this.btnConfiguracao.Name = "btnConfiguracao";
             this.btnConfiguracao.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
-            this.btnConfiguracao.Text = "CONFIGURAÇÕES";
+            this.btnConfiguracao.Text = "Configurações";
             // 
             // guna2Panel2
             // 
