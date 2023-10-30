@@ -91,3 +91,5 @@ C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriacaoEventos.resources
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Eventos.resources
