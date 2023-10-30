@@ -230,7 +230,7 @@
             this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             this.guna2Button1.Size = new System.Drawing.Size(217, 61);
             this.guna2Button1.TabIndex = 16;
-            this.guna2Button1.Text = "Administrativo";
+            this.guna2Button1.Text = "Serviços";
             // 
             // Funcionario
             // 
