@@ -110,3 +110,6 @@ C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\ne
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriacaoEventos.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarAlbum.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Eventos.resources
+C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.UserControlCampos.resources
+C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Calendario.resources
+C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.UserControlDias.resources
