@@ -44,6 +44,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.62.0.3171, )"
+            },
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.5, )"

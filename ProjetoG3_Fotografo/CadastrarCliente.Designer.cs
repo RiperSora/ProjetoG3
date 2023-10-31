@@ -57,8 +57,8 @@
             this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -266,17 +266,6 @@
             this.guna2GroupBox1.Size = new System.Drawing.Size(788, 368);
             this.guna2GroupBox1.TabIndex = 12;
             // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tw Cen MT", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(256, 10);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(250, 36);
-            this.guna2HtmlLabel3.TabIndex = 12;
-            this.guna2HtmlLabel3.Text = "Cadastro de Clientes";
-            // 
             // guna2Button3
             // 
             this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
@@ -295,6 +284,17 @@
             this.guna2Button3.Size = new System.Drawing.Size(118, 29);
             this.guna2Button3.TabIndex = 14;
             this.guna2Button3.Text = "Cancelar";
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tw Cen MT", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(256, 10);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(250, 36);
+            this.guna2HtmlLabel3.TabIndex = 12;
+            this.guna2HtmlLabel3.Text = "Cadastro de Clientes";
             // 
             // CadastrarCliente
             // 
