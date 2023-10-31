@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mMIIE2/tt2XgLt2boVU9d0FQMp1mRCPcpfmX2M+hDUjr78r8o46kMf2rWvJsR1bn+5NW4w1XVVSHuTn1gH6n/g==",
+  "dgSpecHash": "29jvdeR9PAnCK4r97X9YmyzE2ThdrwDx9o3ArJymrLoB+QVwcQry2wFVrV4744dpw43NMivbwG6a0kVIs+C1Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+  "projectFilePath": "C:\\Users\\matheus.glima16\\Documents\\ProjetoG3\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
