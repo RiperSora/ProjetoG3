@@ -100,15 +100,15 @@
             this.gridCliente = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnExcluirCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExcluirAlbum = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnCadastrarCliente2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCadastrarAlbum2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnCadastrarCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCadastrarAlbum = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -445,7 +445,7 @@
             // 
             // guna2Panel13
             // 
-            this.guna2Panel13.Controls.Add(this.btnExcluirCliente);
+            this.guna2Panel13.Controls.Add(this.btnExcluirAlbum);
             this.guna2Panel13.CustomizableEdges = customizableEdges19;
             this.guna2Panel13.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel13.Location = new System.Drawing.Point(276, 0);
@@ -454,28 +454,28 @@
             this.guna2Panel13.Size = new System.Drawing.Size(200, 83);
             this.guna2Panel13.TabIndex = 1;
             // 
-            // btnExcluirCliente
+            // btnExcluirAlbum
             // 
-            this.btnExcluirCliente.BorderRadius = 10;
-            this.btnExcluirCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExcluirCliente.CustomizableEdges = customizableEdges17;
-            this.btnExcluirCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExcluirCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExcluirCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExcluirCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExcluirCliente.FillColor = System.Drawing.Color.LightCoral;
-            this.btnExcluirCliente.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnExcluirCliente.ForeColor = System.Drawing.Color.White;
-            this.btnExcluirCliente.Location = new System.Drawing.Point(3, 6);
-            this.btnExcluirCliente.Name = "btnExcluirCliente";
-            this.btnExcluirCliente.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            this.btnExcluirCliente.Size = new System.Drawing.Size(180, 45);
-            this.btnExcluirCliente.TabIndex = 43;
-            this.btnExcluirCliente.Text = "Excluir Cliente";
+            this.btnExcluirAlbum.BorderRadius = 10;
+            this.btnExcluirAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExcluirAlbum.CustomizableEdges = customizableEdges17;
+            this.btnExcluirAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExcluirAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExcluirAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExcluirAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExcluirAlbum.FillColor = System.Drawing.Color.LightCoral;
+            this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExcluirAlbum.ForeColor = System.Drawing.Color.White;
+            this.btnExcluirAlbum.Location = new System.Drawing.Point(3, 6);
+            this.btnExcluirAlbum.Name = "btnExcluirAlbum";
+            this.btnExcluirAlbum.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.btnExcluirAlbum.Size = new System.Drawing.Size(180, 45);
+            this.btnExcluirAlbum.TabIndex = 43;
+            this.btnExcluirAlbum.Text = "Excluir Álbum";
             // 
             // guna2Panel12
             // 
-            this.guna2Panel12.Controls.Add(this.btnCadastrarCliente2);
+            this.guna2Panel12.Controls.Add(this.btnCadastrarAlbum2);
             this.guna2Panel12.CustomizableEdges = customizableEdges23;
             this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel12.Location = new System.Drawing.Point(476, 0);
@@ -484,23 +484,23 @@
             this.guna2Panel12.Size = new System.Drawing.Size(200, 83);
             this.guna2Panel12.TabIndex = 0;
             // 
-            // btnCadastrarCliente2
+            // btnCadastrarAlbum2
             // 
-            this.btnCadastrarCliente2.BorderRadius = 10;
-            this.btnCadastrarCliente2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrarCliente2.CustomizableEdges = customizableEdges21;
-            this.btnCadastrarCliente2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCadastrarCliente2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCadastrarCliente2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCadastrarCliente2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarCliente2.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastrarCliente2.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrarCliente2.Location = new System.Drawing.Point(17, 6);
-            this.btnCadastrarCliente2.Name = "btnCadastrarCliente2";
-            this.btnCadastrarCliente2.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            this.btnCadastrarCliente2.Size = new System.Drawing.Size(180, 45);
-            this.btnCadastrarCliente2.TabIndex = 42;
-            this.btnCadastrarCliente2.Text = "Cadastrar Cliente";
+            this.btnCadastrarAlbum2.BorderRadius = 10;
+            this.btnCadastrarAlbum2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrarAlbum2.CustomizableEdges = customizableEdges21;
+            this.btnCadastrarAlbum2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrarAlbum2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrarAlbum2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCadastrarAlbum2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCadastrarAlbum2.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum2.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrarAlbum2.Location = new System.Drawing.Point(17, 6);
+            this.btnCadastrarAlbum2.Name = "btnCadastrarAlbum2";
+            this.btnCadastrarAlbum2.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            this.btnCadastrarAlbum2.Size = new System.Drawing.Size(180, 45);
+            this.btnCadastrarAlbum2.TabIndex = 42;
+            this.btnCadastrarAlbum2.Text = "Cadastrar Álbum";
             // 
             // guna2Panel9
             // 
@@ -554,7 +554,7 @@
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox1.PlaceholderText = "Pesquisar cliente";
+            this.guna2TextBox1.PlaceholderText = "Pesquisar álbum";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
             this.guna2TextBox1.Size = new System.Drawing.Size(490, 36);
@@ -564,7 +564,7 @@
             // 
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel2.Controls.Add(this.guna2PictureBox1);
-            this.guna2ShadowPanel2.Controls.Add(this.btnCadastrarCliente);
+            this.guna2ShadowPanel2.Controls.Add(this.btnCadastrarAlbum);
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel5);
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel4);
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel3);
@@ -596,23 +596,23 @@
             this.guna2PictureBox1.TabIndex = 41;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // btnCadastrarCliente
+            // btnCadastrarAlbum
             // 
-            this.btnCadastrarCliente.BorderRadius = 10;
-            this.btnCadastrarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrarCliente.CustomizableEdges = customizableEdges35;
-            this.btnCadastrarCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCadastrarCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCadastrarCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCadastrarCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarCliente.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastrarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrarCliente.Location = new System.Drawing.Point(50, 105);
-            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
-            this.btnCadastrarCliente.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            this.btnCadastrarCliente.Size = new System.Drawing.Size(180, 45);
-            this.btnCadastrarCliente.TabIndex = 38;
-            this.btnCadastrarCliente.Text = "Cadastrar Cliente";
+            this.btnCadastrarAlbum.BorderRadius = 10;
+            this.btnCadastrarAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrarAlbum.CustomizableEdges = customizableEdges35;
+            this.btnCadastrarAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrarAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrarAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCadastrarAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCadastrarAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrarAlbum.Location = new System.Drawing.Point(50, 105);
+            this.btnCadastrarAlbum.Name = "btnCadastrarAlbum";
+            this.btnCadastrarAlbum.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            this.btnCadastrarAlbum.Size = new System.Drawing.Size(180, 45);
+            this.btnCadastrarAlbum.TabIndex = 38;
+            this.btnCadastrarAlbum.Text = "Cadastrar Álbum";
             // 
             // guna2HtmlLabel5
             // 
@@ -621,9 +621,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(50, 78);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(490, 21);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(487, 21);
             this.guna2HtmlLabel5.TabIndex = 40;
-            this.guna2HtmlLabel5.Text = " gerenciar e interagir com sua base de clientes de forma eficiente e produtiva.";
+            this.guna2HtmlLabel5.Text = "sobre sua coleção de fotos, permitindo que você organize e compartilhe eles.";
             // 
             // guna2HtmlLabel4
             // 
@@ -632,9 +632,9 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(50, 51);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(474, 21);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(496, 21);
             this.guna2HtmlLabel4.TabIndex = 39;
-            this.guna2HtmlLabel4.Text = "Bem-vindo ao gerenciamento de clientes, o espaço central onde você pode";
+            this.guna2HtmlLabel4.Text = "Nosso sistema de gerenciamento de álbuns oferece a você o controle completo";
             // 
             // guna2HtmlLabel3
             // 
@@ -643,9 +643,9 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(50, 19);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(233, 26);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(237, 26);
             this.guna2HtmlLabel3.TabIndex = 38;
-            this.guna2HtmlLabel3.Text = "Gerenciamento de Clientes";
+            this.guna2HtmlLabel3.Text = "Gerenciamento dos Álbuns";
             // 
             // guna2Panel6
             // 
@@ -825,15 +825,15 @@
         private Guna.UI2.WinForms.Guna2DataGridView gridCliente;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
-        private Guna.UI2.WinForms.Guna2Button btnExcluirCliente;
+        private Guna.UI2.WinForms.Guna2Button btnExcluirAlbum;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2Button btnCadastrarCliente2;
+        private Guna.UI2.WinForms.Guna2Button btnCadastrarAlbum2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button btnCadastrarCliente;
+        private Guna.UI2.WinForms.Guna2Button btnCadastrarAlbum;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
