@@ -260,10 +260,10 @@
             this.guna2GroupBox1.CustomizableEdges = customizableEdges19;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(106, 74);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(-10, -4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(788, 368);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(1010, 523);
             this.guna2GroupBox1.TabIndex = 12;
             // 
             // guna2Button3
@@ -290,7 +290,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tw Cen MT", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(256, 10);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(363, 16);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(250, 36);
             this.guna2HtmlLabel3.TabIndex = 12;
