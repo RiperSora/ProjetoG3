@@ -14,7 +14,7 @@ namespace ProjetoG3_Fotografo
 {
     public partial class Eventos : Form
     {
-        int month, year;
+        int mes, ano;
         public Eventos()
         {
             InitializeComponent();
@@ -25,18 +25,82 @@ namespace ProjetoG3_Fotografo
         public void MostrarDias()
         {
             DateTime now = DateTime.Now;
-            month = now.Month;
-            year = now.Year;
+            mes = now.Month;
+            ano = now.Year;
 
 
-            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
-            lbData.Text = NomeMes + " " + year;
+            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
+            lbData.Text = NomeMes + " " + ano;
 
             //primeiro dia do mes
-            DateTime ComecoSemana = new DateTime(year, month, 1);
+            DateTime ComecoSemana = new DateTime(ano, mes, 1);
 
             //contagem dos dias do mes
-            int Dias = DateTime.DaysInMonth(year, month);
+            int Dias = DateTime.DaysInMonth(ano, mes);
+
+            int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
+
+            for (int i = 1; i < DiaSemana; i++)
+            {
+                UserControlCampos ucCampos = new UserControlCampos();
+                DatasContainer.Controls.Add(ucCampos);
+            }
+
+            for (int i = 1; i <= Dias; i++)
+            {
+                UserControlDias ucdias = new UserControlDias();
+                ucdias.days(i);
+                DatasContainer.Controls.Add(ucdias);
+            }
+        }
+        
+        public void AvancarMes()
+        {
+            //limpa o conteiner
+
+            DatasContainer.Controls.Clear();
+            //passa os meses
+            mes++;
+
+            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
+            lbData.Text = NomeMes + " " + ano;
+
+            DateTime ComecoSemana = new DateTime(ano, mes, 1);
+
+            //contagem dos dias do mes
+            int Dias = DateTime.DaysInMonth(ano, mes);
+
+            int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
+
+            for (int i = 1; i < DiaSemana; i++)
+            {
+                UserControlCampos ucCampos = new UserControlCampos();
+                DatasContainer.Controls.Add(ucCampos);
+            }
+
+            for (int i = 1; i <= Dias; i++)
+            {
+                UserControlDias ucdias = new UserControlDias();
+                ucdias.days(i);
+                DatasContainer.Controls.Add(ucdias);
+            }
+        }
+
+        public void RetrocederMes()
+        {
+            //limpa o conteiner
+
+            DatasContainer.Controls.Clear();
+            //passa os meses
+            mes--;
+
+            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
+            lbData.Text = NomeMes + " " + ano;
+
+            DateTime ComecoSemana = new DateTime(ano, mes, 1);
+
+            //contagem dos dias do mes
+            int Dias = DateTime.DaysInMonth(ano, mes);
 
             int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
 
@@ -67,66 +131,12 @@ namespace ProjetoG3_Fotografo
 
         private void BtnAvancar_Click(object sender, EventArgs e)
         {
-            //limpa o conteiner
-
-            DatasContainer.Controls.Clear();
-            //passa os meses
-            month++;
-
-            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
-            lbData.Text = NomeMes + " " + year;
-
-            DateTime ComecoSemana = new DateTime(year, month, 1);
-
-            //contagem dos dias do mes
-            int Dias = DateTime.DaysInMonth(year, month);
-
-            int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
-
-            for (int i = 1; i < DiaSemana; i++)
-            {
-                UserControlCampos ucCampos = new UserControlCampos();
-                DatasContainer.Controls.Add(ucCampos);
-            }
-
-            for (int i = 1; i <= Dias; i++)
-            {
-                UserControlDias ucdias = new UserControlDias();
-                ucdias.days(i);
-                DatasContainer.Controls.Add(ucdias);
-            }
+            AvancarMes();
         }
 
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
-            //limpa o conteiner
-
-            DatasContainer.Controls.Clear();
-            //passa os meses
-            month--;
-
-            String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
-            lbData.Text = NomeMes + " " + year;
-
-            DateTime ComecoSemana = new DateTime(year, month, 1);
-
-            //contagem dos dias do mes
-            int Dias = DateTime.DaysInMonth(year, month);
-
-            int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
-
-            for (int i = 1; i < DiaSemana; i++)
-            {
-                UserControlCampos ucCampos = new UserControlCampos();
-                DatasContainer.Controls.Add(ucCampos);
-            }
-
-            for (int i = 1; i <= Dias; i++)
-            {
-                UserControlDias ucdias = new UserControlDias();
-                ucdias.days(i);
-                DatasContainer.Controls.Add(ucdias);
-            }
+            RetrocederMes();
         }
 
         private void Eventos_Load(object sender, EventArgs e)

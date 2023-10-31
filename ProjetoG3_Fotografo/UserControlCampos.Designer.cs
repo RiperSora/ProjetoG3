@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Name = "UserControlCampos";
             this.Size = new System.Drawing.Size(101, 62);
             this.ResumeLayout(false);
