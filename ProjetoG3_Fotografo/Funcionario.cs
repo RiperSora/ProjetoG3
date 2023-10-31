@@ -36,5 +36,10 @@ namespace ProjetoG3_Fotografo
         {
 
         }
+
+        private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
