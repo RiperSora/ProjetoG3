@@ -15,6 +15,8 @@ namespace ProjetoG3_Fotografo
     public partial class Eventos : Form
     {
         int mes, ano;
+        public static string static_mes, static_ano;
+
         public Eventos()
         {
             InitializeComponent();
@@ -31,6 +33,7 @@ namespace ProjetoG3_Fotografo
 
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
             lbData.Text = NomeMes + " " + ano;
+
 
             //primeiro dia do mes
             DateTime ComecoSemana = new DateTime(ano, mes, 1);

@@ -253,12 +253,12 @@
             this.BtnAvancar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAvancar.Image")));
             this.BtnAvancar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnAvancar.ImageRotate = 0F;
-            this.BtnAvancar.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnAvancar.Location = new System.Drawing.Point(938, 474);
+            this.BtnAvancar.ImageSize = new System.Drawing.Size(18, 18);
+            this.BtnAvancar.Location = new System.Drawing.Point(940, 471);
             this.BtnAvancar.Name = "BtnAvancar";
             this.BtnAvancar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
             this.BtnAvancar.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            this.BtnAvancar.Size = new System.Drawing.Size(15, 15);
+            this.BtnAvancar.Size = new System.Drawing.Size(18, 18);
             this.BtnAvancar.TabIndex = 30;
             this.BtnAvancar.Click += new System.EventHandler(this.BtnAvancar_Click);
             // 
@@ -271,12 +271,12 @@
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
             this.BtnVoltar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnVoltar.ImageRotate = 0F;
-            this.BtnVoltar.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnVoltar.Location = new System.Drawing.Point(917, 474);
+            this.BtnVoltar.ImageSize = new System.Drawing.Size(18, 18);
+            this.BtnVoltar.Location = new System.Drawing.Point(916, 471);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
             this.BtnVoltar.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            this.BtnVoltar.Size = new System.Drawing.Size(15, 15);
+            this.BtnVoltar.Size = new System.Drawing.Size(18, 18);
             this.BtnVoltar.TabIndex = 31;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
