@@ -166,7 +166,8 @@
             this.bntCliente.BackColor = System.Drawing.Color.Transparent;
             this.bntCliente.BorderColor = System.Drawing.Color.Transparent;
             this.bntCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bntCliente.CustomBorderColor = System.Drawing.Color.White;
+            this.bntCliente.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.bntCliente.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.bntCliente.CustomizableEdges = customizableEdges1;
             this.bntCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.bntCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -251,7 +252,6 @@
             this.btnConfiguracao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.ForeColor = System.Drawing.Color.White;
-            this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
             this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnConfiguracao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
