@@ -20,6 +20,7 @@ namespace ProjetoG3_Fotografo
         public Eventos()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
 
@@ -135,6 +136,20 @@ namespace ProjetoG3_Fotografo
         private void BtnAvancar_Click(object sender, EventArgs e)
         {
             AvancarMes();
+        }
+
+        private void bntCliente_Click(object sender, EventArgs e)
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.Show();
+            this.Hide();
+        }
+
+        private void btnAlbum_Click(object sender, EventArgs e)
+        {
+            Album album = new Album();
+            album.Show();
+            this.Hide();
         }
 
         private void BtnVoltar_Click(object sender, EventArgs e)
