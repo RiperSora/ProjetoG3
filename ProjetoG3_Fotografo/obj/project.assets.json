@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "Google.Apis/1.62.0": {
+      "Google.Apis/1.63.0": {
         "type": "package",
         "dependencies": {
-          "Google.Apis.Core": "1.62.0"
+          "Google.Apis.Core": "1.63.0"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.dll": {}
@@ -14,11 +14,12 @@
           "lib/netstandard2.0/Google.Apis.dll": {}
         }
       },
-      "Google.Apis.Auth/1.62.0": {
+      "Google.Apis.Auth/1.63.0": {
         "type": "package",
         "dependencies": {
-          "Google.Apis": "1.62.0",
-          "Google.Apis.Core": "1.62.0"
+          "Google.Apis": "1.63.0",
+          "Google.Apis.Core": "1.63.0",
+          "System.Management": "7.0.2"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
@@ -29,11 +30,11 @@
           "lib/netstandard2.0/Google.Apis.Auth.dll": {}
         }
       },
-      "Google.Apis.Calendar.v3/1.62.0.3171": {
+      "Google.Apis.Calendar.v3/1.63.0.3171": {
         "type": "package",
         "dependencies": {
-          "Google.Apis": "1.62.0",
-          "Google.Apis.Auth": "1.62.0"
+          "Google.Apis": "1.63.0",
+          "Google.Apis.Auth": "1.63.0"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {}
@@ -42,7 +43,7 @@
           "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {}
         }
       },
-      "Google.Apis.Core/1.62.0": {
+      "Google.Apis.Core/1.63.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
@@ -145,7 +146,7 @@
           }
         }
       },
-      "System.CodeDom/6.0.0": {
+      "System.CodeDom/7.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.CodeDom.dll": {}
@@ -154,7 +155,7 @@
           "lib/net6.0/System.CodeDom.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Data.SqlClient/4.8.5": {
@@ -181,10 +182,10 @@
           }
         }
       },
-      "System.Management/6.0.0": {
+      "System.Management/7.0.2": {
         "type": "package",
         "dependencies": {
-          "System.CodeDom": "6.0.0"
+          "System.CodeDom": "7.0.0"
         },
         "compile": {
           "lib/net6.0/System.Management.dll": {}
@@ -193,7 +194,7 @@
           "lib/net6.0/System.Management.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/net6.0/System.Management.dll": {
@@ -243,16 +244,16 @@
     }
   },
   "libraries": {
-    "Google.Apis/1.62.0": {
-      "sha512": "7K6DuMmRVz+7QDEJgAEYicKGRhjkNaKhkaf+qoqdLEzvVmEtIUW49+2gON1EdbYjLEjexVb5TGgtzn+/WTNFwg==",
+    "Google.Apis/1.63.0": {
+      "sha512": "+eZyt17tnx3KiNqYTu3s810RWe4P5t7Ou1sdLVGaHkwagWAUN5NfnD4/xLA9gMvnFT2ETGyrsUXgxQ8wU0KRAw==",
       "type": "package",
-      "path": "google.apis/1.62.0",
+      "path": "google.apis/1.63.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NuGetIcon.png",
-        "google.apis.1.62.0.nupkg.sha512",
+        "google.apis.1.63.0.nupkg.sha512",
         "google.apis.nuspec",
         "lib/net45/Google.Apis.PlatformServices.dll",
         "lib/net45/Google.Apis.dll",
@@ -266,16 +267,16 @@
         "lib/netstandard2.0/Google.Apis.xml"
       ]
     },
-    "Google.Apis.Auth/1.62.0": {
-      "sha512": "gGhgv2xmFrDAmXj5Ei5LW1pLHxqAsj8crwOd0vhrdXJm3mIRm3vd+MfZ9ApbqvsaAMyCIlZBRhyT5mwPJnWNYw==",
+    "Google.Apis.Auth/1.63.0": {
+      "sha512": "+kdWA72t5B9kjm1MO4niU6NUOqakFFwTIaaikpdejUMAYrgBreQs6r8ntk/jPB727XlJ/ho+kQKE7CYJVT180A==",
       "type": "package",
-      "path": "google.apis.auth/1.62.0",
+      "path": "google.apis.auth/1.63.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NuGetIcon.png",
-        "google.apis.auth.1.62.0.nupkg.sha512",
+        "google.apis.auth.1.63.0.nupkg.sha512",
         "google.apis.auth.nuspec",
         "lib/net45/Google.Apis.Auth.PlatformServices.dll",
         "lib/net45/Google.Apis.Auth.dll",
@@ -295,16 +296,16 @@
         "lib/netstandard2.0/Google.Apis.Auth.xml"
       ]
     },
-    "Google.Apis.Calendar.v3/1.62.0.3171": {
-      "sha512": "BqThhMt6eNne1S1qO6HCjoGwtrs4zeCnbhkLgVYEjzXB8NvlpGu9v8TbhBc7c+BF042p3syGYqo4jobKHk+vQg==",
+    "Google.Apis.Calendar.v3/1.63.0.3171": {
+      "sha512": "hNz+hkl/v1hYL9Rj0RxHTx0jIRx3Qg8pWVaqqeFwzQBjlvCE969wLWhacje01fMPWrl78nsAG8NDllPeDzgzJQ==",
       "type": "package",
-      "path": "google.apis.calendar.v3/1.62.0.3171",
+      "path": "google.apis.calendar.v3/1.63.0.3171",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NuGetIcon.png",
-        "google.apis.calendar.v3.1.62.0.3171.nupkg.sha512",
+        "google.apis.calendar.v3.1.63.0.3171.nupkg.sha512",
         "google.apis.calendar.v3.nuspec",
         "lib/net45/Google.Apis.Calendar.v3.dll",
         "lib/net45/Google.Apis.Calendar.v3.pdb",
@@ -317,16 +318,16 @@
         "lib/netstandard2.0/Google.Apis.Calendar.v3.xml"
       ]
     },
-    "Google.Apis.Core/1.62.0": {
-      "sha512": "UV2vs58DyrQ/roZ59Mmny/5aE/2w5ww9Svyn6+ThXeq3Jw2RdOP1C57ez1V8+1KwY0ivPPIIp6e5jO6K5n5F+A==",
+    "Google.Apis.Core/1.63.0": {
+      "sha512": "pXFvqBBkvsA7USZMHXRQqi6GNUi4MSvJSi0fq5LPqEM3RXA1qHCpwXtaIUO8gGtXHNFtmmDJtRvROybBu0/3EQ==",
       "type": "package",
-      "path": "google.apis.core/1.62.0",
+      "path": "google.apis.core/1.63.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NuGetIcon.png",
-        "google.apis.core.1.62.0.nupkg.sha512",
+        "google.apis.core.1.63.0.nupkg.sha512",
         "google.apis.core.nuspec",
         "lib/net45/Google.Apis.Core.dll",
         "lib/net45/Google.Apis.Core.pdb",
@@ -518,25 +519,29 @@
         "version.txt"
       ]
     },
-    "System.CodeDom/6.0.0": {
-      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+    "System.CodeDom/7.0.0": {
+      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
       "type": "package",
-      "path": "system.codedom/6.0.0",
+      "path": "system.codedom/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.CodeDom.dll",
-        "lib/net461/System.CodeDom.xml",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
         "lib/net6.0/System.CodeDom.dll",
         "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
         "lib/netstandard2.0/System.CodeDom.dll",
         "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.6.0.0.nupkg.sha512",
+        "system.codedom.7.0.0.nupkg.sha512",
         "system.codedom.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -627,30 +632,30 @@
         "version.txt"
       ]
     },
-    "System.Management/6.0.0": {
-      "sha512": "sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
+    "System.Management/7.0.2": {
+      "sha512": "/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
       "type": "package",
-      "path": "system.management/6.0.0",
+      "path": "system.management/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/_._",
+        "lib/net462/_._",
         "lib/net6.0/System.Management.dll",
         "lib/net6.0/System.Management.xml",
-        "lib/netcoreapp3.1/System.Management.dll",
-        "lib/netcoreapp3.1/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
         "lib/netstandard2.0/System.Management.dll",
         "lib/netstandard2.0/System.Management.xml",
         "runtimes/win/lib/net6.0/System.Management.dll",
         "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.xml",
-        "system.management.6.0.0.nupkg.sha512",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "system.management.7.0.2.nupkg.sha512",
         "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -758,7 +763,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Google.Apis.Calendar.v3 >= 1.62.0.3171",
+      "Google.Apis.Calendar.v3 >= 1.63.0.3171",
       "Guna.UI2.WinForms >= 2.0.4.5",
       "System.Data.SqlClient >= 4.8.5"
     ]
@@ -809,7 +814,7 @@
         "dependencies": {
           "Google.Apis.Calendar.v3": {
             "target": "Package",
-            "version": "[1.62.0.3171, )"
+            "version": "[1.63.0.3171, )"
           },
           "Guna.UI2.WinForms": {
             "target": "Package",
