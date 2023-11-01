@@ -15,9 +15,12 @@ namespace ProjetoG3_Fotografo
     public partial class Eventos : Form
     {
         int mes, ano;
+        public static string static_mes, static_ano;
+
         public Eventos()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
 
@@ -31,6 +34,7 @@ namespace ProjetoG3_Fotografo
 
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
             lbData.Text = NomeMes + " " + ano;
+
 
             //primeiro dia do mes
             DateTime ComecoSemana = new DateTime(ano, mes, 1);
@@ -134,6 +138,20 @@ namespace ProjetoG3_Fotografo
             AvancarMes();
         }
 
+        private void bntCliente_Click(object sender, EventArgs e)
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.Show();
+            this.Hide();
+        }
+
+        private void btnAlbum_Click(object sender, EventArgs e)
+        {
+            Album album = new Album();
+            album.Show();
+            this.Hide();
+        }
+
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
             RetrocederMes();
@@ -143,7 +161,5 @@ namespace ProjetoG3_Fotografo
         {
             MostrarDias();
         }
-
-
     }
 }

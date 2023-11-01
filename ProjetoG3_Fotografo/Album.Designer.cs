@@ -46,20 +46,20 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -98,12 +98,12 @@
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.gridCliente = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnAtualizarAlbum = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnExcluirAlbum = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCadastrarAlbum2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnAtualizarAlbum = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -190,6 +190,7 @@
             this.bntCliente.Size = new System.Drawing.Size(230, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
             // 
             // btnFotos
             // 
@@ -288,6 +289,7 @@
             this.btnFuncionario.Size = new System.Drawing.Size(230, 61);
             this.btnFuncionario.TabIndex = 3;
             this.btnFuncionario.Text = "Eventos";
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // guna2Panel2
             // 
@@ -407,44 +409,24 @@
             // 
             // guna2Panel10
             // 
-            this.guna2Panel10.Controls.Add(this.btnAtualizarAlbum);
             this.guna2Panel10.Controls.Add(this.guna2Panel13);
             this.guna2Panel10.Controls.Add(this.guna2Panel12);
-            this.guna2Panel10.CustomizableEdges = customizableEdges25;
+            this.guna2Panel10.CustomizableEdges = customizableEdges23;
             this.guna2Panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2Panel10.Location = new System.Drawing.Point(45, 303);
             this.guna2Panel10.Name = "guna2Panel10";
-            this.guna2Panel10.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            this.guna2Panel10.ShadowDecoration.CustomizableEdges = customizableEdges24;
             this.guna2Panel10.Size = new System.Drawing.Size(676, 83);
             this.guna2Panel10.TabIndex = 2;
-            // 
-            // btnAtualizarAlbum
-            // 
-            this.btnAtualizarAlbum.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAtualizarAlbum.BackgroundImage")));
-            this.btnAtualizarAlbum.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAtualizarAlbum.BorderRadius = 10;
-            this.btnAtualizarAlbum.CustomizableEdges = customizableEdges15;
-            this.btnAtualizarAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAtualizarAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAtualizarAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAtualizarAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAtualizarAlbum.FillColor = System.Drawing.Color.Transparent;
-            this.btnAtualizarAlbum.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAtualizarAlbum.ForeColor = System.Drawing.Color.White;
-            this.btnAtualizarAlbum.Location = new System.Drawing.Point(223, 6);
-            this.btnAtualizarAlbum.Name = "btnAtualizarAlbum";
-            this.btnAtualizarAlbum.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            this.btnAtualizarAlbum.Size = new System.Drawing.Size(47, 45);
-            this.btnAtualizarAlbum.TabIndex = 2;
             // 
             // guna2Panel13
             // 
             this.guna2Panel13.Controls.Add(this.btnExcluirAlbum);
-            this.guna2Panel13.CustomizableEdges = customizableEdges19;
+            this.guna2Panel13.CustomizableEdges = customizableEdges17;
             this.guna2Panel13.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel13.Location = new System.Drawing.Point(276, 0);
             this.guna2Panel13.Name = "guna2Panel13";
-            this.guna2Panel13.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.guna2Panel13.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.guna2Panel13.Size = new System.Drawing.Size(200, 83);
             this.guna2Panel13.TabIndex = 1;
             // 
@@ -452,17 +434,17 @@
             // 
             this.btnExcluirAlbum.BorderRadius = 10;
             this.btnExcluirAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExcluirAlbum.CustomizableEdges = customizableEdges17;
+            this.btnExcluirAlbum.CustomizableEdges = customizableEdges15;
             this.btnExcluirAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExcluirAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExcluirAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExcluirAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnExcluirAlbum.FillColor = System.Drawing.Color.LightCoral;
-            this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExcluirAlbum.ForeColor = System.Drawing.Color.White;
             this.btnExcluirAlbum.Location = new System.Drawing.Point(3, 6);
             this.btnExcluirAlbum.Name = "btnExcluirAlbum";
-            this.btnExcluirAlbum.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.btnExcluirAlbum.ShadowDecoration.CustomizableEdges = customizableEdges16;
             this.btnExcluirAlbum.Size = new System.Drawing.Size(180, 45);
             this.btnExcluirAlbum.TabIndex = 43;
             this.btnExcluirAlbum.Text = "Excluir Álbum";
@@ -470,11 +452,11 @@
             // guna2Panel12
             // 
             this.guna2Panel12.Controls.Add(this.btnCadastrarAlbum2);
-            this.guna2Panel12.CustomizableEdges = customizableEdges23;
+            this.guna2Panel12.CustomizableEdges = customizableEdges21;
             this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel12.Location = new System.Drawing.Point(476, 0);
             this.guna2Panel12.Name = "guna2Panel12";
-            this.guna2Panel12.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            this.guna2Panel12.ShadowDecoration.CustomizableEdges = customizableEdges22;
             this.guna2Panel12.Size = new System.Drawing.Size(200, 83);
             this.guna2Panel12.TabIndex = 0;
             // 
@@ -482,22 +464,23 @@
             // 
             this.btnCadastrarAlbum2.BorderRadius = 10;
             this.btnCadastrarAlbum2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrarAlbum2.CustomizableEdges = customizableEdges21;
+            this.btnCadastrarAlbum2.CustomizableEdges = customizableEdges19;
             this.btnCadastrarAlbum2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarAlbum2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarAlbum2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarAlbum2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarAlbum2.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum2.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarAlbum2.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarAlbum2.Location = new System.Drawing.Point(17, 6);
             this.btnCadastrarAlbum2.Name = "btnCadastrarAlbum2";
-            this.btnCadastrarAlbum2.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            this.btnCadastrarAlbum2.ShadowDecoration.CustomizableEdges = customizableEdges20;
             this.btnCadastrarAlbum2.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrarAlbum2.TabIndex = 42;
             this.btnCadastrarAlbum2.Text = "Cadastrar Álbum";
             // 
             // guna2Panel9
             // 
+            this.guna2Panel9.Controls.Add(this.btnAtualizarAlbum);
             this.guna2Panel9.Controls.Add(this.guna2ComboBox1);
             this.guna2Panel9.Controls.Add(this.guna2TextBox1);
             this.guna2Panel9.CustomizableEdges = customizableEdges31;
@@ -507,6 +490,26 @@
             this.guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges32;
             this.guna2Panel9.Size = new System.Drawing.Size(676, 70);
             this.guna2Panel9.TabIndex = 1;
+            // 
+            // btnAtualizarAlbum
+            // 
+            this.btnAtualizarAlbum.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAtualizarAlbum.BackgroundImage")));
+            this.btnAtualizarAlbum.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAtualizarAlbum.BorderRadius = 10;
+            this.btnAtualizarAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtualizarAlbum.CustomizableEdges = customizableEdges25;
+            this.btnAtualizarAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAtualizarAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAtualizarAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAtualizarAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAtualizarAlbum.FillColor = System.Drawing.Color.Transparent;
+            this.btnAtualizarAlbum.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAtualizarAlbum.ForeColor = System.Drawing.Color.White;
+            this.btnAtualizarAlbum.Location = new System.Drawing.Point(5, 21);
+            this.btnAtualizarAlbum.Name = "btnAtualizarAlbum";
+            this.btnAtualizarAlbum.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            this.btnAtualizarAlbum.Size = new System.Drawing.Size(25, 25);
+            this.btnAtualizarAlbum.TabIndex = 2;
             // 
             // guna2ComboBox1
             // 
@@ -523,7 +526,7 @@
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(519, 17);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(534, 16);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
             this.guna2ComboBox1.Size = new System.Drawing.Size(140, 36);
@@ -531,6 +534,7 @@
             // 
             // guna2TextBox1
             // 
+            this.guna2TextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.guna2TextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.BorderRadius = 10;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -541,17 +545,18 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(3, 17);
+            this.guna2TextBox1.Location = new System.Drawing.Point(39, 16);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox1.PlaceholderText = "Pesquisar álbum";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            this.guna2TextBox1.Size = new System.Drawing.Size(490, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(489, 36);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2ShadowPanel2
@@ -599,7 +604,7 @@
             this.btnCadastrarAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarAlbum.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarAlbum.Location = new System.Drawing.Point(50, 105);
             this.btnCadastrarAlbum.Name = "btnCadastrarAlbum";

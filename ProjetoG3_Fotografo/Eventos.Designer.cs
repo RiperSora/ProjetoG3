@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eventos));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eventos));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -43,17 +43,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFotos = new Guna.UI2.WinForms.Guna2Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnConfiguracao = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFuncionario = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.bntCliente = new Guna.UI2.WinForms.Guna2Button();
             this.BtnAvancar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.BtnVoltar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -65,184 +54,18 @@
             this.label7 = new System.Windows.Forms.Label();
             this.DatasContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.lbData = new System.Windows.Forms.Label();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.bntCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAlbum = new Guna.UI2.WinForms.Guna2Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnConfiguracao = new Guna.UI2.WinForms.Guna2Button();
+            this.btnFuncionario = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientPanel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.Controls.Add(this.guna2Button1);
-            this.guna2GradientPanel1.Controls.Add(this.btnFotos);
-            this.guna2GradientPanel1.Controls.Add(this.tableLayoutPanel1);
-            this.guna2GradientPanel1.Controls.Add(this.btnFuncionario);
-            this.guna2GradientPanel1.Controls.Add(this.guna2Panel2);
-            this.guna2GradientPanel1.Controls.Add(this.bntCliente);
-            this.guna2GradientPanel1.CustomizableEdges = customizableEdges13;
-            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(75)))), ((int)(((byte)(180)))));
-            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 501);
-            this.guna2GradientPanel1.TabIndex = 28;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.guna2Button1.CustomizableEdges = customizableEdges1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.Silver;
-            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.Location = new System.Drawing.Point(0, 129);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2Button1.Size = new System.Drawing.Size(217, 61);
-            this.guna2Button1.TabIndex = 16;
-            this.guna2Button1.Text = "Serviços";
-            // 
-            // btnFotos
-            // 
-            this.btnFotos.BackColor = System.Drawing.Color.Transparent;
-            this.btnFotos.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.btnFotos.CustomizableEdges = customizableEdges3;
-            this.btnFotos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnFotos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnFotos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnFotos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnFotos.FillColor = System.Drawing.Color.Transparent;
-            this.btnFotos.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFotos.ForeColor = System.Drawing.Color.Silver;
-            this.btnFotos.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnFotos.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFotos.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnFotos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.btnFotos.Image = ((System.Drawing.Image)(resources.GetObject("btnFotos.Image")));
-            this.btnFotos.Location = new System.Drawing.Point(3, 318);
-            this.btnFotos.Name = "btnFotos";
-            this.btnFotos.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.btnFotos.Size = new System.Drawing.Size(217, 61);
-            this.btnFotos.TabIndex = 4;
-            this.btnFotos.Text = "Álbuns";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 393);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(220, 108);
-            this.tableLayoutPanel1.TabIndex = 15;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnConfiguracao);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(214, 60);
-            this.panel1.TabIndex = 0;
-            // 
-            // btnConfiguracao
-            // 
-            this.btnConfiguracao.BorderRadius = 10;
-            this.btnConfiguracao.CustomizableEdges = customizableEdges5;
-            this.btnConfiguracao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnConfiguracao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnConfiguracao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnConfiguracao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConfiguracao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnConfiguracao.ForeColor = System.Drawing.Color.Silver;
-            this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
-            this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnConfiguracao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.btnConfiguracao.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguracao.Image")));
-            this.btnConfiguracao.Location = new System.Drawing.Point(19, 12);
-            this.btnConfiguracao.Name = "btnConfiguracao";
-            this.btnConfiguracao.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.btnConfiguracao.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(50);
-            this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
-            this.btnConfiguracao.TabIndex = 6;
-            this.btnConfiguracao.Text = "Configurações";
-            // 
-            // btnFuncionario
-            // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.Transparent;
-            this.btnFuncionario.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.btnFuncionario.CustomizableEdges = customizableEdges7;
-            this.btnFuncionario.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnFuncionario.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnFuncionario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnFuncionario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnFuncionario.FillColor = System.Drawing.Color.Transparent;
-            this.btnFuncionario.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFuncionario.ForeColor = System.Drawing.Color.Silver;
-            this.btnFuncionario.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnFuncionario.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnFuncionario.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnFuncionario.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
-            this.btnFuncionario.Location = new System.Drawing.Point(3, 256);
-            this.btnFuncionario.Name = "btnFuncionario";
-            this.btnFuncionario.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.btnFuncionario.Size = new System.Drawing.Size(217, 61);
-            this.btnFuncionario.TabIndex = 3;
-            this.btnFuncionario.Text = "Eventos";
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel2.CustomizableEdges = customizableEdges9;
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.guna2Panel2.Size = new System.Drawing.Size(220, 135);
-            this.guna2Panel2.TabIndex = 15;
-            // 
-            // bntCliente
-            // 
-            this.bntCliente.BackColor = System.Drawing.Color.Transparent;
-            this.bntCliente.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.bntCliente.CustomizableEdges = customizableEdges11;
-            this.bntCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.bntCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.bntCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.bntCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.bntCliente.FillColor = System.Drawing.Color.Transparent;
-            this.bntCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bntCliente.ForeColor = System.Drawing.Color.Silver;
-            this.bntCliente.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.bntCliente.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bntCliente.HoverState.ForeColor = System.Drawing.Color.White;
-            this.bntCliente.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.bntCliente.Image = ((System.Drawing.Image)(resources.GetObject("bntCliente.Image")));
-            this.bntCliente.Location = new System.Drawing.Point(3, 196);
-            this.bntCliente.Name = "bntCliente";
-            this.bntCliente.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.bntCliente.Size = new System.Drawing.Size(217, 61);
-            this.bntCliente.TabIndex = 2;
-            this.bntCliente.Text = "Clientes";
             // 
             // BtnAvancar
             // 
@@ -253,12 +76,12 @@
             this.BtnAvancar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAvancar.Image")));
             this.BtnAvancar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnAvancar.ImageRotate = 0F;
-            this.BtnAvancar.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnAvancar.Location = new System.Drawing.Point(938, 474);
+            this.BtnAvancar.ImageSize = new System.Drawing.Size(18, 18);
+            this.BtnAvancar.Location = new System.Drawing.Point(940, 471);
             this.BtnAvancar.Name = "BtnAvancar";
             this.BtnAvancar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnAvancar.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            this.BtnAvancar.Size = new System.Drawing.Size(15, 15);
+            this.BtnAvancar.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            this.BtnAvancar.Size = new System.Drawing.Size(18, 18);
             this.BtnAvancar.TabIndex = 30;
             this.BtnAvancar.Click += new System.EventHandler(this.BtnAvancar_Click);
             // 
@@ -271,12 +94,12 @@
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
             this.BtnVoltar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnVoltar.ImageRotate = 0F;
-            this.BtnVoltar.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnVoltar.Location = new System.Drawing.Point(917, 474);
+            this.BtnVoltar.ImageSize = new System.Drawing.Size(18, 18);
+            this.BtnVoltar.Location = new System.Drawing.Point(916, 471);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
-            this.BtnVoltar.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            this.BtnVoltar.Size = new System.Drawing.Size(15, 15);
+            this.BtnVoltar.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.BtnVoltar.Size = new System.Drawing.Size(18, 18);
             this.BtnVoltar.TabIndex = 31;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
@@ -367,11 +190,175 @@
             this.lbData.Text = "MES ANO";
             this.lbData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2GradientPanel1.Controls.Add(this.bntCliente);
+            this.guna2GradientPanel1.Controls.Add(this.btnAlbum);
+            this.guna2GradientPanel1.Controls.Add(this.tableLayoutPanel1);
+            this.guna2GradientPanel1.Controls.Add(this.btnFuncionario);
+            this.guna2GradientPanel1.Controls.Add(this.guna2Panel2);
+            this.guna2GradientPanel1.CustomizableEdges = customizableEdges13;
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(75)))), ((int)(((byte)(180)))));
+            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 501);
+            this.guna2GradientPanel1.TabIndex = 40;
+            // 
+            // bntCliente
+            // 
+            this.bntCliente.BackColor = System.Drawing.Color.Transparent;
+            this.bntCliente.BorderColor = System.Drawing.Color.Empty;
+            this.bntCliente.BorderThickness = 4;
+            this.bntCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bntCliente.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.bntCliente.CustomizableEdges = customizableEdges3;
+            this.bntCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.bntCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.bntCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.bntCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.bntCliente.FillColor = System.Drawing.Color.Empty;
+            this.bntCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bntCliente.ForeColor = System.Drawing.Color.Silver;
+            this.bntCliente.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.bntCliente.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.bntCliente.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bntCliente.HoverState.ForeColor = System.Drawing.Color.White;
+            this.bntCliente.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.bntCliente.Image = ((System.Drawing.Image)(resources.GetObject("bntCliente.Image")));
+            this.bntCliente.Location = new System.Drawing.Point(0, 141);
+            this.bntCliente.Name = "bntCliente";
+            this.bntCliente.PressedColor = System.Drawing.Color.Empty;
+            this.bntCliente.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.bntCliente.ShadowDecoration.Depth = 10;
+            this.bntCliente.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(5, 5, 15, 5);
+            this.bntCliente.Size = new System.Drawing.Size(230, 61);
+            this.bntCliente.TabIndex = 2;
+            this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
+            // 
+            // btnAlbum
+            // 
+            this.btnAlbum.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlbum.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.btnAlbum.CustomizableEdges = customizableEdges5;
+            this.btnAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAlbum.FillColor = System.Drawing.Color.Transparent;
+            this.btnAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAlbum.ForeColor = System.Drawing.Color.Silver;
+            this.btnAlbum.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnAlbum.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnAlbum.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAlbum.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnAlbum.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnAlbum.Image = ((System.Drawing.Image)(resources.GetObject("btnAlbum.Image")));
+            this.btnAlbum.Location = new System.Drawing.Point(0, 263);
+            this.btnAlbum.Name = "btnAlbum";
+            this.btnAlbum.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.btnAlbum.Size = new System.Drawing.Size(230, 61);
+            this.btnAlbum.TabIndex = 4;
+            this.btnAlbum.Text = "Álbuns";
+            this.btnAlbum.Click += new System.EventHandler(this.btnAlbum_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 393);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(220, 108);
+            this.tableLayoutPanel1.TabIndex = 15;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnConfiguracao);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(214, 60);
+            this.panel1.TabIndex = 0;
+            // 
+            // btnConfiguracao
+            // 
+            this.btnConfiguracao.BorderRadius = 10;
+            this.btnConfiguracao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfiguracao.CustomizableEdges = customizableEdges7;
+            this.btnConfiguracao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnConfiguracao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnConfiguracao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConfiguracao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfiguracao.ForeColor = System.Drawing.Color.White;
+            this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnConfiguracao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnConfiguracao.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguracao.Image")));
+            this.btnConfiguracao.Location = new System.Drawing.Point(19, 12);
+            this.btnConfiguracao.Name = "btnConfiguracao";
+            this.btnConfiguracao.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.btnConfiguracao.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(50);
+            this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
+            this.btnConfiguracao.TabIndex = 6;
+            this.btnConfiguracao.Text = "Configurações";
+            // 
+            // btnFuncionario
+            // 
+            this.btnFuncionario.BackColor = System.Drawing.Color.Transparent;
+            this.btnFuncionario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFuncionario.CustomBorderColor = System.Drawing.Color.White;
+            this.btnFuncionario.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.btnFuncionario.CustomizableEdges = customizableEdges9;
+            this.btnFuncionario.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFuncionario.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFuncionario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFuncionario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFuncionario.FillColor = System.Drawing.Color.Transparent;
+            this.btnFuncionario.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFuncionario.ForeColor = System.Drawing.Color.Silver;
+            this.btnFuncionario.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnFuncionario.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnFuncionario.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFuncionario.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnFuncionario.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
+            this.btnFuncionario.Location = new System.Drawing.Point(0, 201);
+            this.btnFuncionario.Name = "btnFuncionario";
+            this.btnFuncionario.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.btnFuncionario.Size = new System.Drawing.Size(230, 61);
+            this.btnFuncionario.TabIndex = 3;
+            this.btnFuncionario.Text = "Eventos";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel2.CustomizableEdges = customizableEdges11;
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.guna2Panel2.Size = new System.Drawing.Size(220, 135);
+            this.guna2Panel2.TabIndex = 15;
+            // 
             // Eventos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 501);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.lbData);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -383,7 +370,6 @@
             this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.BtnAvancar);
             this.Controls.Add(this.DatasContainer);
-            this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "Eventos";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Eventos_Load);
@@ -396,15 +382,6 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button btnFotos;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button btnConfiguracao;
-        private Guna.UI2.WinForms.Guna2Button btnFuncionario;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button bntCliente;
         private Guna.UI2.WinForms.Guna2ImageButton BtnAvancar;
         private Guna.UI2.WinForms.Guna2ImageButton BtnVoltar;
         private Label label1;
@@ -416,5 +393,13 @@
         private Label label7;
         private FlowLayoutPanel DatasContainer;
         private Label lbData;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2Button bntCliente;
+        private Guna.UI2.WinForms.Guna2Button btnAlbum;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Panel panel1;
+        private Guna.UI2.WinForms.Guna2Button btnConfiguracao;
+        private Guna.UI2.WinForms.Guna2Button btnFuncionario;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }

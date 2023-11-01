@@ -15,6 +15,7 @@ namespace ProjetoG3_Fotografo
         public Funcionario()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
@@ -34,12 +35,19 @@ namespace ProjetoG3_Fotografo
 
         private void btnFuncionario_Click(object sender, EventArgs e)
         {
-
+            Eventos eventos = new Eventos();
+            eventos.Show();
+            this.Hide();
         }
 
         private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
-        {
+        {}
 
+        private void btnAlbum_Click(object sender, EventArgs e)
+        {
+            Album album = new Album();
+            album.Show();
+            this.Hide();
         }
     }
 }

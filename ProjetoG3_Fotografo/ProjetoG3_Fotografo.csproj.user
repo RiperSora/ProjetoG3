@@ -19,6 +19,9 @@
     <Compile Update="CriarAlbum.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EventoCalendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Eventos.cs">
       <SubType>Form</SubType>
     </Compile>
