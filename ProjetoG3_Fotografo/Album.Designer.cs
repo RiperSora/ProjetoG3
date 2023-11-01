@@ -190,6 +190,7 @@
             this.bntCliente.Size = new System.Drawing.Size(230, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
             // 
             // btnFotos
             // 
@@ -288,6 +289,7 @@
             this.btnFuncionario.Size = new System.Drawing.Size(230, 61);
             this.btnFuncionario.TabIndex = 3;
             this.btnFuncionario.Text = "Eventos";
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // guna2Panel2
             // 
