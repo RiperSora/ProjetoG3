@@ -458,7 +458,7 @@
             this.btnExcluirAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExcluirAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnExcluirAlbum.FillColor = System.Drawing.Color.LightCoral;
-            this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExcluirAlbum.ForeColor = System.Drawing.Color.White;
             this.btnExcluirAlbum.Location = new System.Drawing.Point(3, 6);
             this.btnExcluirAlbum.Name = "btnExcluirAlbum";
@@ -487,7 +487,7 @@
             this.btnCadastrarAlbum2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarAlbum2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarAlbum2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarAlbum2.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum2.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarAlbum2.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarAlbum2.Location = new System.Drawing.Point(17, 6);
             this.btnCadastrarAlbum2.Name = "btnCadastrarAlbum2";
@@ -541,17 +541,18 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(3, 17);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox1.PlaceholderText = "Pesquisar álbum";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            this.guna2TextBox1.Size = new System.Drawing.Size(490, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(489, 36);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2ShadowPanel2
@@ -599,7 +600,7 @@
             this.btnCadastrarAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarAlbum.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarAlbum.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarAlbum.Location = new System.Drawing.Point(50, 105);
             this.btnCadastrarAlbum.Name = "btnCadastrarAlbum";

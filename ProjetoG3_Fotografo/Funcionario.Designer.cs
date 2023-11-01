@@ -174,7 +174,6 @@
             this.btnConfiguracao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnConfiguracao.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.ForeColor = System.Drawing.Color.White;
-            this.btnConfiguracao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
             this.btnConfiguracao.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfiguracao.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnConfiguracao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
@@ -254,7 +253,7 @@
             // bntCliente
             // 
             this.bntCliente.BackColor = System.Drawing.Color.Transparent;
-            this.bntCliente.BorderColor = System.Drawing.Color.Transparent;
+            this.bntCliente.BorderColor = System.Drawing.Color.Empty;
             this.bntCliente.BorderThickness = 4;
             this.bntCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bntCliente.CustomBorderColor = System.Drawing.Color.White;
@@ -264,7 +263,7 @@
             this.bntCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.bntCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.bntCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.bntCliente.FillColor = System.Drawing.Color.Transparent;
+            this.bntCliente.FillColor = System.Drawing.Color.Empty;
             this.bntCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bntCliente.ForeColor = System.Drawing.Color.Silver;
             this.bntCliente.HoverState.BorderColor = System.Drawing.Color.Transparent;
@@ -275,6 +274,7 @@
             this.bntCliente.Image = ((System.Drawing.Image)(resources.GetObject("bntCliente.Image")));
             this.bntCliente.Location = new System.Drawing.Point(0, 141);
             this.bntCliente.Name = "bntCliente";
+            this.bntCliente.PressedColor = System.Drawing.Color.Empty;
             this.bntCliente.ShadowDecoration.CustomizableEdges = customizableEdges10;
             this.bntCliente.ShadowDecoration.Depth = 10;
             this.bntCliente.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(5, 5, 15, 5);
@@ -455,7 +455,7 @@
             this.btnExcluirCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExcluirCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnExcluirCliente.FillColor = System.Drawing.Color.LightCoral;
-            this.btnExcluirCliente.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExcluirCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExcluirCliente.ForeColor = System.Drawing.Color.White;
             this.btnExcluirCliente.Location = new System.Drawing.Point(3, 6);
             this.btnExcluirCliente.Name = "btnExcluirCliente";
@@ -484,7 +484,7 @@
             this.btnCadastrarCliente2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarCliente2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarCliente2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarCliente2.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarCliente2.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarCliente2.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarCliente2.Location = new System.Drawing.Point(17, 6);
             this.btnCadastrarCliente2.Name = "btnCadastrarCliente2";
@@ -516,7 +516,7 @@
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.guna2ComboBox1.ItemHeight = 30;
@@ -538,17 +538,18 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(3, 17);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox1.PlaceholderText = "Pesquisar cliente";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            this.guna2TextBox1.Size = new System.Drawing.Size(490, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(492, 36);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2ShadowPanel2
@@ -596,7 +597,7 @@
             this.btnCadastrarCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrarCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrarCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrarCliente.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarCliente.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarCliente.Location = new System.Drawing.Point(50, 105);
             this.btnCadastrarCliente.Name = "btnCadastrarCliente";
