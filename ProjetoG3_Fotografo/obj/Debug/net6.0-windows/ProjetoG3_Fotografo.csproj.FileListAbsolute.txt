@@ -175,3 +175,4 @@ C:\Users\rafael.goliveira30\Desktop\ProjetoG3\ProjetoG3\ProjetoG3_Fotografo\obj\
 C:\Users\rafael.goliveira30\Desktop\ProjetoG3\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\rafael.goliveira30\Desktop\ProjetoG3\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\rafael.goliveira30\Desktop\ProjetoG3\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Configuracao.resources
