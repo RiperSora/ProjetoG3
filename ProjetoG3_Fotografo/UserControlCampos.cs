@@ -16,5 +16,10 @@ namespace ProjetoG3_Fotografo
         {
             InitializeComponent();
         }
+
+        private void UserControlCampos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
