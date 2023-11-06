@@ -35,7 +35,7 @@
             // 
             this.lbDias.AutoSize = true;
             this.lbDias.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbDias.Location = new System.Drawing.Point(38, 10);
+            this.lbDias.Location = new System.Drawing.Point(12, 9);
             this.lbDias.Name = "lbDias";
             this.lbDias.Size = new System.Drawing.Size(25, 20);
             this.lbDias.TabIndex = 0;
@@ -50,6 +50,7 @@
             this.Name = "UserControlDias";
             this.Size = new System.Drawing.Size(101, 62);
             this.Load += new System.EventHandler(this.UserControlDias_Load);
+            this.Click += new System.EventHandler(this.UserControlDias_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
