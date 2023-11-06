@@ -606,6 +606,7 @@
             this.btnCadastrarCliente.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrarCliente.TabIndex = 38;
             this.btnCadastrarCliente.Text = "Cadastrar Cliente";
+            this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
             // 
             // guna2HtmlLabel5
             // 
