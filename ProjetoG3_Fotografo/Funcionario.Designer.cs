@@ -521,10 +521,10 @@
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(519, 17);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(510, 17);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(140, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(163, 36);
             this.guna2ComboBox1.TabIndex = 1;
             // 
             // guna2TextBox1

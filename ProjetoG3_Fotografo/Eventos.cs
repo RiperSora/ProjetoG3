@@ -170,7 +170,5 @@ namespace ProjetoG3_Fotografo
         {
             MostrarDias();
         }
-
-
     }
 }
