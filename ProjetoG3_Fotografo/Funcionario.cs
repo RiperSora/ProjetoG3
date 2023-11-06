@@ -49,5 +49,12 @@ namespace ProjetoG3_Fotografo
             album.Show();
             this.Hide();
         }
+
+        private void btnCadastrarCliente_Click(object sender, EventArgs e)
+        {
+            CadastrarCliente cadastrarCliente = new CadastrarCliente();
+            cadastrarCliente.Show();
+            this.Hide();
+        }
     }
 }
