@@ -46,7 +46,7 @@
           "dependencies": {
             "Google.Apis.Calendar.v3": {
               "target": "Package",
-              "version": "[1.62.0.3171, )"
+              "version": "[1.63.0.3171, )"
             },
             "Guna.UI2.WinForms": {
               "target": "Package",

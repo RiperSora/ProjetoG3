@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoG3_Fotografo
 {
-    public partial class CadastrarCliente : Form
+    public partial class Configuracao : Form
     {
-        public CadastrarCliente()
+        public Configuracao()
         {
             InitializeComponent();
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
