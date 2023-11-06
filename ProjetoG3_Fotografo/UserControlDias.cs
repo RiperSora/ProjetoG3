@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ProjetoG3_Fotografo
 {
@@ -34,5 +35,17 @@ namespace ProjetoG3_Fotografo
             EventoCalendario eventoCalendario = new EventoCalendario();
             eventoCalendario.Show();
         }
+
+        //public void MostrarEvento()
+        //{
+        //    MySqlConnection conn = new MySqlConnection(connString);
+        //    conn.Open();
+
+        //    string sql = "select *from Calendario where DataCalendario=?";
+        //    SqlConnection cmd = conn.CreateCommand();
+        //    cmd.commandText = sql;
+        //    cmd.Parameters.AddWithValue("DataCalendario", UserControlDias.static_dia + "/" + Eventos.static_mes + "/" + Eventos.static_ano);
+        //    MySqlConnection reader = cmd.ExecuteReader(); 
+        //}
     }
 }
