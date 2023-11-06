@@ -12,6 +12,7 @@ namespace ProjetoG3_Fotografo
 {
     public partial class UserControlDias : UserControl
     {
+        public static string static_dia;
         public UserControlDias()
         {
             InitializeComponent();
@@ -25,6 +26,13 @@ namespace ProjetoG3_Fotografo
         public void days(int numday)
         {
             lbDias.Text = numday + "";
+        }
+
+        private void UserControlDias_Click(object sender, EventArgs e)
+        {
+            static_dia = lbDias.Text;
+            EventoCalendario eventoCalendario = new EventoCalendario();
+            eventoCalendario.Show();
         }
     }
 }
