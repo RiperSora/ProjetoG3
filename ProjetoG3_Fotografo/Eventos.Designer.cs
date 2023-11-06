@@ -77,7 +77,7 @@
             this.BtnAvancar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnAvancar.ImageRotate = 0F;
             this.BtnAvancar.ImageSize = new System.Drawing.Size(18, 18);
-            this.BtnAvancar.Location = new System.Drawing.Point(940, 471);
+            this.BtnAvancar.Location = new System.Drawing.Point(1010, 573);
             this.BtnAvancar.Name = "BtnAvancar";
             this.BtnAvancar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
             this.BtnAvancar.ShadowDecoration.CustomizableEdges = customizableEdges1;
@@ -95,7 +95,7 @@
             this.BtnVoltar.ImageOffset = new System.Drawing.Point(0, 0);
             this.BtnVoltar.ImageRotate = 0F;
             this.BtnVoltar.ImageSize = new System.Drawing.Size(18, 18);
-            this.BtnVoltar.Location = new System.Drawing.Point(916, 471);
+            this.BtnVoltar.Location = new System.Drawing.Point(986, 573);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.PressedState.ImageSize = new System.Drawing.Size(15, 15);
             this.BtnVoltar.ShadowDecoration.CustomizableEdges = customizableEdges2;
@@ -107,7 +107,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(242, 42);
+            this.label1.Location = new System.Drawing.Point(293, 114);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 21);
             this.label1.TabIndex = 32;
@@ -117,7 +117,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(354, 42);
+            this.label2.Location = new System.Drawing.Point(405, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 21);
             this.label2.TabIndex = 33;
@@ -127,7 +127,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(471, 42);
+            this.label3.Location = new System.Drawing.Point(522, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 21);
             this.label3.TabIndex = 34;
@@ -137,7 +137,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(572, 42);
+            this.label4.Location = new System.Drawing.Point(623, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 21);
             this.label4.TabIndex = 35;
@@ -147,7 +147,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(677, 42);
+            this.label5.Location = new System.Drawing.Point(728, 114);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 21);
             this.label5.TabIndex = 36;
@@ -157,7 +157,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(789, 42);
+            this.label6.Location = new System.Drawing.Point(840, 114);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 21);
             this.label6.TabIndex = 37;
@@ -167,7 +167,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(891, 42);
+            this.label7.Location = new System.Drawing.Point(942, 114);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 21);
             this.label7.TabIndex = 38;
@@ -175,7 +175,7 @@
             // 
             // DatasContainer
             // 
-            this.DatasContainer.Location = new System.Drawing.Point(223, 66);
+            this.DatasContainer.Location = new System.Drawing.Point(279, 155);
             this.DatasContainer.Name = "DatasContainer";
             this.DatasContainer.Size = new System.Drawing.Size(749, 402);
             this.DatasContainer.TabIndex = 29;
@@ -183,7 +183,7 @@
             // lbData
             // 
             this.lbData.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbData.Location = new System.Drawing.Point(390, 0);
+            this.lbData.Location = new System.Drawing.Point(433, 46);
             this.lbData.Name = "lbData";
             this.lbData.Size = new System.Drawing.Size(433, 42);
             this.lbData.TabIndex = 39;
@@ -206,7 +206,7 @@
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 501);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 681);
             this.guna2GradientPanel1.TabIndex = 40;
             // 
             // bntCliente
@@ -275,7 +275,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 393);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 573);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
@@ -357,7 +357,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 501);
+            this.ClientSize = new System.Drawing.Size(1064, 681);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.lbData);
             this.Controls.Add(this.label7);

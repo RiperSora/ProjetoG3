@@ -34,7 +34,7 @@ namespace ProjetoG3_Fotografo
         #endregion
         private void EventoCalendario_Load(object sender, EventArgs e)
         {
-            
+            TxtData.Text = UserControlDias.static_dia + "/" + Eventos.static_mes + "/" + Eventos.static_ano;
         }
 
         private void BtnSalvar_Click(object sender, EventArgs e)
