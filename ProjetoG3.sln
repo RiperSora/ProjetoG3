@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoG3_Fotografo", "ProjetoG3_Fotografo\ProjetoG3_Fotografo.csproj", "{8990B45E-990E-4B7C-A9ED-67AB288FF953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoG3_Fotografo", "ProjetoG3_Fotografo\ProjetoG3_Fotografo.csproj", "{8990B45E-990E-4B7C-A9ED-67AB288FF953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoG3.teste", "ProjetoG3.teste\ProjetoG3.teste.csproj", "{2AB1E2BD-EAE3-402A-9B81-D21CC95BE99B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8990B45E-990E-4B7C-A9ED-67AB288FF953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8990B45E-990E-4B7C-A9ED-67AB288FF953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8990B45E-990E-4B7C-A9ED-67AB288FF953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB1E2BD-EAE3-402A-9B81-D21CC95BE99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB1E2BD-EAE3-402A-9B81-D21CC95BE99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB1E2BD-EAE3-402A-9B81-D21CC95BE99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB1E2BD-EAE3-402A-9B81-D21CC95BE99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
