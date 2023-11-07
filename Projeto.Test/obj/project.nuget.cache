@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUkPF2ihVOdD9Z9iXYMh9JUMQCzmWnkLTPVQ6F41Kg4EoAA9u7oPS4MorAw36FQzWgzDTxhjUBAvqcH6SX5yXg==",
+  "dgSpecHash": "q4s150dqqIvkRj7n7YhXUvSi9wJbqFzgTGdm2PHt55vl7EgCWQbEyvoEQ3Y5l7qq2epmPX9bXTxIGe+4PNaMPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+  "projectFilePath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.Test\\Projeto.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\google.apis\\1.63.0\\google.apis.1.63.0.nupkg.sha512",
     "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\google.apis.auth\\1.63.0\\google.apis.auth.1.63.0.nupkg.sha512",

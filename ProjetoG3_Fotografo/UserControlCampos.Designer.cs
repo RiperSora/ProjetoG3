@@ -37,6 +37,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.Name = "UserControlCampos";
             this.Size = new System.Drawing.Size(101, 62);
+            this.Load += new System.EventHandler(this.UserControlCampos_Load);
             this.ResumeLayout(false);
 
         }

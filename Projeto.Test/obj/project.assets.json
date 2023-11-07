@@ -240,6 +240,24 @@
             "rid": "win"
           }
         }
+      },
+      "ProjetoG3_Fotografo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Google.Apis.Calendar.v3": "1.63.0.3171",
+          "Guna.UI2.WinForms": "2.0.4.5",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/ProjetoG3_Fotografo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoG3_Fotografo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -759,13 +777,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ProjetoG3_Fotografo/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoG3_Fotografo/ProjetoG3_Fotografo.csproj",
+      "msbuildProject": "../ProjetoG3_Fotografo/ProjetoG3_Fotografo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Google.Apis.Calendar.v3 >= 1.63.0.3171",
-      "Guna.UI2.WinForms >= 2.0.4.5",
-      "System.Data.SqlClient >= 4.8.5"
+      "ProjetoG3_Fotografo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -775,11 +796,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
-      "projectName": "ProjetoG3_Fotografo",
-      "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+      "projectUniqueName": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.Test\\Projeto.Test.csproj",
+      "projectName": "Projeto.Test",
+      "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.Test\\Projeto.Test.csproj",
       "packagesPath": "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
+      "outputPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -799,7 +820,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+              "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -811,20 +836,6 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
-        "dependencies": {
-          "Google.Apis.Calendar.v3": {
-            "target": "Package",
-            "version": "[1.63.0.3171, )"
-          },
-          "Guna.UI2.WinForms": {
-            "target": "Package",
-            "version": "[2.0.4.5, )"
-          },
-          "System.Data.SqlClient": {
-            "target": "Package",
-            "version": "[4.8.5, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -838,9 +849,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
