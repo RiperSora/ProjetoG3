@@ -15,6 +15,21 @@ namespace ProjetoG3_Fotografo.DAL
             conn.Open();
 
             SqlCommand cmd = new SqlCommand("insert into Cliente values ('"+nome+"', '"+senha+"', '"+rg+"', '"+cpf+"', '"+endereco+"', '"+telefone+"', '"+email+"')", conn);
+            if (nome != null && senha != null && rg != null && cpf != null && endereco != null && telefone != null && email != null)
+            {
+                cmd.ExecuteNonQuery();
+            }
+            else
+            {
+
+            }
+        }
+        public void AtualizarCliente(string nome, string senha, string rg, string cpf, string endereco, string telefone, string email)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=********;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand("UPDATE Cliente SET NomeDoCliente = '" + nome + "', Senha = '" + senha + "', RG = '" + rg + "', CPF = '" + cpf + "', Endereco = '" + endereco + "', Telefone = '" + telefone + "', Email = '" + email + "'", conn);
             cmd.ExecuteNonQuery();
         }
     }
