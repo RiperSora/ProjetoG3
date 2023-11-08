@@ -34,5 +34,10 @@ namespace ProjetoG3_Fotografo
                 clienteDAL.CadastrarCliente(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
             }
         }
+
+        private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
