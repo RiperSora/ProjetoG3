@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 class Program
 {
-    public static ProjetoG3_Fotografo.DAL.AdmDAL usuarioLogado;
+    
 
     static void Main(string[] args)
     {
@@ -15,7 +15,7 @@ class Program
             if (usuario.Nome != null && usuario.Senha != null)
             {
                 Console.WriteLine("Adm logado com sucesso.");
-                usuarioLogado = usuario;
+                //admLogado = usuario;
             }
             else
             {
