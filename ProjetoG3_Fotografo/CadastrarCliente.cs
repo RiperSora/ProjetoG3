@@ -35,5 +35,10 @@ namespace ProjetoG3_Fotografo
                 MessageBox.Show("Dados Cadastrados com sucesso!");
             }
         }
+
+        private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
