@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6A9V1lDnODkht9+T96I3InsoKdhz4j1xmmsXQ/7SZ5ZVgago0/wgVVd2uSd0vFEKOvYscFFSmHMbEk7TpxQdpA==",
+  "dgSpecHash": "kassEuBBL0ehSzoXwVV98Gz7yp9MpkNLSPbOoVE/AjpHkFXnQDwVPzM9Kyxurt/gQk3Lh2gcQZJwCqOrji9urw==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\mathe\\.nuget\\packages\\google.apis.auth\\1.63.0\\google.apis.auth.1.63.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\google.apis.calendar.v3\\1.63.0.3171\\google.apis.calendar.v3.1.63.0.3171.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\google.apis.core\\1.63.0\\google.apis.core.1.63.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\google.apis.drive.v3\\1.63.0.3155\\google.apis.drive.v3.1.63.0.3155.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
