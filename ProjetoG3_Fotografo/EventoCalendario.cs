@@ -24,7 +24,7 @@ namespace ProjetoG3_Fotografo
             SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("insert into Calendario('" + data + "','" + evento + "')", conn);
+            SqlCommand cmd = new SqlCommand("insert into Calendario VALUES('" + data + "','" + evento + "')", conn);
             cmd.ExecuteNonQuery();
 
             cmd.Dispose();
@@ -34,16 +34,24 @@ namespace ProjetoG3_Fotografo
         #endregion
         private void EventoCalendario_Load(object sender, EventArgs e)
         {
-            int dia = UserControlDias.static_dia;
+            int dia = Convert.ToInt32(UserControlDias.static_dia);
             int mes = Eventos.static_mes;
             int ano = Eventos.static_ano;
 
-            TxtData.Text = dia + "/" + Eventos.static_mes + "/" + Eventos.static_ano;
+            if (mes == 1)
+            {
+                dia = 1;
+            }
+
+            // Formata a data para o formato "MM/yyyy"
+            string data = mes.ToString("00") + "/" + ano.ToString();
+
+            TxtData.Text = dia + "/" + data;
         }
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            SalvarEvento(TxtData.Text,TxtData.Text);
+            SalvarEvento(TxtData.Text,TxtEvento.Text);
             MessageBox.Show("Evento Salvo");
         }
     }
