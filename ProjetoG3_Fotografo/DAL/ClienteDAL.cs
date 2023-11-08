@@ -15,7 +15,14 @@ namespace ProjetoG3_Fotografo.DAL
             conn.Open();
 
             SqlCommand cmd = new SqlCommand("insert into Cliente values ('"+nome+"', '"+senha+"', '"+rg+"', '"+cpf+"', '"+endereco+"', '"+telefone+"', '"+email+"')", conn);
-            cmd.ExecuteNonQuery();
+            if (nome != null && senha != null && rg != null && cpf != null && endereco != null && telefone != null && email != null)
+            {
+                cmd.ExecuteNonQuery();
+            }
+            else
+            {
+
+            }
         }
         public void AtualizarCliente(string nome, string senha, string rg, string cpf, string endereco, string telefone, string email)
         {
