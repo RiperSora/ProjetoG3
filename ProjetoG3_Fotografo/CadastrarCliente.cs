@@ -24,15 +24,14 @@ namespace ProjetoG3_Fotografo
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            DAL.ClienteDAL clienteDAL = new DAL.ClienteDAL();
-            clienteDAL.CadastrarCliente(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
             if (string.IsNullOrWhiteSpace(TxtNome.Text) || string.IsNullOrWhiteSpace(TxtSenha.Text) || string.IsNullOrWhiteSpace(TxtRg.Text) || string.IsNullOrWhiteSpace(TxtCpf.Text) || string.IsNullOrWhiteSpace(TxtEndereco.Text) || string.IsNullOrWhiteSpace(TxtTel.Text) || string.IsNullOrWhiteSpace(TxtEmail.Text))
             {
                 MessageBox.Show("Por favor, preencha todos os campos antes de cadastrar o cliente.");
             }
             else
             {
-                MessageBox.Show("Dados Cadastrados com sucesso!");
+                DAL.ClienteDAL clienteDAL = new DAL.ClienteDAL();
+                clienteDAL.CadastrarCliente(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
             }
         }
 
