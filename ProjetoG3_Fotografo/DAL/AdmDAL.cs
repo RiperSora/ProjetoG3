@@ -29,6 +29,7 @@ namespace ProjetoG3_Fotografo.DAL
                 usuario.Nome = (string)dr["NomeAdministrador"];
                 usuario.Senha = (string)dr["Senha"];
             }
+            conn.Close();
             return usuario;
         }
     }
