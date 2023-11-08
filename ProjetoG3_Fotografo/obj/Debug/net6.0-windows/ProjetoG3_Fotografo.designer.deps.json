@@ -57,6 +57,18 @@
           }
         }
       },
+      "Google.Apis.Drive.v3/1.63.0.3155": {
+        "dependencies": {
+          "Google.Apis": "1.63.0",
+          "Google.Apis.Auth": "1.63.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
+            "assemblyVersion": "1.63.0.3155",
+            "fileVersion": "1.63.0.3155"
+          }
+        }
+      },
       "Guna.UI2.WinForms/2.0.4.5": {
         "dependencies": {
           "System.Management": "7.0.2"
@@ -263,6 +275,13 @@
       "sha512": "sha512-pXFvqBBkvsA7USZMHXRQqi6GNUi4MSvJSi0fq5LPqEM3RXA1qHCpwXtaIUO8gGtXHNFtmmDJtRvROybBu0/3EQ==",
       "path": "google.apis.core/1.63.0",
       "hashPath": "google.apis.core.1.63.0.nupkg.sha512"
+    },
+    "Google.Apis.Drive.v3/1.63.0.3155": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ADhSBDUmvyp1wnURkc+YErVBOpXfxAa4DFOTTkLlL2PYGI/U8KihNk8/bW2jHfX9tNUnUoENWyK2VV3WNki/yQ==",
+      "path": "google.apis.drive.v3/1.63.0.3155",
+      "hashPath": "google.apis.drive.v3.1.63.0.3155.nupkg.sha512"
     },
     "Guna.UI2.WinForms/2.0.4.5": {
       "type": "package",
