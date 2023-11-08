@@ -31,7 +31,7 @@ namespace ProjetoG3_Fotografo
             mes = now.Month;
             ano = now.Year;
 
-            
+
 
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
             lbData.Text = NomeMes + " " + ano;
@@ -59,27 +59,34 @@ namespace ProjetoG3_Fotografo
                 ucdias.days(i);
                 DatasContainer.Controls.Add(ucdias);
             }
+
+
         }
-        
+
         public void AvancarMes()
         {
-            //limpa o conteiner
-
+            // Limpa o conteiner
             DatasContainer.Controls.Clear();
-            //passa os meses
+
             mes++;
 
+            if (mes > 12)
+            {
+                mes = 1;
+                ano++;
+            }
+
+            // Mostra Mes e Ano
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
             lbData.Text = NomeMes + " " + ano;
 
-            static_mes = mes;
-            static_ano = ano;
-
+            // Dia 1 do mes
             DateTime ComecoSemana = new DateTime(ano, mes, 1);
 
-            //contagem dos dias do mes
+            // Contar os dias do Mes
             int Dias = DateTime.DaysInMonth(ano, mes);
 
+            // Converte ComeçoSemana para Inteiro
             int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
 
             for (int i = 1; i < DiaSemana; i++)
@@ -98,23 +105,28 @@ namespace ProjetoG3_Fotografo
 
         public void RetrocederMes()
         {
-            //limpa o conteiner
-
+            // Limpa o conteiner
             DatasContainer.Controls.Clear();
-            //passa os meses
+
             mes--;
 
+            if (mes < 1)
+            {
+                mes = 12;
+                ano--;
+            }
+
+            // Mostra Mes e Ano
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
             lbData.Text = NomeMes + " " + ano;
 
-            static_mes = mes;
-            static_ano = ano;
-
+            // Dia 1 do mes
             DateTime ComecoSemana = new DateTime(ano, mes, 1);
 
-            //contagem dos dias do mes
+            // Contar os dias do Mes
             int Dias = DateTime.DaysInMonth(ano, mes);
 
+            // Converte ComeçoSemana para Inteiro
             int DiaSemana = Convert.ToInt32(ComecoSemana.DayOfWeek.ToString("d")) + 1;
 
             for (int i = 1; i < DiaSemana; i++)
