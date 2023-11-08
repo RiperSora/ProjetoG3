@@ -1,0 +1,5 @@
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\Projeto.Teste\obj\Debug\net6.0-windows\Projeto.Teste.csproj.AssemblyReference.cache
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\Projeto.Teste\obj\Debug\net6.0-windows\Projeto.Teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\Projeto.Teste\obj\Debug\net6.0-windows\Projeto.Teste.AssemblyInfoInputs.cache
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\Projeto.Teste\obj\Debug\net6.0-windows\Projeto.Teste.AssemblyInfo.cs
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\Projeto.Teste\obj\Debug\net6.0-windows\Projeto.Teste.csproj.CoreCompileInputs.cache
