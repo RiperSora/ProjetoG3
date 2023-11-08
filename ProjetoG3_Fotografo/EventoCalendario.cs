@@ -34,7 +34,7 @@ namespace ProjetoG3_Fotografo
         #endregion
         private void EventoCalendario_Load(object sender, EventArgs e)
         {
-            int dia = UserControlDias.static_dia;
+            int dia = Convert.ToInt32(UserControlDias.static_dia);
             int mes = Eventos.static_mes;
             int ano = Eventos.static_ano;
 
