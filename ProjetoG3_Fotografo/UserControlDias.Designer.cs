@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbDias = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.LbEvento = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbDias
@@ -41,11 +44,24 @@
             this.lbDias.TabIndex = 0;
             this.lbDias.Text = "00";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // LbEvento
+            // 
+            this.LbEvento.Location = new System.Drawing.Point(3, 39);
+            this.LbEvento.Name = "LbEvento";
+            this.LbEvento.Size = new System.Drawing.Size(95, 23);
+            this.LbEvento.TabIndex = 2;
+            this.LbEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // UserControlDias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.LbEvento);
             this.Controls.Add(this.lbDias);
             this.Name = "UserControlDias";
             this.Size = new System.Drawing.Size(101, 62);
@@ -59,5 +75,7 @@
         #endregion
 
         private Label lbDias;
+        private System.Windows.Forms.Timer timer1;
+        private Label LbEvento;
     }
 }
