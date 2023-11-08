@@ -137,6 +137,13 @@
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
+            this.ColunaNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaSenha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaRG = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaEndereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaTel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -649,6 +656,14 @@
             this.gridEvento.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gridEvento.ColumnHeadersHeight = 4;
             this.gridEvento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.gridEvento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColunaNome,
+            this.ColunaSenha,
+            this.ColunaRG,
+            this.ColunaCpf,
+            this.ColunaEndereco,
+            this.ColunaTel,
+            this.ColunaEmail});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -917,6 +932,41 @@
             this.guna2Button15.TabIndex = 2;
             this.guna2Button15.Text = "Clientes";
             // 
+            // ColunaNome
+            // 
+            this.ColunaNome.HeaderText = "Nome";
+            this.ColunaNome.Name = "ColunaNome";
+            // 
+            // ColunaSenha
+            // 
+            this.ColunaSenha.HeaderText = "Senha";
+            this.ColunaSenha.Name = "ColunaSenha";
+            // 
+            // ColunaRG
+            // 
+            this.ColunaRG.HeaderText = "RG";
+            this.ColunaRG.Name = "ColunaRG";
+            // 
+            // ColunaCpf
+            // 
+            this.ColunaCpf.HeaderText = "CPF";
+            this.ColunaCpf.Name = "ColunaCpf";
+            // 
+            // ColunaEndereco
+            // 
+            this.ColunaEndereco.HeaderText = "Endereço";
+            this.ColunaEndereco.Name = "ColunaEndereco";
+            // 
+            // ColunaTel
+            // 
+            this.ColunaTel.HeaderText = "Telefone";
+            this.ColunaTel.Name = "ColunaTel";
+            // 
+            // ColunaEmail
+            // 
+            this.ColunaEmail.HeaderText = "Email";
+            this.ColunaEmail.Name = "ColunaEmail";
+            // 
             // Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -931,6 +981,7 @@
             this.Controls.Add(this.txtNome);
             this.Name = "Cliente";
             this.Text = "Cliente";
+            this.Load += new System.EventHandler(this.Cliente_Load);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -994,5 +1045,12 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2Button guna2Button15;
+        private DataGridViewTextBoxColumn ColunaNome;
+        private DataGridViewTextBoxColumn ColunaSenha;
+        private DataGridViewTextBoxColumn ColunaRG;
+        private DataGridViewTextBoxColumn ColunaCpf;
+        private DataGridViewTextBoxColumn ColunaEndereco;
+        private DataGridViewTextBoxColumn ColunaTel;
+        private DataGridViewTextBoxColumn ColunaEmail;
     }
 }
