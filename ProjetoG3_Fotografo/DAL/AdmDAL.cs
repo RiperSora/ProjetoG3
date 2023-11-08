@@ -18,19 +18,43 @@ namespace ProjetoG3_Fotografo.DAL
 
         public AdmDAL EfetuarLogin(string nome, string senha)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            conn.Open();
-            SqlCommand cmd = new SqlCommand("select * from Administrador where NomeAdministrador='" + nome + "' AND Senha ='" + senha + "'", conn);
-            SqlDataReader dr = cmd.ExecuteReader();
-            AdmDAL usuario = new AdmDAL();
-            if (dr.Read())
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            SqlDataReader dr = null;
+            try
             {
-                usuario.Id = Convert.ToInt32(dr["IdAdministrador"]);
-                usuario.Nome = (string)dr["NomeAdministrador"];
-                usuario.Senha = (string)dr["Senha"];
+                conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                conn.Open();
+                cmd = new SqlCommand("select * from Administrador where NomeAdministrador='" + nome + "' AND Senha ='" + senha + "'", conn);
+                dr = cmd.ExecuteReader();
+                AdmDAL usuario = new AdmDAL();
+                if (dr.Read())
+                {
+                    usuario.Id = (int)dr["IdAdministrador"];
+                    usuario.Nome = (string)dr["NomeAdministrador"];
+                    usuario.Senha = (string)dr["Senha"];
+                    usuario.Email = (string)dr["Email"];
+                    usuario.Telefone = (string)dr["Telefone"];
+                    usuario.DataCadastro = (DateTime)dr["DataHoraCadastro"];
+                }
+                return usuario;
             }
-            conn.Close();
-            return usuario;
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (dr != null)
+                {
+                    dr.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
         }
     }
 }
