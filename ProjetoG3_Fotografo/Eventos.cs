@@ -69,6 +69,8 @@ namespace ProjetoG3_Fotografo
             DatasContainer.Controls.Clear();
 
             mes++;
+            static_mes = mes;
+            static_ano = ano;
 
             if (mes > 12)
             {
@@ -109,6 +111,8 @@ namespace ProjetoG3_Fotografo
             DatasContainer.Controls.Clear();
 
             mes--;
+            static_mes = mes;
+            static_ano = ano;
 
             if (mes < 1)
             {
