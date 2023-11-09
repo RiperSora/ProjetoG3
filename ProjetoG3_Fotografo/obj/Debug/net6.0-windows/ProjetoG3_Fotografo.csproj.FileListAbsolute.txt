@@ -116,6 +116,7 @@ C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\ne
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarAlbum.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.EventoCalendario.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Eventos.resources
+<<<<<<< Updated upstream
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Funcionario.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Login.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Properties.Resources.resources
@@ -133,6 +134,8 @@ C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\ne
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+=======
+>>>>>>> Stashed changes
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\ProjetoG3_Fotografo.exe
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\ProjetoG3_Fotografo.deps.json
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\ProjetoG3_Fotografo.runtimeconfig.json
@@ -145,7 +148,10 @@ C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\D
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Google.Apis.Core.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Guna.UI2.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+<<<<<<< Updated upstream
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\System.CodeDom.dll
+=======
+>>>>>>> Stashed changes
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\System.Management.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
@@ -155,6 +161,7 @@ C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\D
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.csproj.AssemblyReference.cache
+<<<<<<< Updated upstream
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Album.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarCliente.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Calendario.resources
@@ -163,13 +170,22 @@ C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\D
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriacaoEventos.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarAlbum.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.EventoCalendario.resources
+=======
+C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarCliente.resources
+C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Cliente.resources
+C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriacaoEventos.resources
+C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarAlbum.resources
+>>>>>>> Stashed changes
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Eventos.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Funcionario.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Login.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Properties.Resources.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.RecadastrarSenha.resources
+<<<<<<< Updated upstream
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.UserControlCampos.resources
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.UserControlDias.resources
+=======
+>>>>>>> Stashed changes
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.csproj.GenerateResource.cache
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.AssemblyInfoInputs.cache
@@ -181,5 +197,8 @@ C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\D
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+<<<<<<< Updated upstream
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
+=======
+>>>>>>> Stashed changes
