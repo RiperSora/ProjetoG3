@@ -811,11 +811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafael.goliveira30\\Downloads\\github\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+      "projectUniqueName": "C:\\Users\\rafael.goliveira30\\source\\repos\\ProjetoG3\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
       "projectName": "ProjetoG3_Fotografo",
-      "projectPath": "C:\\Users\\rafael.goliveira30\\Downloads\\github\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+      "projectPath": "C:\\Users\\rafael.goliveira30\\source\\repos\\ProjetoG3\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
       "packagesPath": "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafael.goliveira30\\Downloads\\github\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
+      "outputPath": "C:\\Users\\rafael.goliveira30\\source\\repos\\ProjetoG3\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -886,5 +886,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\rafael.goliveira30\\source\\repos\\ProjetoG3\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
