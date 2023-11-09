@@ -552,6 +552,7 @@
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
             this.guna2TextBox1.Size = new System.Drawing.Size(492, 36);
             this.guna2TextBox1.TabIndex = 0;
+            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2ShadowPanel2
             // 
