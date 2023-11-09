@@ -9,6 +9,7 @@
       "Projeto.test/1.0.0": {
         "dependencies": {
           "Google.Apis.Drive.v3": "1.63.0.3155",
+          "Guna.UI2.WinForms": "2.0.4.5",
           "ProjetoG3_Fotografo": "1.0.0"
         },
         "runtime": {
