@@ -92,5 +92,26 @@ namespace ProjetoG3_Fotografo.DAL
                 }
             }
         }
+
+        public List<AdmDAL> ListarAlbum()
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            string stringSql = AdmDAL.stringSQL;
+            conn = new SqlConnection(stringSql);
+            conn.Open();
+            cmd = new SqlCommand("select * from Album", conn);
+            SqlDataReader dr = cmd.ExecuteReader();
+            List<AdmDAL> listAlbum = new List<AdmDAL>();
+            while (dr.Read())
+            {
+                AdmDAL admDAL = new AdmDAL();
+                admDAL.Id = Convert.ToInt32(dr["IdAluno"]);
+                admDAL.Nome = (string)dr["Nome"];
+                admDAL.DataCadastro = Convert.ToDateTime(dr["DataCadastro"]);
+                listAlbum.Add(admDAL);
+            }
+            return listAlbum;
+        }
     }
 }
