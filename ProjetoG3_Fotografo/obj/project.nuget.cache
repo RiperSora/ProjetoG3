@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jctzpRDy41vwW/sxzn6b1ViLk1JVsBhuLn+nluB7x66EpY7WnEnFcSWsjWJ39bMDnn/AsYOh6UDmv5Yn6AsYkQ==",
+  "dgSpecHash": "GgkoFmajYgh4fex2iu8lPpC4g4iR/P9yD8c18thgf8VFj6NX7VN2RQO5cclPivvHiviAxFVDpmCYxaedYzoqMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis.auth\\1.63.0\\google.apis.auth.1.63.0.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis.calendar.v3\\1.63.0.3171\\google.apis.calendar.v3.1.63.0.3171.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis.core\\1.63.0\\google.apis.core.1.63.0.nupkg.sha512",
+    "C:\\Users\\matheus.glima16\\.nuget\\packages\\google.apis.drive.v3\\1.63.0.3155\\google.apis.drive.v3.1.63.0.3155.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\matheus.glima16\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
