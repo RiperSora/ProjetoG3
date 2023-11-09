@@ -14,18 +14,23 @@ namespace ProjetoG3_Fotografo
     public partial class UserControlDias : UserControl
     {
         public static string static_dia;
-        public UserControlDias()
+           public UserControlDias()
         {
             InitializeComponent();
             // Chamar o método MostrarEvento no evento Load
             Load += OnLoad;
         }
 
+
         #region Metodos
 
         public void MostrarEvento()
         {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+            string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
+
+
+            using (SqlConnection conn = new SqlConnection(connCasa))
             {
                 // Open the connection
                 conn.Open();
@@ -47,6 +52,9 @@ namespace ProjetoG3_Fotografo
             }
         }
 
+
+
+
         private void OnLoad(object sender, EventArgs e)
         {
             static_dia = lbDias.Text;
@@ -63,8 +71,10 @@ namespace ProjetoG3_Fotografo
 
         private void UserControlDias_Load(object sender, EventArgs e)
         {
-
+            static_dia = lbDias.Text;
+            MostrarEvento();
         }
+
 
         public void days(int numday)
         {
@@ -74,7 +84,7 @@ namespace ProjetoG3_Fotografo
         private void UserControlDias_Click(object sender, EventArgs e)
         {
             static_dia = lbDias.Text;
-            timer1.Start();
+           
             EventoCalendario eventoCalendario = new EventoCalendario();
             eventoCalendario.Show();
 

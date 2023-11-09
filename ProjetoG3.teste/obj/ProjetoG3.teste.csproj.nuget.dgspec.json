@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {}
+    "D:\\Visual Studio\\ProjetoG3\\ProjetoG3.teste\\ProjetoG3.teste.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+    "D:\\Visual Studio\\ProjetoG3\\ProjetoG3.teste\\ProjetoG3.teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
-        "projectName": "ProjetoG3_Fotografo",
-        "projectPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3.teste\\ProjetoG3.teste.csproj",
+        "projectName": "ProjetoG3.teste",
+        "projectPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3.teste\\ProjetoG3.teste.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
+        "outputPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3.teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,18 +44,6 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
-            "Google.Apis.Calendar.v3": {
-              "target": "Package",
-              "version": "[1.63.0.3171, )"
-            },
-            "Google.Apis.Drive.v3": {
-              "target": "Package",
-              "version": "[1.63.0.3155, )"
-            },
-            "Guna.UI2.WinForms": {
-              "target": "Package",
-              "version": "[2.0.4.5, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -75,9 +63,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"

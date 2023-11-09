@@ -21,10 +21,20 @@ namespace ProjetoG3_Fotografo
         #region Metodos
         public void SalvarEvento(string data, string evento)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
+
+
+            SqlConnection conn = new SqlConnection(connCasa);
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("insert into Calendario VALUES('" + data + "','" + evento + "')", conn);
+            //SqlCommand cmd = new SqlCommand("insert into Calendario VALUES('" + data + "','" + evento + "')", conn);
+            //cmd.ExecuteNonQuery();
+
+            SqlCommand cmd = new SqlCommand("INSERT INTO Calendario (Evento,DataCalendario ) VALUES (@Evento,@DataCalendario )", conn);
+            cmd.Parameters.AddWithValue("@Evento", evento);
+            cmd.Parameters.AddWithValue("@DataCalendario", data);
+            
             cmd.ExecuteNonQuery();
 
             cmd.Dispose();
@@ -32,21 +42,18 @@ namespace ProjetoG3_Fotografo
 
         }
         #endregion
+
+
         private void EventoCalendario_Load(object sender, EventArgs e)
         {
             int dia = Convert.ToInt32(UserControlDias.static_dia);
             int mes = Eventos.static_mes;
             int ano = Eventos.static_ano;
 
-            if (mes == 1)
-            {
-                dia = 1;
-            }
+            // Formata a data para o formato "dd/MM/yyyy"
+            string data = $"{dia}/{mes:00}/{ano}";
 
-            // Formata a data para o formato "MM/yyyy"
-            string data = mes.ToString("00") + "/" + ano.ToString();
-
-            TxtData.Text = dia + "/" + data;
+            TxtData.Text = data;
         }
 
         private void BtnSalvar_Click(object sender, EventArgs e)
