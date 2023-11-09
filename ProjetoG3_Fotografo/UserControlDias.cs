@@ -30,7 +30,7 @@ namespace ProjetoG3_Fotografo
             string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
 
 
-            using (SqlConnection conn = new SqlConnection(connCasa))
+            using (SqlConnection conn = new SqlConnection(connString))
             {
                 // Open the connection
                 conn.Open();

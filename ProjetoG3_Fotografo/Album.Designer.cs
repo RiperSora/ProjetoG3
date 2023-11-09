@@ -217,6 +217,7 @@
             this.btnFotos.Size = new System.Drawing.Size(230, 61);
             this.btnFotos.TabIndex = 4;
             this.btnFotos.Text = "Álbuns";
+            this.btnFotos.Click += new System.EventHandler(this.btnFotos_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -264,6 +265,7 @@
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
             this.btnConfiguracao.Text = "Configurações";
+            this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click);
             // 
             // btnFuncionario
             // 
@@ -782,6 +784,7 @@
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "Album";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Album";
             this.Load += new System.EventHandler(this.Album_Load);
             this.guna2GradientPanel1.ResumeLayout(false);

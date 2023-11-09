@@ -19,9 +19,42 @@ namespace ProjetoG3_Fotografo
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
+        #region metodos
+        public void btn_cliente()
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.Show();
+            this.Hide();
+        }
+        public void btn_Evento()
+        {
+            Evento2 evento2 = new Evento2();
+            evento2.Show();
+            this.Hide();
+        }
+        public void btn_Album()
+        {
+            Album album = new Album();
+            album.Show();
+            this.Hide();
+        }
+        public void btn_config()
+        {
+            Configuracao configuracao = new Configuracao();
+            configuracao.Show();
+            this.Hide();
+        }
+        public void addCliente()
         {
 
+        }
+        #endregion
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            CadastrarCliente cadastrarCliente = new CadastrarCliente();
+            cadastrarCliente.Show();
+            this.Hide();
         }
 
         private void Funcionario_Load(object sender, EventArgs e)
@@ -46,9 +79,7 @@ namespace ProjetoG3_Fotografo
 
         private void btnFuncionario_Click(object sender, EventArgs e)
         {
-            Eventos eventos = new Eventos();
-            eventos.Show();
-            this.Hide();
+            btn_Evento();
         }
 
         private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
@@ -56,16 +87,12 @@ namespace ProjetoG3_Fotografo
 
         private void btnAlbum_Click(object sender, EventArgs e)
         {
-            Album album = new Album();
-            album.Show();
-            this.Hide();
+            btn_Album();
         }
 
         private void btnCadastrarCliente_Click(object sender, EventArgs e)
         {
-            CadastrarCliente cadastrarCliente = new CadastrarCliente();
-            cadastrarCliente.Show();
-            this.Hide();
+            addCliente();
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
@@ -80,6 +107,21 @@ namespace ProjetoG3_Fotografo
 
             bs.DataSource = dr;
             gridCliente.DataSource = bs;
+        }
+
+        private void bntCliente_Click(object sender, EventArgs e)
+        {
+            btn_cliente();
+        }
+
+        private void btnCadastrarCliente2_Click(object sender, EventArgs e)
+        {
+            addCliente();
+        }
+
+        private void btnConfiguracao_Click(object sender, EventArgs e)
+        {
+            btn_config();
         }
     }
 }
