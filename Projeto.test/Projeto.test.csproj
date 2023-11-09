@@ -5,8 +5,12 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Program</StartupObject>
+    <StartupObject>AlbumExcluir</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.63.0.3155" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ProjetoG3_Fotografo\ProjetoG3_Fotografo.csproj" />

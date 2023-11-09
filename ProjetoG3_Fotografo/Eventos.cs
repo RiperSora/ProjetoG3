@@ -59,8 +59,6 @@ namespace ProjetoG3_Fotografo
                 ucdias.days(i);
                 DatasContainer.Controls.Add(ucdias);
             }
-
-
         }
 
         public void AvancarMes()
@@ -69,14 +67,15 @@ namespace ProjetoG3_Fotografo
             DatasContainer.Controls.Clear();
 
             mes++;
-            static_mes = mes;
-            static_ano = ano;
 
             if (mes > 12)
             {
                 mes = 1;
                 ano++;
             }
+
+            static_mes = mes;
+            static_ano = ano;
 
             // Mostra Mes e Ano
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
@@ -111,14 +110,16 @@ namespace ProjetoG3_Fotografo
             DatasContainer.Controls.Clear();
 
             mes--;
-            static_mes = mes;
-            static_ano = ano;
+
 
             if (mes < 1)
             {
                 mes = 12;
                 ano--;
             }
+
+            static_mes = mes;
+            static_ano = ano;
 
             // Mostra Mes e Ano
             String NomeMes = DateTimeFormatInfo.CurrentInfo.GetMonthName(mes);
