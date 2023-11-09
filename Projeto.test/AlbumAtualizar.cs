@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-class AlbumExcluir
+class AlbumAtualizar
 {
     static void Main(string[] args)
     {
         try
         {
-            string nome = "Lista";
+            int id = 9;
+            string nome = "Wesley";
+            string descricao = "Descrição das fotos";
+            int idCliente = 2;
             ProjetoG3_Fotografo.DAL.AlbumDAL AlbumDAL = new ProjetoG3_Fotografo.DAL.AlbumDAL();
-            AlbumDAL.ExcluirAlbum(nome);
+            AlbumDAL.AtualizarAlbum(id, nome, descricao, idCliente);
             if (AlbumDAL != null)
             {
-                Console.WriteLine("ALbum excluido com sucesso.");
+                Console.WriteLine("ALbum atualizado com sucesso.");
             }
             else
             {
-                Console.WriteLine("ALbum não excluido.");
+                Console.WriteLine("ALbum não atualizado.");
             }
         }
         catch (SqlException ex)

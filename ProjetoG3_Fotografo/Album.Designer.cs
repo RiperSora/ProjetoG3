@@ -783,6 +783,7 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "Album";
             this.Text = "Album";
+            this.Load += new System.EventHandler(this.Album_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

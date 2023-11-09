@@ -21,7 +21,8 @@ namespace ProjetoG3_Fotografo.DAL
             SqlCommand cmd = null;
             try
             {
-                conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
                 conn.Open();
                 cmd = new SqlCommand("INSERT INTO Album VALUES ('" + nome + "','" + descricao + "',  getdate() ," + idCliente+ ");", conn);
                 cmd.ExecuteNonQuery();
@@ -46,9 +47,36 @@ namespace ProjetoG3_Fotografo.DAL
             SqlCommand cmd = null;
             try
             {
-                conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
                 conn.Open();
                 cmd = new SqlCommand("delete from Album where NomeAlbum = '" + nome+"'", conn);
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+        }
+
+        public void AtualizarAlbum(int id, string nome, string descricao, int idCliente)
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
+                conn.Open();
+                cmd = new SqlCommand("update Album set NomeAlbum='" + nome + "', Descricao='" + descricao + "', DataHoraCadastro= getdate(), FkCliente= "+idCliente+ " WHERE IdAlbum =" + id, conn);
                 cmd.ExecuteNonQuery();
             }
             finally

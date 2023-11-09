@@ -31,5 +31,10 @@ namespace ProjetoG3_Fotografo
             eventos.Show();
             this.Hide();
         }
+
+        private void Album_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
