@@ -822,6 +822,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Google.Apis.Drive.v3 >= 1.63.0.3155",
       "ProjetoG3_Fotografo >= 1.0.0"
     ]
   },
@@ -872,6 +873,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Google.Apis.Drive.v3": {
+            "target": "Package",
+            "version": "[1.63.0.3155, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
