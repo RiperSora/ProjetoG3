@@ -182,3 +182,4 @@ C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\D
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\rafael.goliveira30\Downloads\github\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll

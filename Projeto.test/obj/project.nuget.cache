@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ybiz91KB+izjC0gpyv6iClnb3CZijDkZPeyHLMF7z9F2MRbcR1wAZ+yZ4318oU7/VfgomNozR3H9RtAbHG8snQ==",
+  "dgSpecHash": "FJfi9NFEqesa9iWC2CVFY7z/CZISEB9f4qv+8bVfNGMlBvGKGopxJPDxFwGD4PTbQN/qNKIqh/pj5mVEKaepDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafael.goliveira30\\Downloads\\github\\ProjetoG3\\Projeto.Teste\\Projeto.Teste.csproj",
+  "projectFilePath": "C:\\Users\\rafael.goliveira30\\Downloads\\github\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis\\1.63.0\\google.apis.1.63.0.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis.auth\\1.63.0\\google.apis.auth.1.63.0.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis.calendar.v3\\1.63.0.3171\\google.apis.calendar.v3.1.63.0.3171.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis.core\\1.63.0\\google.apis.core.1.63.0.nupkg.sha512",
+    "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis.drive.v3\\1.63.0.3155\\google.apis.drive.v3.1.63.0.3155.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
