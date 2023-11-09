@@ -41,7 +41,7 @@ namespace ProjetoG3_Fotografo.DAL
             }
         }
 
-        public void ExcluirAlbum(string nome)
+        public void ExcluirAlbum(int id)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -50,7 +50,7 @@ namespace ProjetoG3_Fotografo.DAL
                 string stringSql = AdmDAL.stringSQL;
                 conn = new SqlConnection(stringSql);
                 conn.Open();
-                cmd = new SqlCommand("delete from Album where NomeAlbum = '" + nome+"'", conn);
+                cmd = new SqlCommand("delete from Album where IdAlbum = " + id, conn);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -93,25 +93,42 @@ namespace ProjetoG3_Fotografo.DAL
             }
         }
 
-        public List<AdmDAL> ListarAlbum()
+        public List<AlbumDAL> ListarAlbum()
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
-            string stringSql = AdmDAL.stringSQL;
-            conn = new SqlConnection(stringSql);
-            conn.Open();
-            cmd = new SqlCommand("select * from Album", conn);
-            SqlDataReader dr = cmd.ExecuteReader();
-            List<AdmDAL> listAlbum = new List<AdmDAL>();
-            while (dr.Read())
+            try
             {
-                AdmDAL admDAL = new AdmDAL();
-                admDAL.Id = Convert.ToInt32(dr["IdAluno"]);
-                admDAL.Nome = (string)dr["Nome"];
-                admDAL.DataCadastro = Convert.ToDateTime(dr["DataCadastro"]);
-                listAlbum.Add(admDAL);
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
+                conn.Open();
+                cmd = new SqlCommand("select * from Album", conn);
+                SqlDataReader dr = cmd.ExecuteReader();
+                List<AlbumDAL> listAlbum = new List<AlbumDAL>();
+                while (dr.Read())
+                {
+                    AlbumDAL albumDAL = new AlbumDAL();
+                    albumDAL.Id = Convert.ToInt32(dr["IdAlbum"]);
+                    albumDAL.Nome = (string)dr["NomeAlbum"];
+                    albumDAL.Descricao = (string)dr["Descricao"];
+                    albumDAL.DataCadastro = Convert.ToDateTime(dr["DataHoraCadastro"]);
+                    albumDAL.IdCliente = Convert.ToInt32(dr["FkCliente"]);
+                    listAlbum.Add(albumDAL);
+                }
+                return listAlbum;
             }
-            return listAlbum;
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
         }
     }
 }

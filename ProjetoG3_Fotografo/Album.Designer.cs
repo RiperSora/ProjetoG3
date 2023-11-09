@@ -96,7 +96,7 @@
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
-            this.gridCliente = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.gridAlbum = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnExcluirAlbum = new Guna.UI2.WinForms.Guna2Button();
@@ -104,8 +104,8 @@
             this.btnCadastrarAlbum2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnAtualizarAlbum = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtPesquisa = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnCadastrarAlbum = new Guna.UI2.WinForms.Guna2Button();
@@ -129,7 +129,7 @@
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2ShadowPanel3.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridCliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridAlbum)).BeginInit();
             this.guna2Panel10.SuspendLayout();
             this.guna2Panel13.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
@@ -344,7 +344,7 @@
             // 
             // guna2Panel11
             // 
-            this.guna2Panel11.Controls.Add(this.gridCliente);
+            this.guna2Panel11.Controls.Add(this.gridAlbum);
             this.guna2Panel11.CustomizableEdges = customizableEdges13;
             this.guna2Panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel11.Location = new System.Drawing.Point(45, 70);
@@ -353,11 +353,11 @@
             this.guna2Panel11.Size = new System.Drawing.Size(676, 233);
             this.guna2Panel11.TabIndex = 3;
             // 
-            // gridCliente
+            // gridAlbum
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.gridCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gridCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.gridAlbum.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.gridAlbum.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -365,10 +365,10 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridCliente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.gridCliente.ColumnHeadersHeight = 4;
-            this.gridCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.gridCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.gridAlbum.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.gridAlbum.ColumnHeadersHeight = 4;
+            this.gridAlbum.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.gridAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -376,36 +376,36 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridCliente.DefaultCellStyle = dataGridViewCellStyle3;
-            this.gridCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridCliente.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gridCliente.Location = new System.Drawing.Point(0, 0);
-            this.gridCliente.Name = "gridCliente";
-            this.gridCliente.RowHeadersVisible = false;
-            this.gridCliente.RowTemplate.Height = 25;
-            this.gridCliente.Size = new System.Drawing.Size(676, 233);
-            this.gridCliente.TabIndex = 0;
-            this.gridCliente.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.gridCliente.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.gridCliente.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.gridCliente.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.gridCliente.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.gridCliente.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.gridCliente.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gridCliente.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gridCliente.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.gridCliente.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gridCliente.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.gridCliente.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.gridCliente.ThemeStyle.HeaderStyle.Height = 4;
-            this.gridCliente.ThemeStyle.ReadOnly = false;
-            this.gridCliente.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.gridCliente.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.gridCliente.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gridCliente.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.gridCliente.ThemeStyle.RowsStyle.Height = 25;
-            this.gridCliente.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gridCliente.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gridAlbum.DefaultCellStyle = dataGridViewCellStyle3;
+            this.gridAlbum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridAlbum.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.gridAlbum.Location = new System.Drawing.Point(0, 0);
+            this.gridAlbum.Name = "gridAlbum";
+            this.gridAlbum.RowHeadersVisible = false;
+            this.gridAlbum.RowTemplate.Height = 25;
+            this.gridAlbum.Size = new System.Drawing.Size(676, 233);
+            this.gridAlbum.TabIndex = 0;
+            this.gridAlbum.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.gridAlbum.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.gridAlbum.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.gridAlbum.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.gridAlbum.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.gridAlbum.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.gridAlbum.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.gridAlbum.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gridAlbum.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.gridAlbum.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.gridAlbum.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.gridAlbum.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.gridAlbum.ThemeStyle.HeaderStyle.Height = 4;
+            this.gridAlbum.ThemeStyle.ReadOnly = false;
+            this.gridAlbum.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.gridAlbum.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.gridAlbum.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.gridAlbum.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gridAlbum.ThemeStyle.RowsStyle.Height = 25;
+            this.gridAlbum.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.gridAlbum.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // guna2Panel10
             // 
@@ -448,6 +448,7 @@
             this.btnExcluirAlbum.Size = new System.Drawing.Size(180, 45);
             this.btnExcluirAlbum.TabIndex = 43;
             this.btnExcluirAlbum.Text = "Excluir Álbum";
+            this.btnExcluirAlbum.Click += new System.EventHandler(this.btnExcluirAlbum_Click);
             // 
             // guna2Panel12
             // 
@@ -481,8 +482,8 @@
             // guna2Panel9
             // 
             this.guna2Panel9.Controls.Add(this.btnAtualizarAlbum);
-            this.guna2Panel9.Controls.Add(this.guna2ComboBox1);
-            this.guna2Panel9.Controls.Add(this.guna2TextBox1);
+            this.guna2Panel9.Controls.Add(this.txtCategoria);
+            this.guna2Panel9.Controls.Add(this.txtPesquisa);
             this.guna2Panel9.CustomizableEdges = customizableEdges31;
             this.guna2Panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel9.Location = new System.Drawing.Point(45, 0);
@@ -511,53 +512,59 @@
             this.btnAtualizarAlbum.Size = new System.Drawing.Size(25, 25);
             this.btnAtualizarAlbum.TabIndex = 2;
             // 
-            // guna2ComboBox1
+            // txtCategoria
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.BorderRadius = 10;
-            this.guna2ComboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ComboBox1.CustomizableEdges = customizableEdges27;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(534, 16);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(140, 36);
-            this.guna2ComboBox1.TabIndex = 1;
+            this.txtCategoria.BackColor = System.Drawing.Color.Transparent;
+            this.txtCategoria.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCategoria.BorderRadius = 10;
+            this.txtCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtCategoria.CustomizableEdges = customizableEdges27;
+            this.txtCategoria.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtCategoria.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCategoria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCategoria.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtCategoria.ForeColor = System.Drawing.Color.Black;
+            this.txtCategoria.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.txtCategoria.ItemHeight = 30;
+            this.txtCategoria.Items.AddRange(new object[] {
+            "IdAlbum",
+            "NomeAlbum",
+            "Descrição",
+            "FkCliente"});
+            this.txtCategoria.Location = new System.Drawing.Point(534, 16);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            this.txtCategoria.Size = new System.Drawing.Size(140, 36);
+            this.txtCategoria.TabIndex = 1;
             // 
-            // guna2TextBox1
+            // txtPesquisa
             // 
-            this.guna2TextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.BorderRadius = 10;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2TextBox1.CustomizableEdges = customizableEdges29;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(39, 16);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox1.PlaceholderText = "Pesquisar álbum";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            this.guna2TextBox1.Size = new System.Drawing.Size(489, 36);
-            this.guna2TextBox1.TabIndex = 0;
+            this.txtPesquisa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtPesquisa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPesquisa.BorderRadius = 10;
+            this.txtPesquisa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtPesquisa.CustomizableEdges = customizableEdges29;
+            this.txtPesquisa.DefaultText = "";
+            this.txtPesquisa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPesquisa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPesquisa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPesquisa.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPesquisa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPesquisa.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPesquisa.ForeColor = System.Drawing.Color.Black;
+            this.txtPesquisa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.txtPesquisa.Location = new System.Drawing.Point(39, 16);
+            this.txtPesquisa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPesquisa.Name = "txtPesquisa";
+            this.txtPesquisa.PasswordChar = '\0';
+            this.txtPesquisa.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtPesquisa.PlaceholderText = "Pesquisar álbum";
+            this.txtPesquisa.SelectedText = "";
+            this.txtPesquisa.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            this.txtPesquisa.Size = new System.Drawing.Size(489, 36);
+            this.txtPesquisa.TabIndex = 0;
+            this.txtPesquisa.TextChanged += new System.EventHandler(this.txtPesquisa_TextChanged);
             // 
             // guna2ShadowPanel2
             // 
@@ -790,7 +797,7 @@
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2Panel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridCliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridAlbum)).EndInit();
             this.guna2Panel10.ResumeLayout(false);
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel12.ResumeLayout(false);
@@ -821,15 +828,15 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
-        private Guna.UI2.WinForms.Guna2DataGridView gridCliente;
+        private Guna.UI2.WinForms.Guna2DataGridView gridAlbum;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
         private Guna.UI2.WinForms.Guna2Button btnExcluirAlbum;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
         private Guna.UI2.WinForms.Guna2Button btnCadastrarAlbum2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox txtCategoria;
+        private Guna.UI2.WinForms.Guna2TextBox txtPesquisa;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnCadastrarAlbum;
