@@ -31,9 +31,10 @@ namespace ProjetoG3_Fotografo
             //SqlCommand cmd = new SqlCommand("insert into Calendario VALUES('" + data + "','" + evento + "')", conn);
             //cmd.ExecuteNonQuery();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO Calendario (DataCalendario, Evento) VALUES (@DataCalendario, @Evento)", conn);
-            cmd.Parameters.AddWithValue("@DataCalendario", data);
+            SqlCommand cmd = new SqlCommand("INSERT INTO Calendario (Evento,DataCalendario ) VALUES (@Evento,@DataCalendario )", conn);
             cmd.Parameters.AddWithValue("@Evento", evento);
+            cmd.Parameters.AddWithValue("@DataCalendario", data);
+            
             cmd.ExecuteNonQuery();
 
             cmd.Dispose();
