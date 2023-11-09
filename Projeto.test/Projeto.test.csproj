@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.63.0.3155" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProjetoG3_Fotografo\ProjetoG3_Fotografo.csproj" />
   </ItemGroup>
 
