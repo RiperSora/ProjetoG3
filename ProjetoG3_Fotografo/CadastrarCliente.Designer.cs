@@ -457,18 +457,17 @@
             this.TxtSenha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtSenha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtSenha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtSenha.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtSenha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtSenha.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtSenha.Location = new System.Drawing.Point(45, 0);
+            this.TxtSenha.Location = new System.Drawing.Point(42, 19);
             this.TxtSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSenha.Name = "TxtSenha";
             this.TxtSenha.PasswordChar = '\0';
             this.TxtSenha.PlaceholderText = "Digite uma Senha";
             this.TxtSenha.SelectedText = "";
             this.TxtSenha.ShadowDecoration.CustomizableEdges = customizableEdges25;
-            this.TxtSenha.Size = new System.Drawing.Size(676, 561);
+            this.TxtSenha.Size = new System.Drawing.Size(300, 36);
             this.TxtSenha.TabIndex = 13;
             // 
             // TxtNome
@@ -480,7 +479,6 @@
             this.TxtNome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtNome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtNome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtNome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtNome.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -491,7 +489,7 @@
             this.TxtNome.PlaceholderText = "Digite o nome";
             this.TxtNome.SelectedText = "";
             this.TxtNome.ShadowDecoration.CustomizableEdges = customizableEdges27;
-            this.TxtNome.Size = new System.Drawing.Size(676, 561);
+            this.TxtNome.Size = new System.Drawing.Size(300, 36);
             this.TxtNome.TabIndex = 7;
             // 
             // label1
@@ -513,13 +511,12 @@
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(45, 0);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges29;
-            this.guna2Button1.Size = new System.Drawing.Size(676, 561);
+            this.guna2Button1.Size = new System.Drawing.Size(300, 36);
             this.guna2Button1.TabIndex = 12;
             this.guna2Button1.Text = "Cadastrar";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -583,7 +580,6 @@
             this.TxtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEmail.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtEmail.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -594,7 +590,7 @@
             this.TxtEmail.PlaceholderText = "Digite o email";
             this.TxtEmail.SelectedText = "";
             this.TxtEmail.ShadowDecoration.CustomizableEdges = customizableEdges31;
-            this.TxtEmail.Size = new System.Drawing.Size(676, 561);
+            this.TxtEmail.Size = new System.Drawing.Size(300, 36);
             this.TxtEmail.TabIndex = 5;
             // 
             // TxtEndereco
@@ -606,7 +602,6 @@
             this.TxtEndereco.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtEndereco.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtEndereco.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEndereco.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtEndereco.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtEndereco.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEndereco.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -617,7 +612,7 @@
             this.TxtEndereco.PlaceholderText = "Digite o Endereço";
             this.TxtEndereco.SelectedText = "";
             this.TxtEndereco.ShadowDecoration.CustomizableEdges = customizableEdges33;
-            this.TxtEndereco.Size = new System.Drawing.Size(676, 561);
+            this.TxtEndereco.Size = new System.Drawing.Size(300, 36);
             this.TxtEndereco.TabIndex = 4;
             // 
             // TxtRg
@@ -629,7 +624,6 @@
             this.TxtRg.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtRg.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtRg.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtRg.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtRg.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtRg.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtRg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -640,7 +634,7 @@
             this.TxtRg.PlaceholderText = "Digite o RG";
             this.TxtRg.SelectedText = "";
             this.TxtRg.ShadowDecoration.CustomizableEdges = customizableEdges35;
-            this.TxtRg.Size = new System.Drawing.Size(676, 561);
+            this.TxtRg.Size = new System.Drawing.Size(300, 36);
             this.TxtRg.TabIndex = 3;
             // 
             // TxtTel
@@ -652,7 +646,6 @@
             this.TxtTel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtTel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtTel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtTel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtTel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtTel.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtTel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -663,7 +656,7 @@
             this.TxtTel.PlaceholderText = "Digite o Telefone";
             this.TxtTel.SelectedText = "";
             this.TxtTel.ShadowDecoration.CustomizableEdges = customizableEdges37;
-            this.TxtTel.Size = new System.Drawing.Size(676, 561);
+            this.TxtTel.Size = new System.Drawing.Size(300, 36);
             this.TxtTel.TabIndex = 2;
             // 
             // TxtCpf
@@ -675,7 +668,6 @@
             this.TxtCpf.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtCpf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtCpf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtCpf.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtCpf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtCpf.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtCpf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -686,7 +678,7 @@
             this.TxtCpf.PlaceholderText = "Digite o CPF";
             this.TxtCpf.SelectedText = "";
             this.TxtCpf.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            this.TxtCpf.Size = new System.Drawing.Size(676, 561);
+            this.TxtCpf.Size = new System.Drawing.Size(300, 36);
             this.TxtCpf.TabIndex = 1;
             // 
             // guna2Panel3
