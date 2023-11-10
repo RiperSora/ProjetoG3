@@ -27,23 +27,33 @@ namespace ProjetoG3_Fotografo
             DAL.EventoDal eventoDal = new DAL.EventoDal();
             eventoDal.CriarEvento(evento,Hora, Data);
         }
+
         #endregion
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            string data = CbMes.Text + "/" + CbMes.Text + "/" + CbAno.Text;
+            
+        }
+
+        private void BtnFechar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnSalvar_Click_1(object sender, EventArgs e)
+        {
+            string data = CbDia.Text + "/" + CbMes.Text + "/" + CbAno.Text;
             string hora = CbHora.Text + ":" + CbMin.Text;
-            CriarEvento(TxtEvento.Text,hora ,data);
+            CriarEvento(TxtEvento.Text, hora, data);
 
             MessageBox.Show("Novo Evento Salvo");
 
             this.Close();
         }
 
-        private void BtnFechar_Click(object sender, EventArgs e)
+        private void BtnFechar_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
-
     }
 }

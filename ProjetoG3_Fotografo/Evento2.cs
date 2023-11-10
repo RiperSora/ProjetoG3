@@ -74,25 +74,25 @@ namespace ProjetoG3_Fotografo
         {
             Funcionario funcionario = new Funcionario();
             funcionario.Show();
-            this.Hide();
+            this.Close();
         }
         public void btn_Evento()
         {
             Evento2 evento2 = new Evento2();
             evento2.Show();
-            this.Hide();
+            this.Close();
         }
         public void btn_Album()
         {
             Album album = new Album();
             album.Show();
-            this.Hide();
+            this.Close();
         }
         public void btn_config()
         {
             Configuracao configuracao = new Configuracao();
             configuracao.Show();
-            this.Hide();
+            this.Close();
         }
         
         #endregion

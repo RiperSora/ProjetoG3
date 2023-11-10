@@ -19,6 +19,40 @@ namespace ProjetoG3_Fotografo
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
+        #region metodos
+
+        public void btn_addCliente()
+        {
+            CadastrarCliente cadastrarCliente = new CadastrarCliente();
+            cadastrarCliente.Show();
+            this.Hide();
+        }
+        public void btn_cliente()
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.Show();
+            this.Hide();
+        }
+        public void btn_Eventos()
+        {
+            Evento2 eventos = new Evento2();
+            eventos.Show();
+            this.Hide();
+        }
+        public void btn_Album()
+        {
+            Album album = new Album();
+            album.Show();
+            this.Hide();
+        }
+        public void btn_config()
+        {
+            Configuracao configuracao = new Configuracao();
+            configuracao.Show();
+            this.Hide();
+        }
+        #endregion
+
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
 
@@ -47,9 +81,7 @@ namespace ProjetoG3_Fotografo
 
         private void btnFuncionario_Click(object sender, EventArgs e)
         {
-            Eventos eventos = new Eventos();
-            eventos.Show();
-            this.Hide();
+            btn_Eventos();
         }
 
         private void guna2ShadowPanel3_Paint(object sender, PaintEventArgs e)
@@ -59,16 +91,12 @@ namespace ProjetoG3_Fotografo
 
         private void btnAlbum_Click(object sender, EventArgs e)
         {
-            Album album = new Album();
-            album.Show();
-            this.Hide();
+            btn_Album();
         }
 
         private void btnCadastrarCliente_Click(object sender, EventArgs e)
         {
-            CadastrarCliente cadastrarCliente = new CadastrarCliente();
-            cadastrarCliente.Show();
-            this.Hide();
+            btn_addCliente();
         }
 
         private void guna2Panel5_Paint(object sender, PaintEventArgs e)
@@ -106,6 +134,26 @@ namespace ProjetoG3_Fotografo
         }
 
         private void gridCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bntCliente_Click(object sender, EventArgs e)
+        {
+            btn_cliente();
+        }
+
+        private void btnConfiguracao_Click(object sender, EventArgs e)
+        {
+            btn_config();
+        }
+
+        private void btnCadastrarCliente2_Click(object sender, EventArgs e)
+        {
+            btn_addCliente();
+        }
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
         {
 
         }
