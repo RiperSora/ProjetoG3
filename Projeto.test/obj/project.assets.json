@@ -8,14 +8,10 @@
           "Google.Apis.Core": "1.63.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.dll": {}
         }
       },
       "Google.Apis.Auth/1.63.0": {
@@ -27,15 +23,11 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
         }
       },
       "Google.Apis.Calendar.v3/1.63.0.3171": {
@@ -45,14 +37,10 @@
           "Google.Apis.Auth": "1.63.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {}
         }
       },
       "Google.Apis.Core/1.63.0": {
@@ -61,14 +49,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
         }
       },
       "Google.Apis.Drive.v3/1.63.0.3155": {
@@ -78,14 +62,10 @@
           "Google.Apis.Auth": "1.63.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {}
         }
       },
       "Guna.UI2.WinForms/2.0.4.5": {
@@ -119,14 +99,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -142,14 +118,10 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -190,14 +162,10 @@
       "System.CodeDom/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.CodeDom.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.CodeDom.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -211,14 +179,10 @@
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
@@ -237,14 +201,10 @@
           "System.CodeDom": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Management.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Management.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -263,14 +223,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -282,14 +238,10 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -876,28 +828,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathe\\.nuget\\packages\\": {},
+    "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+      "projectUniqueName": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
       "projectName": "Projeto.test",
-      "projectPath": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
-      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\obj\\",
+      "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+      "packagesPath": "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wesley.vpsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -907,8 +859,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
-              "projectPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
+            "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+              "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
             }
           }
         }
@@ -938,8 +890,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -948,7 +899,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
