@@ -44,6 +44,13 @@ namespace ProjetoG3_Fotografo
             configuracao.Show();
             this.Hide();
         }
+        public void btn_addAlbum()
+        {
+            CadastrarAlbum cadastrarAlbum = new CadastrarAlbum();
+            cadastrarAlbum.Show();
+            this.Hide();
+        }
+
         #endregion
 
 
@@ -122,6 +129,16 @@ namespace ProjetoG3_Fotografo
         private void btnConfiguracao_Click(object sender, EventArgs e)
         {
             btn_config();
+        }
+
+        private void btnCadastrarAlbum_Click(object sender, EventArgs e)
+        {
+            btn_addAlbum();
+        }
+
+        private void btnCadastrarAlbum2_Click(object sender, EventArgs e)
+        {
+            btn_addAlbum();
         }
     }
 }
