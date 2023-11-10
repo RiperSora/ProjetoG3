@@ -54,6 +54,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -70,10 +74,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
@@ -93,6 +93,8 @@
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.TxtSenha = new Guna.UI2.WinForms.Guna2TextBox();
             this.TxtNome = new Guna.UI2.WinForms.Guna2TextBox();
@@ -108,8 +110,6 @@
             this.TxtRg = new Guna.UI2.WinForms.Guna2TextBox();
             this.TxtTel = new Guna.UI2.WinForms.Guna2TextBox();
             this.TxtCpf = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -438,249 +438,6 @@
             this.guna2ShadowPanel3.TabIndex = 38;
             this.guna2ShadowPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel3_Paint);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(45, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(39, 15);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Senha";
-            // 
-            // TxtSenha
-            // 
-            this.TxtSenha.BorderRadius = 10;
-            this.TxtSenha.CustomizableEdges = customizableEdges24;
-            this.TxtSenha.DefaultText = "";
-            this.TxtSenha.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtSenha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtSenha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtSenha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtSenha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtSenha.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtSenha.Location = new System.Drawing.Point(42, 19);
-            this.TxtSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtSenha.Name = "TxtSenha";
-            this.TxtSenha.PasswordChar = '\0';
-            this.TxtSenha.PlaceholderText = "Digite uma Senha";
-            this.TxtSenha.SelectedText = "";
-            this.TxtSenha.ShadowDecoration.CustomizableEdges = customizableEdges25;
-            this.TxtSenha.Size = new System.Drawing.Size(300, 36);
-            this.TxtSenha.TabIndex = 13;
-            // 
-            // TxtNome
-            // 
-            this.TxtNome.BorderRadius = 10;
-            this.TxtNome.CustomizableEdges = customizableEdges26;
-            this.TxtNome.DefaultText = "";
-            this.TxtNome.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtNome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtNome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtNome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtNome.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtNome.Location = new System.Drawing.Point(45, 0);
-            this.TxtNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtNome.Name = "TxtNome";
-            this.TxtNome.PasswordChar = '\0';
-            this.TxtNome.PlaceholderText = "Digite o nome";
-            this.TxtNome.SelectedText = "";
-            this.TxtNome.ShadowDecoration.CustomizableEdges = customizableEdges27;
-            this.TxtNome.Size = new System.Drawing.Size(300, 36);
-            this.TxtNome.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(45, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 19);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Nome";
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CustomizableEdges = customizableEdges28;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(45, 0);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges29;
-            this.guna2Button1.Size = new System.Drawing.Size(300, 36);
-            this.guna2Button1.TabIndex = 12;
-            this.guna2Button1.Text = "Cadastrar";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(45, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 15);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Telefone";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(45, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 15);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Email";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(45, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 15);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Endereço";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(45, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 15);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "RG";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(45, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 15);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "CPF";
-            // 
-            // TxtEmail
-            // 
-            this.TxtEmail.BorderRadius = 10;
-            this.TxtEmail.CustomizableEdges = customizableEdges30;
-            this.TxtEmail.DefaultText = "";
-            this.TxtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEmail.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEmail.Location = new System.Drawing.Point(45, 0);
-            this.TxtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.PasswordChar = '\0';
-            this.TxtEmail.PlaceholderText = "Digite o email";
-            this.TxtEmail.SelectedText = "";
-            this.TxtEmail.ShadowDecoration.CustomizableEdges = customizableEdges31;
-            this.TxtEmail.Size = new System.Drawing.Size(300, 36);
-            this.TxtEmail.TabIndex = 5;
-            // 
-            // TxtEndereco
-            // 
-            this.TxtEndereco.BorderRadius = 10;
-            this.TxtEndereco.CustomizableEdges = customizableEdges32;
-            this.TxtEndereco.DefaultText = "";
-            this.TxtEndereco.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtEndereco.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtEndereco.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEndereco.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtEndereco.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEndereco.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtEndereco.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEndereco.Location = new System.Drawing.Point(45, 0);
-            this.TxtEndereco.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtEndereco.Name = "TxtEndereco";
-            this.TxtEndereco.PasswordChar = '\0';
-            this.TxtEndereco.PlaceholderText = "Digite o Endereço";
-            this.TxtEndereco.SelectedText = "";
-            this.TxtEndereco.ShadowDecoration.CustomizableEdges = customizableEdges33;
-            this.TxtEndereco.Size = new System.Drawing.Size(300, 36);
-            this.TxtEndereco.TabIndex = 4;
-            // 
-            // TxtRg
-            // 
-            this.TxtRg.BorderRadius = 10;
-            this.TxtRg.CustomizableEdges = customizableEdges34;
-            this.TxtRg.DefaultText = "";
-            this.TxtRg.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtRg.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtRg.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtRg.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtRg.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtRg.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtRg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtRg.Location = new System.Drawing.Point(45, 0);
-            this.TxtRg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtRg.Name = "TxtRg";
-            this.TxtRg.PasswordChar = '\0';
-            this.TxtRg.PlaceholderText = "Digite o RG";
-            this.TxtRg.SelectedText = "";
-            this.TxtRg.ShadowDecoration.CustomizableEdges = customizableEdges35;
-            this.TxtRg.Size = new System.Drawing.Size(300, 36);
-            this.TxtRg.TabIndex = 3;
-            // 
-            // TxtTel
-            // 
-            this.TxtTel.BorderRadius = 10;
-            this.TxtTel.CustomizableEdges = customizableEdges36;
-            this.TxtTel.DefaultText = "";
-            this.TxtTel.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtTel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtTel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtTel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtTel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtTel.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtTel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtTel.Location = new System.Drawing.Point(45, 0);
-            this.TxtTel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtTel.Name = "TxtTel";
-            this.TxtTel.PasswordChar = '\0';
-            this.TxtTel.PlaceholderText = "Digite o Telefone";
-            this.TxtTel.SelectedText = "";
-            this.TxtTel.ShadowDecoration.CustomizableEdges = customizableEdges37;
-            this.TxtTel.Size = new System.Drawing.Size(300, 36);
-            this.TxtTel.TabIndex = 2;
-            // 
-            // TxtCpf
-            // 
-            this.TxtCpf.BorderRadius = 10;
-            this.TxtCpf.CustomizableEdges = customizableEdges38;
-            this.TxtCpf.DefaultText = "";
-            this.TxtCpf.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtCpf.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtCpf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtCpf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtCpf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtCpf.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtCpf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtCpf.Location = new System.Drawing.Point(45, 0);
-            this.TxtCpf.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtCpf.Name = "TxtCpf";
-            this.TxtCpf.PasswordChar = '\0';
-            this.TxtCpf.PlaceholderText = "Digite o CPF";
-            this.TxtCpf.SelectedText = "";
-            this.TxtCpf.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            this.TxtCpf.Size = new System.Drawing.Size(300, 36);
-            this.TxtCpf.TabIndex = 1;
-            // 
             // guna2Panel3
             // 
             this.guna2Panel3.CustomizableEdges = customizableEdges40;
@@ -709,6 +466,241 @@
             this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges45;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(220, 681);
             this.guna2GradientPanel1.TabIndex = 17;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(123, 388);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(39, 15);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Senha";
+            // 
+            // TxtSenha
+            // 
+            this.TxtSenha.BorderRadius = 10;
+            this.TxtSenha.CustomizableEdges = customizableEdges24;
+            this.TxtSenha.DefaultText = "";
+            this.TxtSenha.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtSenha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtSenha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtSenha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtSenha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtSenha.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtSenha.Location = new System.Drawing.Point(123, 407);
+            this.TxtSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtSenha.Name = "TxtSenha";
+            this.TxtSenha.PasswordChar = '\0';
+            this.TxtSenha.PlaceholderText = "Digite uma Senha";
+            this.TxtSenha.SelectedText = "";
+            this.TxtSenha.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            this.TxtSenha.Size = new System.Drawing.Size(513, 36);
+            this.TxtSenha.TabIndex = 28;
+            // 
+            // TxtNome
+            // 
+            this.TxtNome.BorderRadius = 10;
+            this.TxtNome.CustomizableEdges = customizableEdges26;
+            this.TxtNome.DefaultText = "";
+            this.TxtNome.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtNome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtNome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtNome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtNome.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtNome.Location = new System.Drawing.Point(123, 83);
+            this.TxtNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtNome.Name = "TxtNome";
+            this.TxtNome.PasswordChar = '\0';
+            this.TxtNome.PlaceholderText = "Digite o nome";
+            this.TxtNome.SelectedText = "";
+            this.TxtNome.ShadowDecoration.CustomizableEdges = customizableEdges27;
+            this.TxtNome.Size = new System.Drawing.Size(521, 36);
+            this.TxtNome.TabIndex = 20;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(123, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 19);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Nome";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.CustomizableEdges = customizableEdges28;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(123, 468);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges29;
+            this.guna2Button1.Size = new System.Drawing.Size(513, 45);
+            this.guna2Button1.TabIndex = 27;
+            this.guna2Button1.Text = "Cadastrar";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(409, 310);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 15);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Telefone";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(123, 310);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 15);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "Email";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(123, 225);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(56, 15);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Endereço";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(409, 136);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 15);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "RG";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(123, 136);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 15);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "CPF";
+            // 
+            // TxtEmail
+            // 
+            this.TxtEmail.BorderRadius = 10;
+            this.TxtEmail.CustomizableEdges = customizableEdges30;
+            this.TxtEmail.DefaultText = "";
+            this.TxtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtEmail.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtEmail.Location = new System.Drawing.Point(123, 329);
+            this.TxtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtEmail.Name = "TxtEmail";
+            this.TxtEmail.PasswordChar = '\0';
+            this.TxtEmail.PlaceholderText = "Digite o email";
+            this.TxtEmail.SelectedText = "";
+            this.TxtEmail.ShadowDecoration.CustomizableEdges = customizableEdges31;
+            this.TxtEmail.Size = new System.Drawing.Size(227, 36);
+            this.TxtEmail.TabIndex = 19;
+            // 
+            // TxtEndereco
+            // 
+            this.TxtEndereco.BorderRadius = 10;
+            this.TxtEndereco.CustomizableEdges = customizableEdges32;
+            this.TxtEndereco.DefaultText = "";
+            this.TxtEndereco.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtEndereco.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtEndereco.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtEndereco.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtEndereco.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtEndereco.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtEndereco.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtEndereco.Location = new System.Drawing.Point(123, 244);
+            this.TxtEndereco.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtEndereco.Name = "TxtEndereco";
+            this.TxtEndereco.PasswordChar = '\0';
+            this.TxtEndereco.PlaceholderText = "Digite o Endereço";
+            this.TxtEndereco.SelectedText = "";
+            this.TxtEndereco.ShadowDecoration.CustomizableEdges = customizableEdges33;
+            this.TxtEndereco.Size = new System.Drawing.Size(513, 36);
+            this.TxtEndereco.TabIndex = 18;
+            // 
+            // TxtRg
+            // 
+            this.TxtRg.BorderRadius = 10;
+            this.TxtRg.CustomizableEdges = customizableEdges34;
+            this.TxtRg.DefaultText = "";
+            this.TxtRg.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtRg.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtRg.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtRg.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtRg.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtRg.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtRg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtRg.Location = new System.Drawing.Point(409, 155);
+            this.TxtRg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtRg.Name = "TxtRg";
+            this.TxtRg.PasswordChar = '\0';
+            this.TxtRg.PlaceholderText = "Digite o RG";
+            this.TxtRg.SelectedText = "";
+            this.TxtRg.ShadowDecoration.CustomizableEdges = customizableEdges35;
+            this.TxtRg.Size = new System.Drawing.Size(227, 36);
+            this.TxtRg.TabIndex = 17;
+            // 
+            // TxtTel
+            // 
+            this.TxtTel.BorderRadius = 10;
+            this.TxtTel.CustomizableEdges = customizableEdges36;
+            this.TxtTel.DefaultText = "";
+            this.TxtTel.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtTel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtTel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtTel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtTel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtTel.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtTel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtTel.Location = new System.Drawing.Point(409, 329);
+            this.TxtTel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtTel.Name = "TxtTel";
+            this.TxtTel.PasswordChar = '\0';
+            this.TxtTel.PlaceholderText = "Digite o Telefone";
+            this.TxtTel.SelectedText = "";
+            this.TxtTel.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            this.TxtTel.Size = new System.Drawing.Size(227, 36);
+            this.TxtTel.TabIndex = 16;
+            // 
+            // TxtCpf
+            // 
+            this.TxtCpf.BorderRadius = 10;
+            this.TxtCpf.CustomizableEdges = customizableEdges38;
+            this.TxtCpf.DefaultText = "";
+            this.TxtCpf.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtCpf.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtCpf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtCpf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtCpf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtCpf.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtCpf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtCpf.Location = new System.Drawing.Point(123, 155);
+            this.TxtCpf.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TxtCpf.Name = "TxtCpf";
+            this.TxtCpf.PasswordChar = '\0';
+            this.TxtCpf.PlaceholderText = "Digite o CPF";
+            this.TxtCpf.SelectedText = "";
+            this.TxtCpf.ShadowDecoration.CustomizableEdges = customizableEdges39;
+            this.TxtCpf.Size = new System.Drawing.Size(227, 36);
+            this.TxtCpf.TabIndex = 15;
             // 
             // CadastrarCliente
             // 
@@ -758,8 +750,12 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Label label1;
+        private Guna.UI2.WinForms.Guna2CircleButton fotoPerfil;
+        private Guna.UI2.WinForms.Guna2HtmlLabel nomeAdm;
+        private Label label7;
+        private Guna.UI2.WinForms.Guna2TextBox TxtSenha;
         private Guna.UI2.WinForms.Guna2TextBox TxtNome;
+        private Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Label label4;
         private Label label5;
@@ -771,9 +767,5 @@
         private Guna.UI2.WinForms.Guna2TextBox TxtRg;
         private Guna.UI2.WinForms.Guna2TextBox TxtTel;
         private Guna.UI2.WinForms.Guna2TextBox TxtCpf;
-        private Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox TxtSenha;
-        private Guna.UI2.WinForms.Guna2CircleButton fotoPerfil;
-        private Guna.UI2.WinForms.Guna2HtmlLabel nomeAdm;
     }
 }
