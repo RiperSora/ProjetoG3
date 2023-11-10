@@ -338,7 +338,7 @@
             this.guna2ShadowPanel3.Controls.Add(this.guna2Panel9);
             this.guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(48, 262);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(51, 262);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.Padding = new System.Windows.Forms.Padding(45, 0, 45, 0);
             this.guna2ShadowPanel3.Radius = 10;
@@ -346,7 +346,7 @@
             this.guna2ShadowPanel3.ShadowDepth = 150;
             this.guna2ShadowPanel3.ShadowShift = 10;
             this.guna2ShadowPanel3.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(766, 409);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(763, 409);
             this.guna2ShadowPanel3.TabIndex = 38;
             // 
             // guna2Panel10
@@ -357,7 +357,7 @@
             this.guna2Panel10.Location = new System.Drawing.Point(45, 326);
             this.guna2Panel10.Name = "guna2Panel10";
             this.guna2Panel10.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            this.guna2Panel10.Size = new System.Drawing.Size(676, 83);
+            this.guna2Panel10.Size = new System.Drawing.Size(673, 83);
             this.guna2Panel10.TabIndex = 2;
             // 
             // guna2Panel12
@@ -365,7 +365,7 @@
             this.guna2Panel12.Controls.Add(this.btnAtualizarUsuario);
             this.guna2Panel12.CustomizableEdges = customizableEdges15;
             this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel12.Location = new System.Drawing.Point(476, 0);
+            this.guna2Panel12.Location = new System.Drawing.Point(473, 0);
             this.guna2Panel12.Name = "guna2Panel12";
             this.guna2Panel12.ShadowDecoration.CustomizableEdges = customizableEdges16;
             this.guna2Panel12.Size = new System.Drawing.Size(200, 83);
@@ -406,7 +406,7 @@
             this.guna2Panel9.Location = new System.Drawing.Point(45, 0);
             this.guna2Panel9.Name = "guna2Panel9";
             this.guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges31;
-            this.guna2Panel9.Size = new System.Drawing.Size(676, 326);
+            this.guna2Panel9.Size = new System.Drawing.Size(673, 326);
             this.guna2Panel9.TabIndex = 1;
             // 
             // guna2HtmlLabel9
@@ -606,7 +606,7 @@
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel3);
             this.guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(48, 110);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(51, 110);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Padding = new System.Windows.Forms.Padding(0, 0, 45, 0);
             this.guna2ShadowPanel2.Radius = 10;
@@ -614,7 +614,7 @@
             this.guna2ShadowPanel2.ShadowDepth = 150;
             this.guna2ShadowPanel2.ShadowShift = 10;
             this.guna2ShadowPanel2.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(766, 152);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(763, 152);
             this.guna2ShadowPanel2.TabIndex = 37;
             // 
             // guna2HtmlLabel2
@@ -635,7 +635,7 @@
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(555, 0);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(552, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges33;
             this.guna2PictureBox1.Size = new System.Drawing.Size(166, 152);
@@ -681,10 +681,10 @@
             this.guna2Panel6.Controls.Add(this.guna2Panel7);
             this.guna2Panel6.CustomizableEdges = customizableEdges36;
             this.guna2Panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel6.Location = new System.Drawing.Point(48, 10);
+            this.guna2Panel6.Location = new System.Drawing.Point(51, 10);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges37;
-            this.guna2Panel6.Size = new System.Drawing.Size(766, 100);
+            this.guna2Panel6.Size = new System.Drawing.Size(763, 100);
             this.guna2Panel6.TabIndex = 39;
             // 
             // guna2Panel7
@@ -715,8 +715,9 @@
             this.guna2Panel5.Location = new System.Drawing.Point(0, 10);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            this.guna2Panel5.Size = new System.Drawing.Size(48, 661);
+            this.guna2Panel5.Size = new System.Drawing.Size(51, 661);
             this.guna2Panel5.TabIndex = 3;
+            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
             // guna2Panel4
             // 
@@ -760,6 +761,7 @@
             this.Name = "Configuracao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracao";
+            this.Load += new System.EventHandler(this.Configuracao_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
