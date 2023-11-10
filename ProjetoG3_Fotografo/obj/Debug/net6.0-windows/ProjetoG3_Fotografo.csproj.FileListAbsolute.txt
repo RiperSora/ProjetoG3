@@ -185,3 +185,4 @@ C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug
 C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Evento2.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarEvento2.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Evento2.resources
+C:\Users\wesley.vpsilva\Documents\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarAlbum.resources

@@ -532,7 +532,7 @@
             this.txtCategoria.Items.AddRange(new object[] {
             "IdAlbum",
             "NomeAlbum",
-            "Descrição",
+            "Descricao",
             "FkCliente"});
             this.txtCategoria.Location = new System.Drawing.Point(534, 16);
             this.txtCategoria.Name = "txtCategoria";
