@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace ProjetoG3_Fotografo
 {
-    public partial class Configuracao : Form
+    public partial class Cliente : Form
     {
-        public Configuracao()
+        public Cliente()
         {
             InitializeComponent();
         }
 
-        private void guna2Panel5_Paint(object sender, PaintEventArgs e)
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Configuracao_Load(object sender, EventArgs e)
+        private void BtnBuscarData_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -375,11 +375,14 @@
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gridCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.gridCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.gridCliente.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
             this.gridCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(10);
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
@@ -424,6 +427,7 @@
             this.gridCliente.ThemeStyle.RowsStyle.Height = 25;
             this.gridCliente.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gridCliente.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gridCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridCliente_CellContentClick);
             // 
             // guna2Panel10
             // 
@@ -656,6 +660,7 @@
             this.guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges41;
             this.guna2Panel6.Size = new System.Drawing.Size(766, 100);
             this.guna2Panel6.TabIndex = 39;
+            this.guna2Panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel6_Paint);
             // 
             // guna2Panel7
             // 
@@ -667,6 +672,7 @@
             this.guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges36;
             this.guna2Panel7.Size = new System.Drawing.Size(200, 100);
             this.guna2Panel7.TabIndex = 40;
+            this.guna2Panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel7_Paint);
             // 
             // guna2HtmlLabel1
             // 
@@ -726,6 +732,7 @@
             this.guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges43;
             this.guna2Panel5.Size = new System.Drawing.Size(48, 661);
             this.guna2Panel5.TabIndex = 3;
+            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
             // guna2Panel4
             // 
@@ -758,6 +765,7 @@
             this.guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges49;
             this.guna2Panel1.Size = new System.Drawing.Size(844, 10);
             this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // Funcionario
             // 

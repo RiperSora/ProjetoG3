@@ -7,7 +7,7 @@ class AlbumCadastro
     {
         try
         {
-            string nome = "Album";
+            string nome = "Album5";
             string descricao = "Descrição do album";
             int idCliente = 1;
             ProjetoG3_Fotografo.DAL.AlbumDAL AlbumDAL = new ProjetoG3_Fotografo.DAL.AlbumDAL();

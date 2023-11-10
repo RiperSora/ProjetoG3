@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoG3_Fotografo
 {
-    public partial class Configuracao : Form
+    public partial class CadastrarAlbum : Form
     {
-        public Configuracao()
+        public CadastrarAlbum()
         {
             InitializeComponent();
-        }
-
-        private void guna2Panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Configuracao_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

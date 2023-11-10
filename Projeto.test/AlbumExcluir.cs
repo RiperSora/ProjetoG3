@@ -7,9 +7,9 @@ class AlbumExcluir
     {
         try
         {
-            string nome = "Lista";
+            int id = 8;
             ProjetoG3_Fotografo.DAL.AlbumDAL AlbumDAL = new ProjetoG3_Fotografo.DAL.AlbumDAL();
-            AlbumDAL.ExcluirAlbum(nome);
+            AlbumDAL.ExcluirAlbum(id);
             if (AlbumDAL != null)
             {
                 Console.WriteLine("ALbum excluido com sucesso.");
