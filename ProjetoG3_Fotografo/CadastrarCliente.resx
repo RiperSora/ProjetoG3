@@ -157,7 +157,7 @@
         5CfA4cDUKpBzWwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnFotos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAlbum.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
         MAAA6mAAADqYAAAXcJy6UTwAAAAHdElNRQfnCh4MAAFD/nBlAAACrUlEQVRYR+WXTWtTQRSG1aL+Absv
@@ -188,7 +188,7 @@
         aK3uzzMYfANOH0z+bb+OmQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnFuncionario.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEvento.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
         MAAA6mAAADqYAAAXcJy6UTwAAAAHdElNRQfnCh4LKSU+9B3aAAABkElEQVRYR+2WsUrEQBRFozY2Ymvp

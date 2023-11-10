@@ -127,6 +127,7 @@
             this.Controls.Add(this.TxtData);
             this.Controls.Add(this.TxtEvento);
             this.Name = "EventoCalendario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EventoCalendario";
             this.Load += new System.EventHandler(this.EventoCalendario_Load);
             this.ResumeLayout(false);

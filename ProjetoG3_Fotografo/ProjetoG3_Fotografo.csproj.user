@@ -4,6 +4,9 @@
     <Compile Update="Album.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CadastrarAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CadastrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -17,6 +20,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CriarAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CriarEvento2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Evento2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="EventoCalendario.cs">

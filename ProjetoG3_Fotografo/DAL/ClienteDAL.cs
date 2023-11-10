@@ -25,7 +25,6 @@ namespace ProjetoG3_Fotografo.DAL
 
             SqlCommand cmd = new SqlCommand("UPDATE Cliente SET NomeDoCliente = '" + nome + "', Senha = '" + senha + "', RG = '" + rg + "', CPF = '" + cpf + "', Endereco = '" + endereco + "', Telefone = '" + telefone + "', Email = '" + email + "'", conn);
             cmd.ExecuteNonQuery();
-
         }
     }
 }

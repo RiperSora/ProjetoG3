@@ -371,6 +371,7 @@
             this.Controls.Add(this.BtnAvancar);
             this.Controls.Add(this.DatasContainer);
             this.Name = "Eventos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.Load += new System.EventHandler(this.Eventos_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
