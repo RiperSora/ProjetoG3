@@ -60,14 +60,18 @@
             // CbDia
             // 
             this.CbDia.BackColor = System.Drawing.Color.Transparent;
-            this.CbDia.BorderRadius = 20;
+            this.CbDia.BorderRadius = 10;
             this.CbDia.CustomizableEdges = customizableEdges1;
             this.CbDia.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CbDia.DropDownHeight = 150;
             this.CbDia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbDia.DropDownWidth = 86;
+            this.CbDia.FillColor = System.Drawing.Color.WhiteSmoke;
             this.CbDia.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbDia.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbDia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CbDia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.CbDia.IntegralHeight = false;
             this.CbDia.ItemHeight = 30;
             this.CbDia.Items.AddRange(new object[] {
             "01",
@@ -115,11 +119,15 @@
             this.CbMes.BackColor = System.Drawing.Color.Transparent;
             this.CbMes.CustomizableEdges = customizableEdges3;
             this.CbMes.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CbMes.DropDownHeight = 150;
             this.CbMes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbMes.DropDownWidth = 86;
+            this.CbMes.FillColor = System.Drawing.Color.WhiteSmoke;
             this.CbMes.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbMes.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbMes.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CbMes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.CbMes.IntegralHeight = false;
             this.CbMes.ItemHeight = 30;
             this.CbMes.Items.AddRange(new object[] {
             "01",
@@ -147,11 +155,15 @@
             this.CbAno.BackColor = System.Drawing.Color.Transparent;
             this.CbAno.CustomizableEdges = customizableEdges5;
             this.CbAno.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CbAno.DropDownHeight = 150;
             this.CbAno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbAno.DropDownWidth = 86;
+            this.CbAno.FillColor = System.Drawing.Color.WhiteSmoke;
             this.CbAno.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbAno.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbAno.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CbAno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.CbAno.IntegralHeight = false;
             this.CbAno.ItemHeight = 30;
             this.CbAno.Items.AddRange(new object[] {
             "00",
@@ -265,12 +277,14 @@
             // TxtEvento
             // 
             this.TxtEvento.AutoSize = true;
+            this.TxtEvento.BorderRadius = 10;
             this.TxtEvento.CustomizableEdges = customizableEdges7;
             this.TxtEvento.DefaultText = "";
             this.TxtEvento.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TxtEvento.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtEvento.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.TxtEvento.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtEvento.FillColor = System.Drawing.Color.WhiteSmoke;
             this.TxtEvento.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtEvento.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEvento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -288,11 +302,13 @@
             // 
             // BtnSalvar
             // 
+            this.BtnSalvar.BorderRadius = 10;
             this.BtnSalvar.CustomizableEdges = customizableEdges9;
             this.BtnSalvar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.BtnSalvar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnSalvar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnSalvar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnSalvar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.BtnSalvar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BtnSalvar.ForeColor = System.Drawing.Color.White;
             this.BtnSalvar.Location = new System.Drawing.Point(276, 428);
@@ -301,6 +317,7 @@
             this.BtnSalvar.Size = new System.Drawing.Size(119, 45);
             this.BtnSalvar.TabIndex = 4;
             this.BtnSalvar.Text = "Salvar";
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click_1);
             // 
             // label1
             // 
@@ -324,6 +341,7 @@
             // 
             // BtnFechar
             // 
+            this.BtnFechar.BorderRadius = 10;
             this.BtnFechar.CustomizableEdges = customizableEdges11;
             this.BtnFechar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.BtnFechar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -338,6 +356,7 @@
             this.BtnFechar.Size = new System.Drawing.Size(119, 45);
             this.BtnFechar.TabIndex = 7;
             this.BtnFechar.Text = "Fechar";
+            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click_1);
             // 
             // label3
             // 
@@ -354,11 +373,14 @@
             this.CbMin.BackColor = System.Drawing.Color.Transparent;
             this.CbMin.CustomizableEdges = customizableEdges13;
             this.CbMin.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CbMin.DropDownHeight = 150;
             this.CbMin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbMin.FillColor = System.Drawing.Color.WhiteSmoke;
             this.CbMin.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbMin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbMin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CbMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.CbMin.IntegralHeight = false;
             this.CbMin.ItemHeight = 30;
             this.CbMin.Items.AddRange(new object[] {
             "00",
@@ -387,11 +409,14 @@
             this.CbHora.BorderRadius = 20;
             this.CbHora.CustomizableEdges = customizableEdges15;
             this.CbHora.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CbHora.DropDownHeight = 150;
             this.CbHora.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbHora.FillColor = System.Drawing.Color.WhiteSmoke;
             this.CbHora.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbHora.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CbHora.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CbHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.CbHora.IntegralHeight = false;
             this.CbHora.ItemHeight = 30;
             this.CbHora.Items.AddRange(new object[] {
             "00",
@@ -431,7 +456,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(530, 520);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.CbMin);
