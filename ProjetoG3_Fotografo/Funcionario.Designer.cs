@@ -185,7 +185,7 @@
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
             this.btnConfiguracao.Text = "Configurações";
-            this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click);
+            //this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click);
             // 
             // guna2Panel2
             // 
@@ -283,7 +283,7 @@
             this.bntCliente.Size = new System.Drawing.Size(230, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
-            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
+            //this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
             // 
             // guna2GradientPanel1
             // 
@@ -499,7 +499,7 @@
             this.btnCadastrarCliente2.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrarCliente2.TabIndex = 42;
             this.btnCadastrarCliente2.Text = "Cadastrar Cliente";
-            this.btnCadastrarCliente2.Click += new System.EventHandler(this.btnCadastrarCliente2_Click);
+            //this.btnCadastrarCliente2.Click += new System.EventHandler(this.btnCadastrarCliente2_Click);
             // 
             // guna2Panel9
             // 
