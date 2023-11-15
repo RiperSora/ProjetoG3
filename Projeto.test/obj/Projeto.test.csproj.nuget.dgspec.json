@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj": {}
+    "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj": {
+    "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
         "projectName": "Projeto.test",
-        "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
-        "packagesPath": "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\Projeto.test\\obj\\",
+        "projectPath": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\ProjetoG3\\Projeto.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wesley.vpsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
-                "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
+              "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+                "projectPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
               }
             }
           }
@@ -63,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,29 +73,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+    "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
         "projectName": "ProjetoG3_Fotografo",
-        "projectPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
-        "packagesPath": "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesley.vpsilva\\Documents\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
+        "projectPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\ProjetoG3\\ProjetoG3_Fotografo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wesley.vpsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -139,7 +140,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -151,7 +153,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
