@@ -18,6 +18,7 @@ namespace ProjetoG3_Fotografo
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
+        string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         #region metodos
 
@@ -51,14 +52,9 @@ namespace ProjetoG3_Fotografo
             configuracao.Show();
             this.Hide();
         }
-        #endregion
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void Funcionario_Load(object sender, EventArgs e)
+        public void dadosCliente()
         {
             SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             conn.Open();
@@ -70,7 +66,59 @@ namespace ProjetoG3_Fotografo
 
             bs.DataSource = dr;
             gridCliente.DataSource = bs;
+        }
 
+
+        public void buscaCliente()
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Cliente WHERE NomeDoCliente LIKE '" + guna2TextBox1.Text + "%'", conn);
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            BindingSource bs = new BindingSource();
+
+            bs.DataSource = dr;
+            gridCliente.DataSource = bs;
+        }
+
+        public void excluirCliente()
+        {
+
+            DAL.ClienteDAL clienteDAL = new DAL.ClienteDAL();
+            int IdCliente = Convert.ToInt32(gridCliente.CurrentRow.Cells["IdUsuario"].Value);
+
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                conn.Open();
+
+                using (SqlCommand cmd = new SqlCommand("DELETE FROM Cliente WHERE IdUsuario = @ID", conn))
+                {
+                    cmd.Parameters.AddWithValue("@ID", IdCliente);
+
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        gridCliente.Rows.Remove(gridCliente.CurrentRow);
+
+                    }
+                }
+                conn.Close();
+            }
+        }
+        #endregion
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Funcionario_Load(object sender, EventArgs e)
+        {
+
+            dadosCliente();
 
         }
 
@@ -121,16 +169,8 @@ namespace ProjetoG3_Fotografo
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            conn.Open();
-
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Cliente WHERE NomeDoCliente LIKE '" + guna2TextBox1.Text + "%'", conn);
-
-            SqlDataReader dr = cmd.ExecuteReader();
-            BindingSource bs = new BindingSource();
-
-            bs.DataSource = dr;
-            gridCliente.DataSource = bs;
+            buscaCliente();
+            
         }
 
         private void gridCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -155,7 +195,7 @@ namespace ProjetoG3_Fotografo
 
         private void btnExcluirCliente_Click(object sender, EventArgs e)
         {
-
+            excluirCliente();
         }
     }
 }

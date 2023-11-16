@@ -53,6 +53,21 @@ namespace ProjetoG3_Fotografo
                 clienteDAL.CadastrarCliente(nome, senha, rg, cpf, endereco, tel, email);
             }
         }
+
+        public void cadastroClientes(string nome, string senha, string rg, string cpf,string endereco,string tel,string email)
+        {
+            if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(senha) || string.IsNullOrWhiteSpace(rg) || string.IsNullOrWhiteSpace(cpf) || string.IsNullOrWhiteSpace(endereco) || string.IsNullOrWhiteSpace(tel) || string.IsNullOrWhiteSpace(email))
+            {
+                MessageBox.Show("Por favor, preencha todos os campos.");
+            }
+            else
+            {
+                DAL.ClienteDAL clienteDAL = new DAL.ClienteDAL();
+                clienteDAL.CadastrarCliente(nome, senha, rg, cpf, endereco, tel, email);
+                MessageBox.Show("Cliente cadastrado com sucesso!");
+            }
+            
+        }
         #endregion
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -101,7 +116,7 @@ namespace ProjetoG3_Fotografo
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-
+            cadastroClientes(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
         }
     }
 }
