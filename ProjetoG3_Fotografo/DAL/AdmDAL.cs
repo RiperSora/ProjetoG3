@@ -9,7 +9,7 @@ namespace ProjetoG3_Fotografo.DAL
 {
     public class AdmDAL
     {
-        public static string stringSQL { get; set; } = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Projeto;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string stringSQL { get; set; } = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=********;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Senha { get; set; }
