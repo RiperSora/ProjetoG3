@@ -461,7 +461,7 @@
             this.btnExcluirCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExcluirCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExcluirCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExcluirCliente.FillColor = System.Drawing.Color.LightCoral;
+            this.btnExcluirCliente.FillColor = System.Drawing.Color.Brown;
             this.btnExcluirCliente.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExcluirCliente.ForeColor = System.Drawing.Color.White;
             this.btnExcluirCliente.Location = new System.Drawing.Point(3, 6);

@@ -141,10 +141,10 @@
             this.BtnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.BtnLogin.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BtnLogin.ForeColor = System.Drawing.Color.White;
-            this.BtnLogin.Location = new System.Drawing.Point(14, 14);
+            this.BtnLogin.Location = new System.Drawing.Point(14, 12);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.BtnLogin.Size = new System.Drawing.Size(368, 36);
+            this.BtnLogin.Size = new System.Drawing.Size(368, 45);
             this.BtnLogin.TabIndex = 44;
             this.BtnLogin.Text = "Entrar";
             this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
@@ -204,14 +204,14 @@
             this.TxtSenha.PlaceholderText = "Digite sua senha";
             this.TxtSenha.SelectedText = "";
             this.TxtSenha.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.TxtSenha.Size = new System.Drawing.Size(368, 36);
+            this.TxtSenha.Size = new System.Drawing.Size(368, 45);
             this.TxtSenha.TabIndex = 5;
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 0);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 3);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(35, 17);
             this.guna2HtmlLabel3.TabIndex = 5;
@@ -252,7 +252,7 @@
             this.TxtEmail.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEmail.ForeColor = System.Drawing.Color.Black;
             this.TxtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.TxtEmail.Location = new System.Drawing.Point(14, 45);
+            this.TxtEmail.Location = new System.Drawing.Point(14, 39);
             this.TxtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtEmail.Name = "TxtEmail";
             this.TxtEmail.PasswordChar = '\0';
@@ -260,7 +260,7 @@
             this.TxtEmail.PlaceholderText = "Digite eu e-mail";
             this.TxtEmail.SelectedText = "";
             this.TxtEmail.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.TxtEmail.Size = new System.Drawing.Size(368, 36);
+            this.TxtEmail.Size = new System.Drawing.Size(368, 45);
             this.TxtEmail.TabIndex = 4;
             this.TxtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             // 

@@ -441,7 +441,7 @@
             this.btnExcluirAlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExcluirAlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExcluirAlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExcluirAlbum.FillColor = System.Drawing.Color.LightCoral;
+            this.btnExcluirAlbum.FillColor = System.Drawing.Color.Brown;
             this.btnExcluirAlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExcluirAlbum.ForeColor = System.Drawing.Color.White;
             this.btnExcluirAlbum.Location = new System.Drawing.Point(3, 6);
