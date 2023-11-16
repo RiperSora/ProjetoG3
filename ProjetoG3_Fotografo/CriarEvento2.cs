@@ -49,12 +49,6 @@ namespace ProjetoG3_Fotografo
 
         }
 
-        private void BtnFechar_Click(object sender, EventArgs e)
-        {
-            Voltar();
-            this.Close();
-        }
-
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
             string data = CbDia.Text + "/" + CbMes.Text + "/" + CbAno.Text;
@@ -64,6 +58,12 @@ namespace ProjetoG3_Fotografo
             MessageBox.Show("Novo Evento Salvo");
 
 
+            Voltar();
+            this.Close();
+        }
+
+        private void BtnFechar_Click(object sender, EventArgs e)
+        {
             Voltar();
             this.Close();
         }

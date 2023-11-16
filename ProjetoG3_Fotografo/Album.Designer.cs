@@ -116,8 +116,8 @@
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.fotoPerfil = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.nomeAdm = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtNomeAdm = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnLogout = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
@@ -514,6 +514,7 @@
             this.btnAtualizarAlbum.ShadowDecoration.CustomizableEdges = customizableEdges26;
             this.btnAtualizarAlbum.Size = new System.Drawing.Size(25, 25);
             this.btnAtualizarAlbum.TabIndex = 2;
+            this.btnAtualizarAlbum.Click += new System.EventHandler(this.btnAtualizarAlbum_Click);
             // 
             // txtCategoria
             // 
@@ -692,8 +693,8 @@
             // 
             // guna2Panel8
             // 
-            this.guna2Panel8.Controls.Add(this.fotoPerfil);
-            this.guna2Panel8.Controls.Add(this.nomeAdm);
+            this.guna2Panel8.Controls.Add(this.txtNomeAdm);
+            this.guna2Panel8.Controls.Add(this.btnLogout);
             this.guna2Panel8.CustomizableEdges = customizableEdges40;
             this.guna2Panel8.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel8.Location = new System.Drawing.Point(566, 0);
@@ -702,32 +703,35 @@
             this.guna2Panel8.Size = new System.Drawing.Size(200, 100);
             this.guna2Panel8.TabIndex = 40;
             // 
-            // fotoPerfil
+            // txtNomeAdm
             // 
-            this.fotoPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.fotoPerfil.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.fotoPerfil.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.fotoPerfil.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.fotoPerfil.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.fotoPerfil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.fotoPerfil.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.fotoPerfil.ForeColor = System.Drawing.Color.White;
-            this.fotoPerfil.Location = new System.Drawing.Point(134, 18);
-            this.fotoPerfil.Name = "fotoPerfil";
-            this.fotoPerfil.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            this.fotoPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.fotoPerfil.Size = new System.Drawing.Size(60, 60);
-            this.fotoPerfil.TabIndex = 35;
+            this.txtNomeAdm.BackColor = System.Drawing.Color.Transparent;
+            this.txtNomeAdm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNomeAdm.Location = new System.Drawing.Point(67, 39);
+            this.txtNomeAdm.Name = "txtNomeAdm";
+            this.txtNomeAdm.Size = new System.Drawing.Size(75, 21);
+            this.txtNomeAdm.TabIndex = 38;
+            this.txtNomeAdm.Text = "Nome Adm";
             // 
-            // nomeAdm
+            // btnLogout
             // 
-            this.nomeAdm.BackColor = System.Drawing.Color.Transparent;
-            this.nomeAdm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nomeAdm.Location = new System.Drawing.Point(44, 38);
-            this.nomeAdm.Name = "nomeAdm";
-            this.nomeAdm.Size = new System.Drawing.Size(75, 21);
-            this.nomeAdm.TabIndex = 36;
-            this.nomeAdm.Text = "Nome Adm";
+            this.btnLogout.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogout.BackgroundImage")));
+            this.btnLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogout.FillColor = System.Drawing.Color.Transparent;
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Location = new System.Drawing.Point(148, 37);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.ShadowDecoration.CustomizableEdges = customizableEdges39;
+            this.btnLogout.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnLogout.Size = new System.Drawing.Size(25, 25);
+            this.btnLogout.TabIndex = 37;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // guna2Panel5
             // 
@@ -852,13 +856,13 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2CircleButton fotoPerfil;
-        private Guna.UI2.WinForms.Guna2HtmlLabel nomeAdm;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2Button btnAtualizarAlbum;
+        private Guna.UI2.WinForms.Guna2CircleButton btnLogout;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtNomeAdm;
     }
 }

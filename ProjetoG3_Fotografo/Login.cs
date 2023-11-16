@@ -13,6 +13,7 @@ namespace ProjetoG3_Fotografo
 {
     public partial class Login : Form
     {
+        public static AdmDAL usuarioLogado;
         public Login()
         {
             InitializeComponent();
@@ -87,6 +88,7 @@ namespace ProjetoG3_Fotografo
             AdmDAL usuario = EfetuarLogin(TxtEmail.Text, TxtSenha.Text);
             if (usuario != null && usuario.Id > 0)
             {
+                usuarioLogado = usuario;
                 Funcionario funcionario = new Funcionario();
                 funcionario.Show();
                 this.Hide();

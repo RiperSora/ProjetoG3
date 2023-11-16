@@ -4,6 +4,9 @@
     <Compile Update="Album.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AtualizarAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CadastrarAlbum.cs">
       <SubType>Form</SubType>
     </Compile>

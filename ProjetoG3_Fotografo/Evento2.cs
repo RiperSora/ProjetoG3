@@ -172,6 +172,22 @@ namespace ProjetoG3_Fotografo
             
         }
 
+        private void BtnAddEvento_Click(object sender, EventArgs e)
+        {
+            AddEvento();
+        }
+
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            RemoverEvento();
+            MessageBox.Show("Evento Excluido");
+        }
+
+        private void Evento2_Load(object sender, EventArgs e)
+        {
+            dadosEvento();
+        }
+
         private void bntCliente_Click_1(object sender, EventArgs e)
         {
             btn_cliente();
@@ -192,30 +208,14 @@ namespace ProjetoG3_Fotografo
             btn_config();
         }
 
-        private void BtnAddEvento_Click(object sender, EventArgs e)
+        private void txtPesquisa_TextChanged_1(object sender, EventArgs e)
         {
-            AddEvento();
-        }
-
-        private void BtnExcluir_Click(object sender, EventArgs e)
-        {
-            RemoverEvento();
-            MessageBox.Show("Evento Excluido");
-        }
-
-        private void Evento2_Load(object sender, EventArgs e)
-        {
-            dadosEvento();
+            pesquisa(txtCategoria.Text, txtPesquisa.Text);
         }
 
         private void txtCategoria_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             txtPesquisa.Enabled = true;
-        }
-
-        private void txtPesquisa_TextChanged_1(object sender, EventArgs e)
-        {
-            pesquisa(txtCategoria.Text, txtPesquisa.Text);
         }
 
         //System.Data.SqlDbType."converte o que vc quer"
