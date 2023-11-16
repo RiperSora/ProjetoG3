@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g+3u2WwsdWCcfkJlcrkeI4oHX3MbXB7yG70uXRaUeMCbz75tFI7gN3UUESadanPZmMMKetUAj65qZGd2PnZSeA==",
+  "dgSpecHash": "j/e6bjRIPDnUk4jPwiUkGpu9yuD/f+71vc6JPtL63PkpOLt6tbB7IwyNxXbImLecuPVcC6xTYweD8OQy8X66iA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+  "projectFilePath": "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis\\1.63.0\\google.apis.1.63.0.nupkg.sha512",
     "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\google.apis.auth\\1.63.0\\google.apis.auth.1.63.0.nupkg.sha512",

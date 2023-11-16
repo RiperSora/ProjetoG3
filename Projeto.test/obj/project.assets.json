@@ -822,6 +822,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Google.Apis.Drive.v3 >= 1.63.0.3155",
+      "Guna.UI2.WinForms >= 2.0.4.5",
       "ProjetoG3_Fotografo >= 1.0.0"
     ]
   },
@@ -832,11 +834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+      "projectUniqueName": "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
       "projectName": "Projeto.test",
-      "projectPath": "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
+      "projectPath": "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\Projeto.test\\Projeto.test.csproj",
       "packagesPath": "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\Projeto.test\\obj\\",
+      "outputPath": "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\Projeto.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -857,8 +859,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
-              "projectPath": "C:\\Users\\rafael.goliveira30\\source\\repos\\Nova pasta\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
+            "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj": {
+              "projectPath": "C:\\Users\\rafael.goliveira30\\OneDrive - SENAC - SP\\Documentos\\GitHub\\ProjetoG3\\ProjetoG3_Fotografo\\ProjetoG3_Fotografo.csproj"
             }
           }
         }
@@ -872,6 +874,16 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Google.Apis.Drive.v3": {
+            "target": "Package",
+            "version": "[1.63.0.3155, )"
+          },
+          "Guna.UI2.WinForms": {
+            "target": "Package",
+            "version": "[2.0.4.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
