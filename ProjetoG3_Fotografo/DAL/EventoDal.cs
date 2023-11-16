@@ -1,25 +1,106 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ProjetoG3_Fotografo.Evento2;
 
 namespace ProjetoG3_Fotografo.DAL
 {
-    internal class EventoDal
+    public class Evento
+    {
+        public int IdEvento { get; set; }
+        public string TipoEvento { get; set; }
+        public string NomeEvento { get; set; }
+        public string Horario { get; set; }
+        public string DataCalendario { get; set; }
+
+    }
+    public class EventoDal
     {
         string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
-        public void CriarEvento(string evento,string hora, string Data)
+        public void CriarEvento(string Tipo,string evento,string hora, string Data)
         {
-            SqlConnection conn = new SqlConnection(connString);
-            conn.Open();
-            SqlCommand cmd = new SqlCommand("insert into Calendario values('" + evento + "','" + hora + "','" + Data + "')", conn);
-            cmd.ExecuteNonQuery();
-            conn.Close();
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                conn = new SqlConnection(connCasa);
+                conn.Open();
+                cmd = new SqlCommand("INSERT INTO Calendario VALUES ('" + Tipo + "','" + evento + "','" + hora + "','" + Data + "',  getdate());", conn);
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+
         }
 
+        public List<Evento> ObterEventos()
+        {
+            List<Evento> eventos = new List<Evento>();
 
+            using (SqlConnection conn = new SqlConnection(connCasa))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Calendario", conn);
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Evento evento = new Evento
+                        {
+                            IdEvento = Convert.ToInt32(reader["idEvento"]),
+                            TipoEvento = Convert.ToString(reader["TipoEvento"]),
+                            NomeEvento = Convert.ToString(reader["Evento"]),
+                            Horario = Convert.ToString(reader["Horario"]),
+                            DataCalendario = Convert.ToString(reader["DataCalendario"]),
+                        };
+
+                        eventos.Add(evento);
+                    }
+                }
+            }
+            return eventos;
+        }
+
+        public void RemoverEvento(int id)
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                
+                conn = new SqlConnection(connCasa);
+                conn.Open();
+                cmd = new SqlCommand("delete from Calendario where IdEvento = " + id, conn);
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+        }
     }
 }

@@ -35,19 +35,20 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.BtnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -56,7 +57,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.TxtEmail = new Guna.UI2.WinForms.Guna2TextBox();
-            this.BtnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -129,6 +129,25 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(405, 66);
             this.panel4.TabIndex = 6;
+            // 
+            // BtnLogin
+            // 
+            this.BtnLogin.BorderRadius = 10;
+            this.BtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnLogin.CustomizableEdges = customizableEdges3;
+            this.BtnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnLogin.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnLogin.ForeColor = System.Drawing.Color.White;
+            this.BtnLogin.Location = new System.Drawing.Point(14, 14);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.BtnLogin.Size = new System.Drawing.Size(368, 36);
+            this.BtnLogin.TabIndex = 44;
+            this.BtnLogin.Text = "Entrar";
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // guna2Panel2
             // 
@@ -245,25 +264,6 @@
             this.TxtEmail.TabIndex = 4;
             this.TxtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             // 
-            // BtnLogin
-            // 
-            this.BtnLogin.BorderRadius = 10;
-            this.BtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnLogin.CustomizableEdges = customizableEdges3;
-            this.BtnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnLogin.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BtnLogin.ForeColor = System.Drawing.Color.White;
-            this.BtnLogin.Location = new System.Drawing.Point(14, 14);
-            this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.BtnLogin.Size = new System.Drawing.Size(368, 36);
-            this.BtnLogin.TabIndex = 44;
-            this.BtnLogin.Text = "Entrar";
-            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -272,6 +272,7 @@
             this.ClientSize = new System.Drawing.Size(984, 501);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.guna2Panel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

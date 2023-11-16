@@ -480,6 +480,7 @@
             this.btnCadastrarAlbum2.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrarAlbum2.TabIndex = 42;
             this.btnCadastrarAlbum2.Text = "Cadastrar Álbum";
+            this.btnCadastrarAlbum2.Click += new System.EventHandler(this.btnCadastrarAlbum2_Click);
             // 
             // guna2Panel9
             // 
@@ -621,6 +622,7 @@
             this.btnCadastrarAlbum.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrarAlbum.TabIndex = 38;
             this.btnCadastrarAlbum.Text = "Cadastrar Álbum";
+            this.btnCadastrarAlbum.Click += new System.EventHandler(this.btnCadastrarAlbum_Click);
             // 
             // guna2HtmlLabel5
             // 

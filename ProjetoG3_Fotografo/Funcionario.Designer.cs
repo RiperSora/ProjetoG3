@@ -470,6 +470,7 @@
             this.btnExcluirCliente.Size = new System.Drawing.Size(180, 45);
             this.btnExcluirCliente.TabIndex = 43;
             this.btnExcluirCliente.Text = "Excluir Cliente";
+            this.btnExcluirCliente.Click += new System.EventHandler(this.btnExcluirCliente_Click);
             // 
             // guna2Panel12
             // 
