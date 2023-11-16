@@ -29,7 +29,7 @@ namespace ProjetoG3_Fotografo
 
         public void pesquisa(string categoria, string pesquisa)
         {
-            SqlConnection conn = new SqlConnection(connCasa);
+            SqlConnection conn = new SqlConnection(connString);
             conn.Open();
             if (categoria == "")
             {
