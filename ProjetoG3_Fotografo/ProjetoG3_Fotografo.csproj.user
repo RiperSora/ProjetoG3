@@ -10,9 +10,6 @@
     <Compile Update="CadastrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Cliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Configuracao.cs">
       <SubType>Form</SubType>
     </Compile>
