@@ -517,6 +517,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(513, 45);
             this.guna2Button1.TabIndex = 27;
             this.guna2Button1.Text = "Cadastrar";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // label4
             // 

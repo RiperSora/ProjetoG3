@@ -22,33 +22,43 @@ namespace ProjetoG3_Fotografo
         #region metodos
         public void btn_cliente()
         {
+
             Funcionario funcionario = new Funcionario();
             funcionario.Show();
-            this.Close();
+            this.Hide();
+
         }
         public void btn_Eventos()
         {
             Evento2 eventos = new Evento2();
+            
             eventos.Show();
-            this.Close();
+            this.Hide();
+
         }
         public void btn_Album()
         {
-            Album album = new Album();  
+            Album album = new Album();
+            
             album.Show();
-            this.Close();
+            this.Hide();
+
         }
         public void btn_config()
         {
             Configuracao configuracao = new Configuracao();
+            
             configuracao.Show();
-            this.Close();
+            this.Hide();
+
         }
         public void btn_addAlbum()
         {
             CadastrarAlbum cadastrarAlbum = new CadastrarAlbum();
+            
             cadastrarAlbum.Show();
-            this.Close();
+            this.Hide();
+
         }
 
         public void excluir()

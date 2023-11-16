@@ -321,6 +321,7 @@
             this.BtnSalvar.Size = new System.Drawing.Size(119, 45);
             this.BtnSalvar.TabIndex = 4;
             this.BtnSalvar.Text = "Salvar";
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
             // label1
             // 
@@ -359,6 +360,7 @@
             this.BtnFechar.Size = new System.Drawing.Size(119, 45);
             this.BtnFechar.TabIndex = 7;
             this.BtnFechar.Text = "Fechar";
+            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // label3
             // 

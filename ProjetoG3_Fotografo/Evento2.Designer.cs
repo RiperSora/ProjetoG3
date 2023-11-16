@@ -166,6 +166,7 @@
             this.BtnAddEvento.Size = new System.Drawing.Size(180, 45);
             this.BtnAddEvento.TabIndex = 1;
             this.BtnAddEvento.Text = "Novo Evento";
+            this.BtnAddEvento.Click += new System.EventHandler(this.BtnAddEvento_Click);
             // 
             // BtnExcluir
             // 
@@ -184,6 +185,7 @@
             this.BtnExcluir.Size = new System.Drawing.Size(180, 45);
             this.BtnExcluir.TabIndex = 2;
             this.BtnExcluir.Text = "Excluir Evento";
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // panel1
             // 
@@ -199,7 +201,7 @@
             this.panel1.Controls.Add(this.gridEventos);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 682);
+            this.panel1.Size = new System.Drawing.Size(1052, 682);
             this.panel1.TabIndex = 4;
             // 
             // txtPesquisa
@@ -229,6 +231,7 @@
             this.txtPesquisa.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.txtPesquisa.Size = new System.Drawing.Size(498, 36);
             this.txtPesquisa.TabIndex = 44;
+            this.txtPesquisa.TextChanged += new System.EventHandler(this.txtPesquisa_TextChanged_1);
             // 
             // txtCategoria
             // 
@@ -256,6 +259,7 @@
             this.txtCategoria.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.txtCategoria.Size = new System.Drawing.Size(226, 36);
             this.txtCategoria.TabIndex = 43;
+            this.txtCategoria.SelectedIndexChanged += new System.EventHandler(this.txtCategoria_SelectedIndexChanged_1);
             // 
             // guna2ShadowPanel2
             // 
@@ -273,7 +277,7 @@
             this.guna2ShadowPanel2.ShadowDepth = 150;
             this.guna2ShadowPanel2.ShadowShift = 10;
             this.guna2ShadowPanel2.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(847, 96);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(832, 96);
             this.guna2ShadowPanel2.TabIndex = 40;
             // 
             // guna2PictureBox2
@@ -319,7 +323,7 @@
             this.guna2Panel6.Location = new System.Drawing.Point(220, 0);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2Panel6.Size = new System.Drawing.Size(847, 79);
+            this.guna2Panel6.Size = new System.Drawing.Size(832, 79);
             this.guna2Panel6.TabIndex = 41;
             // 
             // guna2Panel7
@@ -384,6 +388,7 @@
             this.btnAlbum.Size = new System.Drawing.Size(217, 61);
             this.btnAlbum.TabIndex = 4;
             this.btnAlbum.Text = "Álbuns";
+            this.btnAlbum.Click += new System.EventHandler(this.btnAlbum_Click_1);
             // 
             // tableLayoutPanel1
             // 
@@ -432,6 +437,7 @@
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
             this.btnConfiguracao.Text = "Configurações";
+            this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click_1);
             // 
             // btnEvento
             // 
@@ -456,6 +462,7 @@
             this.btnEvento.Size = new System.Drawing.Size(217, 61);
             this.btnEvento.TabIndex = 3;
             this.btnEvento.Text = "Eventos";
+            this.btnEvento.Click += new System.EventHandler(this.btnEvento_Click_1);
             // 
             // guna2Panel2
             // 
@@ -503,6 +510,7 @@
             this.bntCliente.Size = new System.Drawing.Size(217, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click_1);
             // 
             // Evento2
             // 
@@ -513,6 +521,7 @@
             this.Name = "Evento2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Evento2";
+            this.Load += new System.EventHandler(this.Evento2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridEventos)).EndInit();
             this.panel1.ResumeLayout(false);
             this.guna2ShadowPanel2.ResumeLayout(false);
