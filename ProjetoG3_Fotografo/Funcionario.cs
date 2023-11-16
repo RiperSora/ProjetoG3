@@ -53,6 +53,13 @@ namespace ProjetoG3_Fotografo
             this.Hide();
         }
 
+        public void btn_logout()
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
 
         public void dadosCliente()
         {
@@ -196,6 +203,11 @@ namespace ProjetoG3_Fotografo
         private void btnExcluirCliente_Click(object sender, EventArgs e)
         {
             excluirCliente();
+        }
+
+        private void fotoPerfil_Click(object sender, EventArgs e)
+        {
+            btn_logout();
         }
     }
 }

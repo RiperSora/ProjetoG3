@@ -388,6 +388,7 @@
             this.btnAtualizarUsuario.Size = new System.Drawing.Size(180, 45);
             this.btnAtualizarUsuario.TabIndex = 42;
             this.btnAtualizarUsuario.Text = "Atualizar Usuário";
+            this.btnAtualizarUsuario.Click += new System.EventHandler(this.btnAtualizarUsuario_Click);
             // 
             // guna2Panel9
             // 

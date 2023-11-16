@@ -41,6 +41,13 @@ namespace ProjetoG3_Fotografo
             configuracao.Show();
             this.Close();
         }
+
+        public void btn_logout()
+        {
+            AtualizarAlbum atualizarAlbum = new AtualizarAlbum();
+            atualizarAlbum.Show();
+            this.Hide();
+        }
         public void CadastroCliente(string nome, string senha, string rg, string cpf, string endereco, string tel, string email)
         {
             if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(senha) || string.IsNullOrWhiteSpace(rg) || string.IsNullOrWhiteSpace(cpf) || string.IsNullOrWhiteSpace(endereco) || string.IsNullOrWhiteSpace(tel) || string.IsNullOrWhiteSpace(email))
@@ -101,7 +108,13 @@ namespace ProjetoG3_Fotografo
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
+            //CadastrarCliente
+            CadastroCliente(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
+        }
 
+        private void fotoPerfil_Click(object sender, EventArgs e)
+        {
+            btn_logout();
         }
     }
 }

@@ -170,6 +170,7 @@
             this.fotoPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.fotoPerfil.Size = new System.Drawing.Size(60, 60);
             this.fotoPerfil.TabIndex = 37;
+            this.fotoPerfil.Click += new System.EventHandler(this.fotoPerfil_Click);
             // 
             // nomeAdm
             // 

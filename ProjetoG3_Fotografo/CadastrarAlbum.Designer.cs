@@ -682,6 +682,7 @@
             this.fotoPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.fotoPerfil.Size = new System.Drawing.Size(60, 60);
             this.fotoPerfil.TabIndex = 37;
+            this.fotoPerfil.Click += new System.EventHandler(this.fotoPerfil_Click);
             // 
             // nomeAdm
             // 
@@ -784,6 +785,7 @@
             this.bntCliente.Size = new System.Drawing.Size(230, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click_2);
             // 
             // btnAlbum
             // 
@@ -810,6 +812,7 @@
             this.btnAlbum.Size = new System.Drawing.Size(230, 61);
             this.btnAlbum.TabIndex = 4;
             this.btnAlbum.Text = "Álbuns";
+            this.btnAlbum.Click += new System.EventHandler(this.btnAlbum_Click_2);
             // 
             // tableLayoutPanel1
             // 
@@ -858,6 +861,7 @@
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
             this.btnConfiguracao.Text = "Configurações";
+            this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click_2);
             // 
             // btnEvento
             // 
@@ -884,6 +888,7 @@
             this.btnEvento.Size = new System.Drawing.Size(230, 61);
             this.btnEvento.TabIndex = 3;
             this.btnEvento.Text = "Eventos";
+            this.btnEvento.Click += new System.EventHandler(this.btnEvento_Click_2);
             // 
             // guna2Panel2
             // 

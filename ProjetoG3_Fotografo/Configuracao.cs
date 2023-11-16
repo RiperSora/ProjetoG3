@@ -71,5 +71,10 @@ namespace ProjetoG3_Fotografo
         {
             btnClientes();
         }
+
+        private void btnAtualizarUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
