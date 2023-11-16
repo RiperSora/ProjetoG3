@@ -82,7 +82,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cliente));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -605,13 +604,13 @@
             this.txtEvento.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEvento.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtEvento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEvento.Location = new System.Drawing.Point(627, 92);
+            this.txtEvento.Location = new System.Drawing.Point(609, 82);
             this.txtEvento.Name = "txtEvento";
             this.txtEvento.PasswordChar = '\0';
             this.txtEvento.PlaceholderText = "Digite o evento";
             this.txtEvento.SelectedText = "";
             this.txtEvento.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            this.txtEvento.Size = new System.Drawing.Size(146, 35);
+            this.txtEvento.Size = new System.Drawing.Size(145, 45);
             this.txtEvento.TabIndex = 21;
             // 
             // txtData
@@ -626,13 +625,13 @@
             this.txtData.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtData.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtData.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtData.Location = new System.Drawing.Point(439, 92);
+            this.txtData.Location = new System.Drawing.Point(439, 82);
             this.txtData.Name = "txtData";
             this.txtData.PasswordChar = '\0';
             this.txtData.PlaceholderText = "Digite a data";
             this.txtData.SelectedText = "";
             this.txtData.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            this.txtData.Size = new System.Drawing.Size(146, 35);
+            this.txtData.Size = new System.Drawing.Size(145, 45);
             this.txtData.TabIndex = 20;
             // 
             // gridEvento
@@ -698,13 +697,13 @@
             this.txtNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNome.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNome.Location = new System.Drawing.Point(260, 92);
+            this.txtNome.Location = new System.Drawing.Point(260, 82);
             this.txtNome.Name = "txtNome";
             this.txtNome.PasswordChar = '\0';
             this.txtNome.PlaceholderText = "Digite o nome";
             this.txtNome.SelectedText = "";
             this.txtNome.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            this.txtNome.Size = new System.Drawing.Size(146, 35);
+            this.txtNome.Size = new System.Drawing.Size(145, 45);
             this.txtNome.TabIndex = 18;
             // 
             // btnCadastrar
@@ -715,13 +714,12 @@
             this.btnCadastrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCadastrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCadastrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCadastrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(75)))), ((int)(((byte)(180)))));
-            this.btnCadastrar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrar.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(823, 92);
+            this.btnCadastrar.Location = new System.Drawing.Point(782, 82);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            this.btnCadastrar.Size = new System.Drawing.Size(139, 35);
+            this.btnCadastrar.Size = new System.Drawing.Size(180, 45);
             this.btnCadastrar.TabIndex = 22;
             this.btnCadastrar.Text = "NOVO CLIENTE";
             // 
@@ -734,12 +732,12 @@
             this.guna2Button16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button16.FillColor = System.Drawing.Color.Brown;
-            this.guna2Button16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button16.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button16.ForeColor = System.Drawing.Color.White;
-            this.guna2Button16.Location = new System.Drawing.Point(865, 444);
+            this.guna2Button16.Location = new System.Drawing.Point(782, 444);
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            this.guna2Button16.Size = new System.Drawing.Size(97, 35);
+            this.guna2Button16.Size = new System.Drawing.Size(180, 45);
             this.guna2Button16.TabIndex = 23;
             this.guna2Button16.Text = "Excluir";
             // 
@@ -777,8 +775,6 @@
             this.guna2Button11.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.guna2Button11.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button11.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button11.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.guna2Button11.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button11.Image")));
             this.guna2Button11.Location = new System.Drawing.Point(0, 129);
             this.guna2Button11.Name = "guna2Button11";
             this.guna2Button11.ShadowDecoration.CustomizableEdges = customizableEdges50;
@@ -801,8 +797,6 @@
             this.guna2Button12.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.guna2Button12.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button12.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button12.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.guna2Button12.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button12.Image")));
             this.guna2Button12.Location = new System.Drawing.Point(3, 318);
             this.guna2Button12.Name = "guna2Button12";
             this.guna2Button12.ShadowDecoration.CustomizableEdges = customizableEdges52;
@@ -848,8 +842,6 @@
             this.guna2Button13.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(85)))));
             this.guna2Button13.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button13.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button13.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.guna2Button13.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button13.Image")));
             this.guna2Button13.Location = new System.Drawing.Point(19, 12);
             this.guna2Button13.Name = "guna2Button13";
             this.guna2Button13.ShadowDecoration.CustomizableEdges = customizableEdges54;
@@ -873,8 +865,6 @@
             this.guna2Button14.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.guna2Button14.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button14.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button14.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.guna2Button14.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button14.Image")));
             this.guna2Button14.Location = new System.Drawing.Point(3, 256);
             this.guna2Button14.Name = "guna2Button14";
             this.guna2Button14.ShadowDecoration.CustomizableEdges = customizableEdges56;
@@ -908,8 +898,6 @@
             this.guna2Button15.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.guna2Button15.HoverState.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button15.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button15.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.guna2Button15.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button15.Image")));
             this.guna2Button15.Location = new System.Drawing.Point(3, 196);
             this.guna2Button15.Name = "guna2Button15";
             this.guna2Button15.ShadowDecoration.CustomizableEdges = customizableEdges60;
