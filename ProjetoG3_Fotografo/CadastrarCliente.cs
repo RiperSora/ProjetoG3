@@ -98,5 +98,10 @@ namespace ProjetoG3_Fotografo
         {
             btn_config();
         }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

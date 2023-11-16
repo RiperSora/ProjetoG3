@@ -40,6 +40,23 @@ namespace ProjetoG3_Fotografo
 
         private void BtnSalvar_Click_1(object sender, EventArgs e)
         {
+            
+        }
+
+        private void BtnFechar_Click_1(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void BtnFechar_Click(object sender, EventArgs e)
+        {
+            Voltar();
+            this.Close();
+        }
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
             string data = CbDia.Text + "/" + CbMes.Text + "/" + CbAno.Text;
             string hora = CbHora.Text + ":" + CbMin.Text;
             CriarEvento(cbTipoEvento.Text, TxtEvento.Text, hora, data);
@@ -49,13 +66,6 @@ namespace ProjetoG3_Fotografo
 
             Voltar();
             this.Close();
-        }
-
-        private void BtnFechar_Click_1(object sender, EventArgs e)
-        {
-            Voltar();
-            this.Close();
-
         }
     }
 }
