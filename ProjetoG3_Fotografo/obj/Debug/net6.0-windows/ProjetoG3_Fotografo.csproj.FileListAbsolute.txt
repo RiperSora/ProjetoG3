@@ -313,7 +313,6 @@ C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\De
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Album.resources
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarAlbum.resources
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarCliente.resources
-C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Cliente.resources
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Configuracao.resources
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarEvento2.resources
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Evento2.resources
@@ -336,3 +335,4 @@ C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\De
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+C:\Users\wesley.vpsilva\source\repos\GitHub\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.AtualizarAlbum.resources

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ProjetoG3_Fotografo
 {
@@ -62,6 +63,31 @@ namespace ProjetoG3_Fotografo
         private void btnConfiguracao_Click(object sender, EventArgs e)
         {
             btn_config();
+        }
+
+        private void btnCadastrarAlbum_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DAL.AlbumDAL AlbumDAL = new DAL.AlbumDAL();
+                AlbumDAL.CadastrarAlbum(txtNomeAlbum.Text, txtDescricaoAlbum.Text, Convert.ToInt32(txtIdCliente.Text));
+                if (AlbumDAL != null)
+                {
+                    MessageBox.Show("ALbum cadastrado com sucesso.");
+                }
+                else
+                {
+                    MessageBox.Show("ALbum não cadastrado.");
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Erro ao acessar o banco de dados: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro inesperado: " + ex.Message);
+            }
         }
     }
 }

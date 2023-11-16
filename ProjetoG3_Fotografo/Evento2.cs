@@ -29,7 +29,7 @@ namespace ProjetoG3_Fotografo
 
         public void pesquisa(string categoria, string pesquisa)
         {
-            SqlConnection conn = new SqlConnection(connCasa);
+            SqlConnection conn = new SqlConnection(connString);
             conn.Open();
             if (categoria == "")
             {
@@ -124,51 +124,96 @@ namespace ProjetoG3_Fotografo
 
         private void BtnAddEvento_Click_1(object sender, EventArgs e)
         {
-            AddEvento();
+            
 
         }
 
         private void BtnExcluir_Click_1(object sender, EventArgs e)
         {
-            RemoverEvento();
-            MessageBox.Show("Evento Excluido");
+            
         }
 
         private void Evento2_Load_1(object sender, EventArgs e)
         {
-            dadosEvento();
+            
         }
 
         private void bntCliente_Click(object sender, EventArgs e)
         {
-            btn_cliente();
+            
         }
 
         private void btnEvento_Click(object sender, EventArgs e)
         {
-            btn_Evento();
+            
         }
 
         private void btnAlbum_Click(object sender, EventArgs e)
         {
-            btn_Album();
+            
         }
 
         private void btnConfiguracao_Click(object sender, EventArgs e)
         {
-            btn_config();
+            
         }
 
         private void txtPesquisa_TextChanged(object sender, EventArgs e)
         {
 
 
-            pesquisa(txtCategoria.Text, txtPesquisa.Text);
+            
 
 
         }
 
         private void txtCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnAddEvento_Click(object sender, EventArgs e)
+        {
+            AddEvento();
+        }
+
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            RemoverEvento();
+            MessageBox.Show("Evento Excluido");
+        }
+
+        private void Evento2_Load(object sender, EventArgs e)
+        {
+            dadosEvento();
+        }
+
+        private void bntCliente_Click_1(object sender, EventArgs e)
+        {
+            btn_cliente();
+        }
+
+        private void btnEvento_Click_1(object sender, EventArgs e)
+        {
+            btn_Evento();
+        }
+
+        private void btnAlbum_Click_1(object sender, EventArgs e)
+        {
+            btn_Album();
+        }
+
+        private void btnConfiguracao_Click_1(object sender, EventArgs e)
+        {
+            btn_config();
+        }
+
+        private void txtPesquisa_TextChanged_1(object sender, EventArgs e)
+        {
+            pesquisa(txtCategoria.Text, txtPesquisa.Text);
+        }
+
+        private void txtCategoria_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             txtPesquisa.Enabled = true;
         }

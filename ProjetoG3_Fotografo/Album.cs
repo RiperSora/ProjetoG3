@@ -42,13 +42,13 @@ namespace ProjetoG3_Fotografo
         {
             Configuracao configuracao = new Configuracao();
             configuracao.Show();
-            this.Close();
+            this.Hide();
         }
         public void btn_addAlbum()
         {
             CadastrarAlbum cadastrarAlbum = new CadastrarAlbum();
             cadastrarAlbum.Show();
-            this.Close();
+            this.Hide();
         }
 
         public void excluir()
@@ -127,6 +127,7 @@ namespace ProjetoG3_Fotografo
             //BindingSource bs = new BindingSource();
             //bs.DataSource = album;
             //gridAlbum.DataSource = bs;
+            txtNomeAdm.Text = Login.usuarioLogado.Nome;
         }
 
         private void btnExcluirAlbum_Click(object sender, EventArgs e)
@@ -198,6 +199,20 @@ namespace ProjetoG3_Fotografo
         private void btnCadastrarAlbum2_Click(object sender, EventArgs e)
         {
             btn_addAlbum();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void btnAtualizarAlbum_Click(object sender, EventArgs e)
+        {
+            AtualizarAlbum atualizarAlbum = new AtualizarAlbum();
+            atualizarAlbum.Show();
+            this.Hide();
         }
     }
 }

@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProjetoG3_Fotografo
+{
+    public partial class AtualizarAlbum : Form
+    {
+        public AtualizarAlbum()
+        {
+            InitializeComponent();
+        }
+
+        private void btnAtualizarAlbum_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIdAlbum_TextChanged(object sender, EventArgs e)
+        {}
+
+        private void btnBuscarÁlbum_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DAL.AlbumDAL albumDalInstance = new DAL.AlbumDAL();
+                int idAlbum = Convert.ToInt32(txtIdAlbum.Text);
+                DAL.AlbumDAL album = albumDalInstance.BuscarAlbum(idAlbum);
+                if (album != null)
+                {
+                    MessageBox.Show("ALbum encontrado com sucesso.");
+                    txtNomeAlbum.Text = album.Nome;
+                    txtDescricaoAlbum.Text = album.Descricao;
+                    txtIdCliente.Text = Convert.ToString(album.IdCliente);
+                }
+                else
+                {
+                    MessageBox.Show("ALbum não encontrado.");
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Erro ao acessar o banco de dados: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro inesperado: " + ex.Message);
+            }
+        }
+    }
+}

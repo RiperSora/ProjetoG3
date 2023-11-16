@@ -67,6 +67,46 @@ namespace ProjetoG3_Fotografo.DAL
             }
         }
 
+        public AlbumDAL BuscarAlbum(int idAlbum)
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
+                conn.Open();
+                cmd = new SqlCommand("SELECT * FROM Album where IdAlbum ="+ idAlbum + "", conn);
+                SqlDataReader dr = cmd.ExecuteReader();
+                AlbumDAL album = new AlbumDAL();
+                if (dr.HasRows)
+                {
+                    dr.Read();
+                    album.Id = (int)dr["IdAlbum"];
+                    album.Nome = (string)dr["NomeAlbum"];
+                    album.Descricao = (string)dr["Descricao"];
+                    album.IdCliente = (int)dr["FkCliente"];
+                }
+                else
+                {
+                    MessageBox.Show("Ops... Álbum não encontrado");
+                }
+                return album;
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+        }
+
         public void AtualizarAlbum(int id, string nome, string descricao, int idCliente)
         {
             SqlConnection conn = null;

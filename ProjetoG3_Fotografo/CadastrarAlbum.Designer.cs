@@ -405,6 +405,7 @@
             this.btnCadastrarAlbum.Size = new System.Drawing.Size(236, 47);
             this.btnCadastrarAlbum.TabIndex = 39;
             this.btnCadastrarAlbum.Text = "Cadastrar Álbum";
+            this.btnCadastrarAlbum.Click += new System.EventHandler(this.btnCadastrarAlbum_Click);
             // 
             // guna2Panel23
             // 
@@ -596,9 +597,9 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(50, 19);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(160, 26);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(154, 26);
             this.guna2HtmlLabel3.TabIndex = 38;
-            this.guna2HtmlLabel3.Text = "Cadastrar Clientes";
+            this.guna2HtmlLabel3.Text = "Cadastrar Álbuns";
             // 
             // guna2Panel10
             // 
@@ -649,9 +650,9 @@
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tw Cen MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(9, 42);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(222, 36);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(207, 36);
             this.guna2HtmlLabel1.TabIndex = 34;
-            this.guna2HtmlLabel1.Text = "Cadastrar Clientes";
+            this.guna2HtmlLabel1.Text = "Cadastrar Álbum";
             // 
             // guna2Panel8
             // 
