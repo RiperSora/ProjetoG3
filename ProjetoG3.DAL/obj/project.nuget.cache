@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nxeAqN006Psg9JC/i4arq0G+gzwLli575+P6wI8Vw8kfxARyskkTugW3/MWIyfDL/0FLv24qdevQsBXK1FfeMQ==",
+  "dgSpecHash": "K3ZzngKMGvl69IwWXBk2ZYLIPpP9bCtQrOh1TE9HuFhggY1ybnl5k9BN8N3P8Pq9sqXpI9+xeSzngLMAmq5J+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesley.vpsilva\\source\\repos\\GitHub\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj",
+  "projectFilePath": "C:\\Users\\rafael.goliveira30\\source\\repos\\Projeto\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
-    "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+    "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\rafael.goliveira30\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

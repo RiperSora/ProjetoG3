@@ -12,7 +12,7 @@ namespace ProjetoG3_Fotografo
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new Funcionario());
+            Application.Run(new Login());
 
         }
     }
