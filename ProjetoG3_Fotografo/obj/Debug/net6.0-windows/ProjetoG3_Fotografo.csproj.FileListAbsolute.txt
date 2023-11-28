@@ -105,10 +105,7 @@ C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\bin\Debug\ne
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.csproj.AssemblyReference.cache
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Album.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CadastrarCliente.resources
-C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Calendario.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Configuracao.resources
-C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriacaoEventos.resources
-C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.CriarAlbum.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.EventoCalendario.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Eventos.resources
 C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Funcionario.resources
@@ -535,3 +532,5 @@ C:\Users\matheus.glima16\source\repos\testetete\ProjetoG3\ProjetoG3_Fotografo\ob
 C:\Users\matheus.glima16\source\repos\testetete\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.pdb
 C:\Users\matheus.glima16\source\repos\testetete\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.genruntimeconfig.cache
 C:\Users\matheus.glima16\source\repos\testetete\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ref\ProjetoG3_Fotografo.dll
+C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.AtualizarAlbum.resources
+C:\Users\matheus.glima16\source\repos\ProjetoG3\ProjetoG3_Fotografo\obj\Debug\net6.0-windows\ProjetoG3_Fotografo.Evento3.resources

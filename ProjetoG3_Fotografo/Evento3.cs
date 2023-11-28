@@ -32,7 +32,7 @@ namespace ProjetoG3_Fotografo
             conn.Open();
             if (categoria == "")
             {
-                SqlCommand cmd = new SqlCommand("select * from Calendario where " + categoria + " like '%" + pesquisa + "%' order by dataCricao desc", conn);
+                SqlCommand cmd = new SqlCommand("select * from Evento where " + categoria + " like '%" + pesquisa + "%' order by dataCricao desc", conn);
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.HasRows)
                 {
@@ -43,7 +43,7 @@ namespace ProjetoG3_Fotografo
             }
             else
             {
-                SqlCommand cmd = new SqlCommand("select * from Calendario where " + categoria + " like '%" + pesquisa + "%' order by DataCalendario desc", conn);
+                SqlCommand cmd = new SqlCommand("select * from Evento where " + categoria + " like '%" + pesquisa + "%' order by DataCalendario desc", conn);
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.HasRows)
                 {

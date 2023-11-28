@@ -31,7 +31,7 @@ namespace ProjetoG3_Fotografo.DAL
             {
                 conn = new SqlConnection(connString);
                 conn.Open();
-                cmd = new SqlCommand("INSERT INTO Calendario VALUES ('" + Tipo + "','" + evento + "','" + desc + "','" + hora + "','" + Data + "',  getdate());", conn);
+                cmd = new SqlCommand("INSERT INTO Evento VALUES ('" + Tipo + "','" + evento + "','" + desc + "','" + hora + "','" + Data + "',  getdate());", conn);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -56,7 +56,7 @@ namespace ProjetoG3_Fotografo.DAL
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Calendario", conn);
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Evento", conn);
 
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
@@ -88,7 +88,7 @@ namespace ProjetoG3_Fotografo.DAL
                 
                 conn = new SqlConnection(connString);
                 conn.Open();
-                cmd = new SqlCommand("delete from Calendario where IdEvento = " + id, conn);
+                cmd = new SqlCommand("delete from Evento where IdEvento = " + id, conn);
                 cmd.ExecuteNonQuery();
             }
             finally
