@@ -647,7 +647,7 @@
             // 
             this.btnAlbum.BackColor = System.Drawing.Color.Transparent;
             this.btnAlbum.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlbum.CustomBorderColor = System.Drawing.Color.White;
+            this.btnAlbum.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnAlbum.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnAlbum.CustomizableEdges = customizableEdges42;
             this.btnAlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -722,6 +722,7 @@
             // 
             this.btnEvento.BackColor = System.Drawing.Color.Transparent;
             this.btnEvento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEvento.CustomBorderColor = System.Drawing.Color.White;
             this.btnEvento.CustomBorderThickness = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnEvento.CustomizableEdges = customizableEdges46;
             this.btnEvento.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
