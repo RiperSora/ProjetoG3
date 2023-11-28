@@ -26,6 +26,34 @@ namespace ProjetoG3_Fotografo
             recadastrarSenha.Show();
             this.Hide();
         }
+
+        private void btn_login()
+        {
+            if(TxtEmail.Text == "" || TxtSenha.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos");
+            }
+            else
+            {
+                AdmDAL usuario = EfetuarLogin(TxtEmail.Text, TxtSenha.Text);
+                if (usuario != null && usuario.Id > 0)
+                {
+                    usuarioLogado = usuario;
+                    Funcionario funcionario = new Funcionario();
+                    funcionario.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Nome do usuario ou senha incorretos");
+                }
+            }
+        }
+        private AdmDAL EfetuarLogin(string nome, string senha)
+        {
+            AdmDAL admDal = new AdmDAL();
+            return admDal.EfetuarLogin(nome, senha);
+        }
         #endregion
 
         private void LinkAlteracaoSenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -33,6 +61,8 @@ namespace ProjetoG3_Fotografo
             AlteracaoSenha();
         }
 
+
+        #region
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
@@ -82,26 +112,12 @@ namespace ProjetoG3_Fotografo
         {
 
         }
+        #endregion  
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            AdmDAL usuario = EfetuarLogin(TxtEmail.Text, TxtSenha.Text);
-            if (usuario != null && usuario.Id > 0)
-            {
-                usuarioLogado = usuario;
-                Funcionario funcionario = new Funcionario();
-                funcionario.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Email ou senha incorretos");
-            }
+            btn_login();
         }
-        private AdmDAL EfetuarLogin(string nome, string senha)
-        {
-            AdmDAL admDal = new AdmDAL();
-            return admDal.EfetuarLogin(nome, senha);
-        }
+        
     }
 }

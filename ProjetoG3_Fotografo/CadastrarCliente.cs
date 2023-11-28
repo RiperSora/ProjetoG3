@@ -15,6 +15,7 @@ namespace ProjetoG3_Fotografo
         public CadastrarCliente()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
         #region metodos
         public void btn_cliente()
@@ -25,8 +26,8 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Evento()
         {
-            Evento2 evento2 = new Evento2();
-            evento2.Show();
+            Evento3 eventos = new Evento3();
+            eventos.Show();
             this.Close();
         }
         public void btn_Album()
@@ -40,6 +41,13 @@ namespace ProjetoG3_Fotografo
             Configuracao configuracao = new Configuracao();
             configuracao.Show();
             this.Close();
+        }
+
+        public void btn_logout()
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
         public void CadastroCliente(string nome, string senha, string rg, string cpf, string endereco, string tel, string email)
         {
@@ -101,7 +109,19 @@ namespace ProjetoG3_Fotografo
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
+            //CadastrarCliente
+            CadastroCliente(TxtNome.Text, TxtSenha.Text, TxtRg.Text, TxtCpf.Text, TxtEndereco.Text, TxtTel.Text, TxtEmail.Text);
+            MessageBox.Show("Cliente Cadastrado");
+        }
 
+        private void fotoPerfil_Click(object sender, EventArgs e)
+        {
+            btn_logout();
+        }
+
+        private void CadastrarCliente_Load(object sender, EventArgs e)
+        {
+            nomeAdm.Text = Login.usuarioLogado.Nome;
         }
     }
 }

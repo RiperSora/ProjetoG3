@@ -1,3 +1,2 @@
-﻿select *from Calendario
+﻿select *from Administrador
 
-select *from Calendario where date = 

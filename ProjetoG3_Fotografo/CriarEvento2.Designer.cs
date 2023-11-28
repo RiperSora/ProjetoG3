@@ -46,6 +46,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.CbDia = new Guna.UI2.WinForms.Guna2ComboBox();
             this.CbMes = new Guna.UI2.WinForms.Guna2ComboBox();
             this.CbAno = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -59,6 +61,8 @@
             this.CbHora = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cbTipoEvento = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtDesc = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // CbDia
@@ -292,7 +296,7 @@
             this.TxtEvento.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtEvento.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEvento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEvento.Location = new System.Drawing.Point(163, 230);
+            this.TxtEvento.Location = new System.Drawing.Point(163, 209);
             this.TxtEvento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtEvento.Multiline = true;
             this.TxtEvento.Name = "TxtEvento";
@@ -301,7 +305,7 @@
             this.TxtEvento.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TxtEvento.SelectedText = "";
             this.TxtEvento.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.TxtEvento.Size = new System.Drawing.Size(506, 176);
+            this.TxtEvento.Size = new System.Drawing.Size(506, 37);
             this.TxtEvento.TabIndex = 3;
             // 
             // BtnSalvar
@@ -327,7 +331,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(163, 205);
+            this.label1.Location = new System.Drawing.Point(163, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 5;
@@ -460,7 +464,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(163, 123);
+            this.label4.Location = new System.Drawing.Point(163, 111);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 21);
             this.label4.TabIndex = 11;
@@ -487,7 +491,7 @@
             "Festa",
             "Formatura",
             "Corporativo"});
-            this.cbTipoEvento.Location = new System.Drawing.Point(163, 147);
+            this.cbTipoEvento.Location = new System.Drawing.Point(163, 135);
             this.cbTipoEvento.Name = "cbTipoEvento";
             this.cbTipoEvento.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.cbTipoEvento.Size = new System.Drawing.Size(231, 36);
@@ -495,12 +499,50 @@
             this.cbTipoEvento.TabIndex = 13;
             this.cbTipoEvento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(163, 259);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 21);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Descrição:";
+            // 
+            // txtDesc
+            // 
+            this.txtDesc.AutoSize = true;
+            this.txtDesc.BorderRadius = 10;
+            this.txtDesc.CustomizableEdges = customizableEdges19;
+            this.txtDesc.DefaultText = "";
+            this.txtDesc.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDesc.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDesc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDesc.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDesc.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtDesc.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDesc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDesc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDesc.Location = new System.Drawing.Point(163, 284);
+            this.txtDesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDesc.Multiline = true;
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.PasswordChar = '\0';
+            this.txtDesc.PlaceholderText = "";
+            this.txtDesc.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtDesc.SelectedText = "";
+            this.txtDesc.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.txtDesc.Size = new System.Drawing.Size(506, 129);
+            this.txtDesc.TabIndex = 14;
+            // 
             // CriarEvento2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(822, 548);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.cbTipoEvento);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -539,5 +581,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox CbHora;
         private Label label4;
         private Guna.UI2.WinForms.Guna2ComboBox cbTipoEvento;
+        private Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox txtDesc;
     }
 }

@@ -14,6 +14,7 @@ namespace ProjetoG3_Fotografo.DAL
         public int IdEvento { get; set; }
         public string TipoEvento { get; set; }
         public string NomeEvento { get; set; }
+        public string DescEvento { get; set; }
         public string Horario { get; set; }
         public string DataCalendario { get; set; }
 
@@ -22,7 +23,7 @@ namespace ProjetoG3_Fotografo.DAL
     {
         string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
-        public void CriarEvento(string Tipo,string evento,string hora, string Data)
+        public void CriarEvento(string Tipo,string evento,string hora, string desc, string Data)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -30,7 +31,7 @@ namespace ProjetoG3_Fotografo.DAL
             {
                 conn = new SqlConnection(connString);
                 conn.Open();
-                cmd = new SqlCommand("INSERT INTO Calendario VALUES ('" + Tipo + "','" + evento + "','" + hora + "','" + Data + "',  getdate());", conn);
+                cmd = new SqlCommand("INSERT INTO Calendario VALUES ('" + Tipo + "','" + evento + "','" + desc + "','" + hora + "','" + Data + "',  getdate());", conn);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -66,6 +67,7 @@ namespace ProjetoG3_Fotografo.DAL
                             IdEvento = Convert.ToInt32(reader["idEvento"]),
                             TipoEvento = Convert.ToString(reader["TipoEvento"]),
                             NomeEvento = Convert.ToString(reader["Evento"]),
+                            DescEvento = Convert.ToString(reader["Descricao"]),
                             Horario = Convert.ToString(reader["Horario"]),
                             DataCalendario = Convert.ToString(reader["DataCalendario"]),
                         };
