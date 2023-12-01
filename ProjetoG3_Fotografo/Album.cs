@@ -136,6 +136,7 @@ namespace ProjetoG3_Fotografo
 
         private void Album_Load(object sender, EventArgs e)
         {
+            gridAlbum.ColumnHeadersHeight = 40;
             grid_Album();
             
             txtNomeAdm.Text = Login.usuarioLogado.Nome;

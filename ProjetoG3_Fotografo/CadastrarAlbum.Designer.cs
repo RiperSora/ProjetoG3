@@ -262,6 +262,7 @@
             this.guna2Panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel11.Location = new System.Drawing.Point(0, 33);
             this.guna2Panel11.Name = "guna2Panel11";
+            this.guna2Panel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.guna2Panel11.ShadowDecoration.CustomizableEdges = customizableEdges36;
             this.guna2Panel11.Size = new System.Drawing.Size(586, 495);
             this.guna2Panel11.TabIndex = 1;
@@ -285,15 +286,16 @@
             this.txtDescricaoAlbum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.txtDescricaoAlbum.Location = new System.Drawing.Point(0, 238);
             this.txtDescricaoAlbum.Margin = new System.Windows.Forms.Padding(3, 0, 3, 4);
+            this.txtDescricaoAlbum.Multiline = true;
             this.txtDescricaoAlbum.Name = "txtDescricaoAlbum";
             this.txtDescricaoAlbum.PasswordChar = '\0';
             this.txtDescricaoAlbum.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtDescricaoAlbum.PlaceholderText = "Descrição do Álbum";
+            this.txtDescricaoAlbum.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtDescricaoAlbum.SelectedText = "";
             this.txtDescricaoAlbum.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.txtDescricaoAlbum.Size = new System.Drawing.Size(586, 127);
             this.txtDescricaoAlbum.TabIndex = 1;
-            this.txtDescricaoAlbum.TextOffset = new System.Drawing.Point(0, -45);
             // 
             // guna2Panel21
             // 

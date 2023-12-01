@@ -140,7 +140,7 @@ namespace ProjetoG3_Fotografo
 
         private void Funcionario_Load(object sender, EventArgs e)
         {
-
+            gridCliente.ColumnHeadersHeight = 40;
             dadosCliente();
             nomeAdm.Text = Login.usuarioLogado.Nome;
 

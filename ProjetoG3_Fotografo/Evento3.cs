@@ -130,6 +130,7 @@ namespace ProjetoG3_Fotografo
 
         private void Evento3_Load(object sender, EventArgs e)
         {
+            gridEventos.ColumnHeadersHeight = 40;
             dadosEvento();
 
             txtNomeAdm.Text = Login.usuarioLogado.Nome;
