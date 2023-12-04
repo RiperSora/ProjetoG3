@@ -113,7 +113,7 @@
             "29",
             "30",
             "31"});
-            this.CbDia.Location = new System.Drawing.Point(163, 69);
+            this.CbDia.Location = new System.Drawing.Point(124, 71);
             this.CbDia.Name = "CbDia";
             this.CbDia.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.CbDia.Size = new System.Drawing.Size(86, 36);
@@ -150,7 +150,7 @@
             "10",
             "11",
             "12"});
-            this.CbMes.Location = new System.Drawing.Point(255, 69);
+            this.CbMes.Location = new System.Drawing.Point(216, 71);
             this.CbMes.Name = "CbMes";
             this.CbMes.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.CbMes.Size = new System.Drawing.Size(86, 36);
@@ -274,7 +274,7 @@
             "97",
             "98",
             "99"});
-            this.CbAno.Location = new System.Drawing.Point(347, 69);
+            this.CbAno.Location = new System.Drawing.Point(308, 71);
             this.CbAno.Name = "CbAno";
             this.CbAno.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.CbAno.Size = new System.Drawing.Size(86, 36);
@@ -296,7 +296,7 @@
             this.TxtEvento.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtEvento.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtEvento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtEvento.Location = new System.Drawing.Point(163, 209);
+            this.TxtEvento.Location = new System.Drawing.Point(124, 211);
             this.TxtEvento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtEvento.Multiline = true;
             this.TxtEvento.Name = "TxtEvento";
@@ -319,7 +319,7 @@
             this.BtnSalvar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             this.BtnSalvar.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BtnSalvar.ForeColor = System.Drawing.Color.White;
-            this.BtnSalvar.Location = new System.Drawing.Point(458, 438);
+            this.BtnSalvar.Location = new System.Drawing.Point(419, 440);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.ShadowDecoration.CustomizableEdges = customizableEdges10;
             this.BtnSalvar.Size = new System.Drawing.Size(119, 45);
@@ -331,7 +331,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(163, 184);
+            this.label1.Location = new System.Drawing.Point(124, 186);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 5;
@@ -341,7 +341,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(163, 45);
+            this.label2.Location = new System.Drawing.Point(124, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 21);
             this.label2.TabIndex = 6;
@@ -358,7 +358,7 @@
             this.BtnFechar.FillColor = System.Drawing.Color.Brown;
             this.BtnFechar.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BtnFechar.ForeColor = System.Drawing.Color.White;
-            this.BtnFechar.Location = new System.Drawing.Point(255, 438);
+            this.BtnFechar.Location = new System.Drawing.Point(216, 440);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.ShadowDecoration.CustomizableEdges = customizableEdges12;
             this.BtnFechar.Size = new System.Drawing.Size(119, 45);
@@ -370,7 +370,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(491, 45);
+            this.label3.Location = new System.Drawing.Point(452, 47);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 21);
             this.label3.TabIndex = 10;
@@ -403,7 +403,7 @@
             "45",
             "50",
             "55"});
-            this.CbMin.Location = new System.Drawing.Point(583, 69);
+            this.CbMin.Location = new System.Drawing.Point(544, 71);
             this.CbMin.Name = "CbMin";
             this.CbMin.ShadowDecoration.CustomizableEdges = customizableEdges14;
             this.CbMin.Size = new System.Drawing.Size(86, 36);
@@ -451,7 +451,7 @@
             "21",
             "22",
             "23"});
-            this.CbHora.Location = new System.Drawing.Point(491, 69);
+            this.CbHora.Location = new System.Drawing.Point(452, 71);
             this.CbHora.Name = "CbHora";
             this.CbHora.ShadowDecoration.CustomizableEdges = customizableEdges16;
             this.CbHora.Size = new System.Drawing.Size(86, 36);
@@ -464,7 +464,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(163, 111);
+            this.label4.Location = new System.Drawing.Point(124, 113);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 21);
             this.label4.TabIndex = 11;
@@ -491,7 +491,7 @@
             "Festa",
             "Formatura",
             "Corporativo"});
-            this.cbTipoEvento.Location = new System.Drawing.Point(163, 135);
+            this.cbTipoEvento.Location = new System.Drawing.Point(124, 137);
             this.cbTipoEvento.Name = "cbTipoEvento";
             this.cbTipoEvento.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.cbTipoEvento.Size = new System.Drawing.Size(231, 36);
@@ -503,7 +503,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(163, 259);
+            this.label5.Location = new System.Drawing.Point(124, 261);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 21);
             this.label5.TabIndex = 15;
@@ -523,7 +523,7 @@
             this.txtDesc.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDesc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtDesc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDesc.Location = new System.Drawing.Point(163, 284);
+            this.txtDesc.Location = new System.Drawing.Point(124, 286);
             this.txtDesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
@@ -540,7 +540,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(822, 548);
+            this.ClientSize = new System.Drawing.Size(764, 532);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.cbTipoEvento);

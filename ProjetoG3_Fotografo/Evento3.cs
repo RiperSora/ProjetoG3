@@ -181,5 +181,16 @@ namespace ProjetoG3_Fotografo
         {
             txtPesquisa.Enabled = true;
         }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAtualizarAlbum_Click(object sender, EventArgs e)
+        {
+           Eventos eventos = new Eventos();
+            eventos.Show();
+        }
     }
 }

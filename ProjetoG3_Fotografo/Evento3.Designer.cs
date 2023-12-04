@@ -87,6 +87,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
@@ -158,10 +159,10 @@
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(595, 0);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(579, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(126, 175);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(142, 175);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 41;
             this.guna2PictureBox1.TabStop = false;
@@ -180,6 +181,7 @@
             // guna2ShadowPanel2
             // 
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel2);
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel4);
             this.guna2ShadowPanel2.Controls.Add(this.guna2PictureBox1);
             this.guna2ShadowPanel2.Controls.Add(this.guna2HtmlLabel3);
@@ -196,6 +198,17 @@
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(766, 175);
             this.guna2ShadowPanel2.TabIndex = 37;
             // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(50, 91);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(416, 21);
+            this.guna2HtmlLabel2.TabIndex = 43;
+            this.guna2HtmlLabel2.Text = "Explore e marque novas atividades para enriquecer sua agenda.";
+            // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
@@ -203,9 +216,11 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(50, 71);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(316, 21);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(531, 21);
             this.guna2HtmlLabel4.TabIndex = 42;
-            this.guna2HtmlLabel4.Text = "Aqui você pode visualizar e marcar novos eventos";
+            this.guna2HtmlLabel4.Text = "Este é o seu espaço exclusivo para visualizar e agendar uma variedade de eventos." +
+    "";
+            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
             // 
             // guna2Panel6
             // 
@@ -384,7 +399,6 @@
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gridEventos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.gridEventos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.gridEventos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.gridEventos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
@@ -540,6 +554,7 @@
             this.btnAtualizarAlbum.ShadowDecoration.CustomizableEdges = customizableEdges31;
             this.btnAtualizarAlbum.Size = new System.Drawing.Size(25, 25);
             this.btnAtualizarAlbum.TabIndex = 2;
+            this.btnAtualizarAlbum.Click += new System.EventHandler(this.btnAtualizarAlbum_Click);
             // 
             // txtCategoria
             // 
@@ -764,13 +779,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(30, 20);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 135);
+            this.pictureBox1.Size = new System.Drawing.Size(160, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // Evento3
@@ -849,5 +863,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }

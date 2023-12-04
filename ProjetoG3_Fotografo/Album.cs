@@ -53,8 +53,8 @@ namespace ProjetoG3_Fotografo
 
         public void btn_logout()
         {
-            AtualizarAlbum atualizarAlbum = new AtualizarAlbum();
-            atualizarAlbum.Show();
+            Login login = new Login();
+            login.Show();
             this.Hide();
         }
 
