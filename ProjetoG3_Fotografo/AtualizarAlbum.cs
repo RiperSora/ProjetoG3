@@ -27,35 +27,8 @@ namespace ProjetoG3_Fotografo
             funcionario.Show();
             this.Close();
         }
-        public void btn_Evento()
-        {
-            Evento2 evento2 = new Evento2();
-            evento2.Show();
-            this.Close();
-        }
-        public void btn_Album()
-        {
-            Album album = new Album();
-            album.Show();
-            this.Close();
-        }
-        public void btn_config()
-        {
-            Configuracao configuracao = new Configuracao();
-            configuracao.Show();
-            this.Close();
-        }
 
-        public void btn_logout()
-        {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
-        }
-        #endregion
-
-
-        private void btnAtualizarAlbum_Click(object sender, EventArgs e)
+        public void btn_Atualizar()
         {
             try
             {
@@ -81,10 +54,7 @@ namespace ProjetoG3_Fotografo
             }
         }
 
-        private void txtIdAlbum_TextChanged(object sender, EventArgs e)
-        {}
-
-        private void btnBuscarÁlbum_Click(object sender, EventArgs e)
+        public void btn_Busca()
         {
             try
             {
@@ -112,6 +82,46 @@ namespace ProjetoG3_Fotografo
             {
                 MessageBox.Show("Ocorreu um erro inesperado: " + ex.Message);
             }
+        }
+        public void btn_Evento()
+        {
+            Evento3 eventos = new Evento3();
+            eventos.Show();
+            this.Close();
+        }
+        public void btn_Album()
+        {
+            Album album = new Album();
+            album.Show();
+            this.Close();
+        }
+        public void btn_config()
+        {
+            Configuracao configuracao = new Configuracao();
+            configuracao.Show();
+            this.Close();
+        }
+
+        public void btn_logout()
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+        #endregion
+
+
+        private void btnAtualizarAlbum_Click(object sender, EventArgs e)
+        {
+           btn_Atualizar();
+        }
+
+        private void txtIdAlbum_TextChanged(object sender, EventArgs e)
+        {}
+
+        private void btnBuscarÁlbum_Click(object sender, EventArgs e)
+        {
+            btn_Busca();    
         }
 
         private void bntCliente_Click(object sender, EventArgs e)

@@ -50,6 +50,7 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.BtnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -105,6 +106,7 @@
             this.guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.guna2ControlBox1.Size = new System.Drawing.Size(35, 35);
             this.guna2ControlBox1.TabIndex = 43;
+            this.guna2ControlBox1.Visible = false;
             // 
             // guna2PictureBox1
             // 
@@ -123,6 +125,7 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.Controls.Add(this.guna2ShadowPanel1);
             this.guna2GradientPanel1.Controls.Add(this.panel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel2);
             this.guna2GradientPanel1.Controls.Add(this.panel3);
@@ -137,6 +140,17 @@
             this.guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(490, 501);
             this.guna2GradientPanel1.TabIndex = 4;
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(463, -7);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.Radius = 15;
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(336, 515);
+            this.guna2ShadowPanel1.TabIndex = 44;
             // 
             // panel4
             // 
@@ -290,7 +304,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(984, 501);
             this.Controls.Add(this.guna2Panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -326,5 +339,6 @@
         private Panel panel4;
         private Guna.UI2.WinForms.Guna2Button BtnLogin;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
     }
 }

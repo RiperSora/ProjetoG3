@@ -28,7 +28,7 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Eventos()
         {
-            Evento2 eventos = new Evento2();
+            Evento3 eventos = new Evento3();
             eventos.Show();
             this.Close();
         }
@@ -53,8 +53,8 @@ namespace ProjetoG3_Fotografo
 
         public void btn_logout()
         {
-            AtualizarAlbum atualizarAlbum = new AtualizarAlbum();
-            atualizarAlbum.Show();
+            Login login = new Login();
+            login.Show();
             this.Hide();
         }
 
@@ -136,6 +136,7 @@ namespace ProjetoG3_Fotografo
 
         private void Album_Load(object sender, EventArgs e)
         {
+            gridAlbum.ColumnHeadersHeight = 40;
             grid_Album();
             
             txtNomeAdm.Text = Login.usuarioLogado.Nome;

@@ -35,20 +35,20 @@ namespace ProjetoG3_Fotografo
                 // Open the connection
                 conn.Open();
 
-                string sql = "SELECT *FROM Calendario WHERE DataCalendario = @DataCalendario";
+                //string sql = "SELECT *FROM Calendario WHERE DataCalendario = @DataCalendario";
 
-                using (SqlCommand cmd = new SqlCommand(sql, conn))
-                {
-                    cmd.Parameters.AddWithValue("@DataCalendario", UserControlDias.static_dia + "/" + Eventos.static_mes + "/" + Eventos.static_ano);
+                //using (SqlCommand cmd = new SqlCommand(sql, conn))
+                //{
+                //    cmd.Parameters.AddWithValue("@DataCalendario", UserControlDias.static_dia + "/" + Eventos.static_mes + "/" + Eventos.static_ano);
 
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            LbEvento.Text = reader["Evento"].ToString();
-                        }
-                    }
-                }
+                //    using (SqlDataReader reader = cmd.ExecuteReader())
+                //    {
+                //        if (reader.Read())
+                //        {
+                //            LbEvento.Text = reader["Evento"].ToString();
+                //        }
+                //    }
+                //}
             }
         }
 
@@ -85,8 +85,8 @@ namespace ProjetoG3_Fotografo
         {
             static_dia = lbDias.Text;
            
-            EventoCalendario eventoCalendario = new EventoCalendario();
-            eventoCalendario.Show();
+            //EventoCalendario eventoCalendario = new EventoCalendario();
+            //eventoCalendario.Show();
 
         }
 

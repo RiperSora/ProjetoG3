@@ -28,8 +28,8 @@ namespace ProjetoG3_Fotografo
 
         public void btnEventos()
         {
-            Evento2 evento2 = new Evento2();
-            evento2.Show();
+            Evento3 eventos = new Evento3();
+            eventos.Show();
             this.Close();
         }
 

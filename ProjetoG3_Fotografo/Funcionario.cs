@@ -36,9 +36,9 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Eventos()
         {
-            Evento2 eventos = new Evento2();
+            Evento3 eventos = new Evento3();
             eventos.Show();
-            this.Hide();
+            this.Close();
         }
         public void btn_Album()
         {
@@ -140,7 +140,7 @@ namespace ProjetoG3_Fotografo
 
         private void Funcionario_Load(object sender, EventArgs e)
         {
-
+            gridCliente.ColumnHeadersHeight = 40;
             dadosCliente();
             nomeAdm.Text = Login.usuarioLogado.Nome;
 

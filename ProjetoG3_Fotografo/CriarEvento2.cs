@@ -22,17 +22,18 @@ namespace ProjetoG3_Fotografo
         }
 
         #region Metodo
-        public void CriarEvento(string Tipo, string evento, string Hora, string Data)
+        public void CriarEvento(string Tipo, string evento, string desc, string Hora, string Data)
         {
             DAL.EventoDal eventoDal = new DAL.EventoDal();
-            eventoDal.CriarEvento(Tipo, evento, Hora, Data);
+            eventoDal.CriarEvento(Tipo, evento, desc, Hora, Data);
 
         }
 
         public void Voltar()
         {
-            Evento2 evento2 = new Evento2();
-            evento2.Show();
+            Evento3 eventos = new Evento3();
+            eventos.Show();
+            
         }
 
 
@@ -53,7 +54,7 @@ namespace ProjetoG3_Fotografo
         {
             string data = CbDia.Text + "/" + CbMes.Text + "/" + CbAno.Text;
             string hora = CbHora.Text + ":" + CbMin.Text;
-            CriarEvento(cbTipoEvento.Text, TxtEvento.Text, hora, data);
+            CriarEvento(cbTipoEvento.Text, TxtEvento.Text, txtDesc.Text, hora, data);
 
             MessageBox.Show("Novo Evento Salvo");
 

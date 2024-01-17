@@ -28,7 +28,7 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Eventos()
         {
-            Evento2 eventos = new Evento2();
+            Evento3 eventos = new Evento3();
             eventos.Show();
             this.Close();
         }
@@ -76,46 +76,8 @@ namespace ProjetoG3_Fotografo
         }
         #endregion
 
-        #region terror
-        private void bntCliente_Click(object sender, EventArgs e)
-        {
-            
-        }
+        #region 
 
-        private void btnEvento_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnAlbum_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnConfiguracao_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void bntCliente_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnEvento_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnAlbum_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnConfiguracao_Click_1(object sender, EventArgs e)
-        {
-            
-        }
         #endregion
 
         private void btnCadastrarAlbum_Click(object sender, EventArgs e)
