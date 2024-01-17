@@ -25,7 +25,7 @@ namespace ProjetoG3_Fotografo
             string connCasa = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClickProducoesDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;\r\n";
 
 
-            SqlConnection conn = new SqlConnection(connCasa);
+            SqlConnection conn = new SqlConnection(connString);
             conn.Open();
 
             //SqlCommand cmd = new SqlCommand("insert into Calendario VALUES('" + data + "','" + evento + "')", conn);

@@ -57,5 +57,31 @@ namespace ProjetoG3_Fotografo.DAL
                 }
             }
         }
+        public void AtualizarAdm(int id, string nome, string email, string telefone, string senha)
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
+                conn.Open();
+                cmd = new SqlCommand("update Administrador set NomeAdministrador='" + nome + "', Senha='" + senha + "', Email = '"+email+"', Telefone= '"+telefone+"',DataHoraCadastro= getdate() WHERE IdAdministrador =" + id, conn);
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+        }
+
     }
 }
