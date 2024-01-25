@@ -44,6 +44,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
     </Reference>
@@ -58,6 +59,25 @@
     </Reference>
     <Reference Include="Google.Apis.Drive.v3, Version=1.66.0.3296, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.Drive.v3.1.66.0.3296\lib\net462\Google.Apis.Drive.v3.dll</HintPath>
+=======
+    <Reference Include="Google.Apis, Version=1.64.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.64.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.64.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.64.0\lib\net461\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.64.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.64.0\lib\net461\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.64.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.64.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v3, Version=1.64.0.3155, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Drive.v3.1.64.0.3155\lib\net45\Google.Apis.Drive.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.64.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.64.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
@@ -129,11 +149,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Content Include="Click_Login.aspx" />
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+<<<<<<< HEAD
     <Content Include="CSS\close.png" />
     <Content Include="CSS\logoNova.png" />
     <Content Include="CSS\pexels-glauber-torquato-2219195.jpg" />
@@ -145,6 +170,8 @@
     <Content Include="CSS\pexels-pixabay-219776.jpg" />
     <Content Include="CSS\pexels-pixabay-265893.jpg" />
     <Content Include="Default.aspx" />
+=======
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -156,6 +183,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+<<<<<<< HEAD
     <Content Include="imagem\drone.jpg" />
     <Content Include="imagem\filmagem.jpg" />
     <Content Include="imagem\Foto-casa 2.jpg" />
@@ -197,6 +225,11 @@
     <Content Include="Javascript\login.js" />
     <Content Include="Portfolio.aspx" />
     <Content Include="script.js" />
+=======
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Imagens\ClickLogo0.png" />
+    <Content Include="PortifolioCliente.aspx" />
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -237,6 +270,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+<<<<<<< HEAD
     <Compile Include="Click.Master.cs">
       <DependentUpon>Click.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,10 +284,19 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+=======
+    <Compile Include="Click_Login.aspx.cs">
+      <DependentUpon>Click_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Click_Login.aspx.designer.cs">
+      <DependentUpon>Click_Login.aspx</DependentUpon>
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -267,6 +310,14 @@
     </Compile>
     <Compile Include="Portfolio.aspx.designer.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
+=======
+    <Compile Include="PortifolioCliente.aspx.cs">
+      <DependentUpon>PortifolioCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortifolioCliente.aspx.designer.cs">
+      <DependentUpon>PortifolioCliente.aspx</DependentUpon>
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClickProd.Master.cs">
@@ -276,6 +327,7 @@
     <Compile Include="ClickProd.Master.designer.cs">
       <DependentUpon>ClickProd.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="SobreNos.aspx.cs">
       <DependentUpon>SobreNos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,6 +335,8 @@
     <Compile Include="SobreNos.aspx.designer.cs">
       <DependentUpon>SobreNos.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -290,6 +344,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

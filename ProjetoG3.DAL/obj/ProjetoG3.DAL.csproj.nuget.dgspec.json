@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\wesley.vpsilva\\source\\repos\\Projeto\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\wesley.vpsilva\\source\\repos\\Projeto\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj",
         "packagesPath": "C:\\Users\\wesley.vpsilva\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\wesley.vpsilva\\source\\repos\\Projeto\\ProjetoG3\\ProjetoG3.DAL\\obj\\",
+=======
+    "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj",
+        "projectName": "ProjetoG3.DAL",
+        "projectPath": "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3.DAL\\ProjetoG3.DAL.csproj",
+        "packagesPath": "C:\\Users\\matheus.glima16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.glima16\\source\\repos\\ProjetoG3\\ProjetoG3.DAL\\obj\\",
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\wesley.vpsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\matheus.glima16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

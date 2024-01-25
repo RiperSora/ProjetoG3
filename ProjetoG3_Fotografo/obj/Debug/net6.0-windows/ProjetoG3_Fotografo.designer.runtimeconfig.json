@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\wesley.vpsilva\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\wesley.vpsilva\\.nuget\\packages",
+=======
+      "C:\\Users\\matheus.glima16\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\matheus.glima16\\.nuget\\packages",
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

@@ -11,7 +11,11 @@ namespace LojaVirtualWebUI
 {
 
 
+<<<<<<< HEAD:LojaVirtualWebUI/Default.aspx.designer.cs
     public partial class Default
+=======
+    public partial class PortifolioCliente
+>>>>>>> f43e6dc46605eda7152999fcab8205894c875ef2:LojaVirtualWebUI/PortifolioCliente.aspx.designer.cs
     {
 
         /// <summary>
