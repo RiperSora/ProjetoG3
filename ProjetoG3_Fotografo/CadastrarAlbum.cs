@@ -16,6 +16,7 @@ namespace ProjetoG3_Fotografo
         public CadastrarAlbum()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         #region metodos
@@ -27,7 +28,7 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Eventos()
         {
-            Evento2 eventos = new Evento2();
+            Evento3 eventos = new Evento3();
             eventos.Show();
             this.Close();
         }
@@ -43,49 +44,13 @@ namespace ProjetoG3_Fotografo
             configuracao.Show();
             this.Close();
         }
-
-        #endregion
-        private void bntCliente_Click(object sender, EventArgs e)
+        public void btn_logout()
         {
-            
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
-
-        private void btnEvento_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnAlbum_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnConfiguracao_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void bntCliente_Click_1(object sender, EventArgs e)
-        {
-            btn_cliente();
-        }
-
-        private void btnEvento_Click_1(object sender, EventArgs e)
-        {
-            btn_Eventos();
-        }
-
-        private void btnAlbum_Click_1(object sender, EventArgs e)
-        {
-            btn_Album();
-        }
-
-        private void btnConfiguracao_Click_1(object sender, EventArgs e)
-        {
-            btn_config();
-        }
-
-        private void btnCadastrarAlbum_Click(object sender, EventArgs e)
+        public void cadastrarAlbum()
         {
             try
             {
@@ -108,6 +73,49 @@ namespace ProjetoG3_Fotografo
             {
                 MessageBox.Show("Ocorreu um erro inesperado: " + ex.Message);
             }
+        }
+        #endregion
+
+        #region 
+
+        #endregion
+
+        private void btnCadastrarAlbum_Click(object sender, EventArgs e)
+        {
+            cadastrarAlbum();
+        }
+
+        private void bntCliente_Click_2(object sender, EventArgs e)
+        {
+            btn_cliente();
+        }
+
+        private void btnEvento_Click_2(object sender, EventArgs e)
+        {
+            btn_Eventos();
+        }
+
+        private void btnAlbum_Click_2(object sender, EventArgs e)
+        {
+            btn_Album();
+        }
+
+        private void btnConfiguracao_Click_2(object sender, EventArgs e)
+        {
+            btn_config();
+        }
+
+        private void fotoPerfil_Click(object sender, EventArgs e)
+        {
+            btn_logout();
+        }
+
+        private void nomeAdm_Click(object sender, EventArgs e)
+        {}
+
+        private void CadastrarAlbum_Load(object sender, EventArgs e)
+        {
+            nomeAdm.Text = Login.usuarioLogado.Nome;
         }
     }
 }

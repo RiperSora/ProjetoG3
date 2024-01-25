@@ -9,7 +9,7 @@ namespace ProjetoG3_Fotografo.DAL
 {
     public class AdmDAL
     {
-        public static string stringSQL { get; set; } = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string stringSQL { get; set; } = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProjetoG3;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Senha { get; set; }
@@ -57,5 +57,31 @@ namespace ProjetoG3_Fotografo.DAL
                 }
             }
         }
+        public void AtualizarAdm(int id, string nome, string email, string telefone, string senha)
+        {
+            SqlConnection conn = null;
+            SqlCommand cmd = null;
+            try
+            {
+                string stringSql = AdmDAL.stringSQL;
+                conn = new SqlConnection(stringSql);
+                conn.Open();
+                cmd = new SqlCommand("update Administrador set NomeAdministrador='" + nome + "', Senha='" + senha + "', Email = '"+email+"', Telefone= '"+telefone+"',DataHoraCadastro= getdate() WHERE IdAdministrador =" + id, conn);
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+        }
+
     }
 }

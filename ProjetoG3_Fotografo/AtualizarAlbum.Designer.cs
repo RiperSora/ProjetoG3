@@ -77,6 +77,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -112,10 +116,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -150,6 +150,8 @@
             this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnBuscarÁlbum = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtIdAlbum = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
@@ -172,8 +174,7 @@
             this.btnConfiguracao = new Guna.UI2.WinForms.Guna2Button();
             this.btnEvento = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnBuscarÁlbum = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2ShadowPanel3.SuspendLayout();
@@ -198,6 +199,8 @@
             this.guna2GradientPanel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel2
@@ -685,6 +688,35 @@
             this.guna2Panel26.Size = new System.Drawing.Size(586, 36);
             this.guna2Panel26.TabIndex = 0;
             // 
+            // btnBuscarÁlbum
+            // 
+            this.btnBuscarÁlbum.BorderRadius = 10;
+            this.btnBuscarÁlbum.CustomizableEdges = customizableEdges37;
+            this.btnBuscarÁlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscarÁlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscarÁlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuscarÁlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuscarÁlbum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnBuscarÁlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBuscarÁlbum.ForeColor = System.Drawing.Color.White;
+            this.btnBuscarÁlbum.Location = new System.Drawing.Point(383, 0);
+            this.btnBuscarÁlbum.Name = "btnBuscarÁlbum";
+            this.btnBuscarÁlbum.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            this.btnBuscarÁlbum.Size = new System.Drawing.Size(203, 36);
+            this.btnBuscarÁlbum.TabIndex = 6;
+            this.btnBuscarÁlbum.Text = "Buscar Álbum";
+            this.btnBuscarÁlbum.Click += new System.EventHandler(this.btnBuscarÁlbum_Click);
+            // 
+            // guna2Panel29
+            // 
+            this.guna2Panel29.CustomizableEdges = customizableEdges39;
+            this.guna2Panel29.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel29.Location = new System.Drawing.Point(358, 0);
+            this.guna2Panel29.Name = "guna2Panel29";
+            this.guna2Panel29.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            this.guna2Panel29.Size = new System.Drawing.Size(25, 36);
+            this.guna2Panel29.TabIndex = 5;
+            // 
             // txtIdAlbum
             // 
             this.txtIdAlbum.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -791,26 +823,29 @@
             // 
             // fotoPerfil
             // 
+            this.fotoPerfil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("fotoPerfil.BackgroundImage")));
+            this.fotoPerfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.fotoPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fotoPerfil.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.fotoPerfil.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.fotoPerfil.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.fotoPerfil.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.fotoPerfil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.fotoPerfil.FillColor = System.Drawing.Color.Transparent;
             this.fotoPerfil.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.fotoPerfil.ForeColor = System.Drawing.Color.White;
-            this.fotoPerfil.Location = new System.Drawing.Point(134, 18);
+            this.fotoPerfil.Location = new System.Drawing.Point(148, 37);
             this.fotoPerfil.Name = "fotoPerfil";
             this.fotoPerfil.ShadowDecoration.CustomizableEdges = customizableEdges61;
             this.fotoPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.fotoPerfil.Size = new System.Drawing.Size(60, 60);
+            this.fotoPerfil.Size = new System.Drawing.Size(25, 25);
             this.fotoPerfil.TabIndex = 37;
+            this.fotoPerfil.Click += new System.EventHandler(this.fotoPerfil_Click);
             // 
             // nomeAdm
             // 
             this.nomeAdm.BackColor = System.Drawing.Color.Transparent;
             this.nomeAdm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nomeAdm.Location = new System.Drawing.Point(44, 38);
+            this.nomeAdm.Location = new System.Drawing.Point(67, 39);
             this.nomeAdm.Name = "nomeAdm";
             this.nomeAdm.Size = new System.Drawing.Size(75, 21);
             this.nomeAdm.TabIndex = 38;
@@ -907,6 +942,7 @@
             this.bntCliente.Size = new System.Drawing.Size(230, 61);
             this.bntCliente.TabIndex = 2;
             this.bntCliente.Text = "Clientes";
+            this.bntCliente.Click += new System.EventHandler(this.bntCliente_Click);
             // 
             // btnAlbum
             // 
@@ -933,6 +969,7 @@
             this.btnAlbum.Size = new System.Drawing.Size(230, 61);
             this.btnAlbum.TabIndex = 4;
             this.btnAlbum.Text = "Álbuns";
+            this.btnAlbum.Click += new System.EventHandler(this.btnAlbum_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -981,6 +1018,7 @@
             this.btnConfiguracao.Size = new System.Drawing.Size(175, 45);
             this.btnConfiguracao.TabIndex = 6;
             this.btnConfiguracao.Text = "Configurações";
+            this.btnConfiguracao.Click += new System.EventHandler(this.btnConfiguracao_Click);
             // 
             // btnEvento
             // 
@@ -1007,10 +1045,12 @@
             this.btnEvento.Size = new System.Drawing.Size(230, 61);
             this.btnEvento.TabIndex = 3;
             this.btnEvento.Text = "Eventos";
+            this.btnEvento.Click += new System.EventHandler(this.btnEvento_Click);
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel2.Controls.Add(this.pictureBox1);
             this.guna2Panel2.CustomizableEdges = customizableEdges84;
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -1019,34 +1059,15 @@
             this.guna2Panel2.Size = new System.Drawing.Size(220, 135);
             this.guna2Panel2.TabIndex = 15;
             // 
-            // guna2Panel29
+            // pictureBox1
             // 
-            this.guna2Panel29.CustomizableEdges = customizableEdges39;
-            this.guna2Panel29.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel29.Location = new System.Drawing.Point(358, 0);
-            this.guna2Panel29.Name = "guna2Panel29";
-            this.guna2Panel29.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            this.guna2Panel29.Size = new System.Drawing.Size(25, 36);
-            this.guna2Panel29.TabIndex = 5;
-            // 
-            // btnBuscarÁlbum
-            // 
-            this.btnBuscarÁlbum.BorderRadius = 10;
-            this.btnBuscarÁlbum.CustomizableEdges = customizableEdges37;
-            this.btnBuscarÁlbum.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscarÁlbum.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscarÁlbum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuscarÁlbum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBuscarÁlbum.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnBuscarÁlbum.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBuscarÁlbum.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarÁlbum.Location = new System.Drawing.Point(383, 0);
-            this.btnBuscarÁlbum.Name = "btnBuscarÁlbum";
-            this.btnBuscarÁlbum.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            this.btnBuscarÁlbum.Size = new System.Drawing.Size(203, 36);
-            this.btnBuscarÁlbum.TabIndex = 6;
-            this.btnBuscarÁlbum.Text = "Buscar Álbum";
-            this.btnBuscarÁlbum.Click += new System.EventHandler(this.btnBuscarÁlbum_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(30, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // AtualizarAlbum
             // 
@@ -1057,6 +1078,7 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "AtualizarAlbum";
             this.Text = "AtualizarAlbum";
+            this.Load += new System.EventHandler(this.AtualizarAlbum_Load);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel3.ResumeLayout(false);
@@ -1088,6 +1110,8 @@
             this.guna2GradientPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.guna2Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1152,5 +1176,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtIdAlbum;
         private Guna.UI2.WinForms.Guna2Button btnBuscarÁlbum;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel29;
+        private PictureBox pictureBox1;
     }
 }

@@ -9,46 +9,46 @@
       "ProjetoG3_Fotografo/1.0.0": {
         "dependencies": {
           "Google.Apis.Calendar.v3": "1.63.0.3171",
-          "Google.Apis.Drive.v3": "1.63.0.3155",
+          "Google.Apis.Drive.v3": "1.64.0.3155",
           "Guna.UI2.WinForms": "2.0.4.5",
-          "System.Data.SqlClient": "4.8.5"
+          "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "ProjetoG3_Fotografo.dll": {}
         }
       },
-      "Google.Apis/1.63.0": {
+      "Google.Apis/1.64.0": {
         "dependencies": {
-          "Google.Apis.Core": "1.63.0"
+          "Google.Apis.Core": "1.64.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.dll": {
-            "assemblyVersion": "1.63.0.0",
-            "fileVersion": "1.63.0.0"
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
           }
         }
       },
-      "Google.Apis.Auth/1.63.0": {
+      "Google.Apis.Auth/1.64.0": {
         "dependencies": {
-          "Google.Apis": "1.63.0",
-          "Google.Apis.Core": "1.63.0",
+          "Google.Apis": "1.64.0",
+          "Google.Apis.Core": "1.64.0",
           "System.Management": "7.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
-            "assemblyVersion": "1.63.0.0",
-            "fileVersion": "1.63.0.0"
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
           },
           "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "assemblyVersion": "1.63.0.0",
-            "fileVersion": "1.63.0.0"
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
           }
         }
       },
       "Google.Apis.Calendar.v3/1.63.0.3171": {
         "dependencies": {
-          "Google.Apis": "1.63.0",
-          "Google.Apis.Auth": "1.63.0"
+          "Google.Apis": "1.64.0",
+          "Google.Apis.Auth": "1.64.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {
@@ -57,26 +57,26 @@
           }
         }
       },
-      "Google.Apis.Core/1.63.0": {
+      "Google.Apis.Core/1.64.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "assemblyVersion": "1.63.0.0",
-            "fileVersion": "1.63.0.0"
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
           }
         }
       },
-      "Google.Apis.Drive.v3/1.63.0.3155": {
+      "Google.Apis.Drive.v3/1.64.0.3155": {
         "dependencies": {
-          "Google.Apis": "1.63.0",
-          "Google.Apis.Auth": "1.63.0"
+          "Google.Apis": "1.64.0",
+          "Google.Apis.Auth": "1.64.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
-            "assemblyVersion": "1.63.0.3155",
-            "fileVersion": "1.63.0.3155"
+            "assemblyVersion": "1.64.0.3155",
+            "fileVersion": "1.64.0.3155"
           }
         }
       },
@@ -148,7 +148,7 @@
           }
         }
       },
-      "System.Data.SqlClient/4.8.5": {
+      "System.Data.SqlClient/4.8.6": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0",
@@ -156,22 +156,22 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
             "rid": "unix",
             "assetType": "runtime",
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           },
           "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           }
         }
       },
@@ -209,19 +209,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Google.Apis/1.63.0": {
+    "Google.Apis/1.64.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+eZyt17tnx3KiNqYTu3s810RWe4P5t7Ou1sdLVGaHkwagWAUN5NfnD4/xLA9gMvnFT2ETGyrsUXgxQ8wU0KRAw==",
-      "path": "google.apis/1.63.0",
-      "hashPath": "google.apis.1.63.0.nupkg.sha512"
+      "sha512": "sha512-0ki3AJDiTuV5Cb7NUyq+0DDGDLWcPCKbZC1HgyvAW+o/I0rY/HXMvv6IAF65hhfbQB/Scfm8nuAW3weNEXYkxw==",
+      "path": "google.apis/1.64.0",
+      "hashPath": "google.apis.1.64.0.nupkg.sha512"
     },
-    "Google.Apis.Auth/1.63.0": {
+    "Google.Apis.Auth/1.64.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+kdWA72t5B9kjm1MO4niU6NUOqakFFwTIaaikpdejUMAYrgBreQs6r8ntk/jPB727XlJ/ho+kQKE7CYJVT180A==",
-      "path": "google.apis.auth/1.63.0",
-      "hashPath": "google.apis.auth.1.63.0.nupkg.sha512"
+      "sha512": "sha512-u3cwX0E3IpAkROzRPgZtohFSS2DUblkSmwMfh3/2Qwbi/QXHd8ebq2JuCNqmfpJyfgW5AG0+fO0UrrLsYtglMQ==",
+      "path": "google.apis.auth/1.64.0",
+      "hashPath": "google.apis.auth.1.64.0.nupkg.sha512"
     },
     "Google.Apis.Calendar.v3/1.63.0.3171": {
       "type": "package",
@@ -230,19 +230,19 @@
       "path": "google.apis.calendar.v3/1.63.0.3171",
       "hashPath": "google.apis.calendar.v3.1.63.0.3171.nupkg.sha512"
     },
-    "Google.Apis.Core/1.63.0": {
+    "Google.Apis.Core/1.64.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pXFvqBBkvsA7USZMHXRQqi6GNUi4MSvJSi0fq5LPqEM3RXA1qHCpwXtaIUO8gGtXHNFtmmDJtRvROybBu0/3EQ==",
-      "path": "google.apis.core/1.63.0",
-      "hashPath": "google.apis.core.1.63.0.nupkg.sha512"
+      "sha512": "sha512-bqrUhDeMFeMdjtv4QT4Z99WDPSEbS6EKnp1bYvqyc/VpEu4oFNMqw8/bk/7SS7Ko+bodDgum8fkvDwCMZtdWDg==",
+      "path": "google.apis.core/1.64.0",
+      "hashPath": "google.apis.core.1.64.0.nupkg.sha512"
     },
-    "Google.Apis.Drive.v3/1.63.0.3155": {
+    "Google.Apis.Drive.v3/1.64.0.3155": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ADhSBDUmvyp1wnURkc+YErVBOpXfxAa4DFOTTkLlL2PYGI/U8KihNk8/bW2jHfX9tNUnUoENWyK2VV3WNki/yQ==",
-      "path": "google.apis.drive.v3/1.63.0.3155",
-      "hashPath": "google.apis.drive.v3.1.63.0.3155.nupkg.sha512"
+      "sha512": "sha512-Od4Afp8l6E4aD/YNFJmQC56Op2I3AHEmPxkyjc7ivsBvPRZwjTkL/nXVirjlUzzySmomFPfyv8MSJvszbDjslQ==",
+      "path": "google.apis.drive.v3/1.64.0.3155",
+      "hashPath": "google.apis.drive.v3.1.64.0.3155.nupkg.sha512"
     },
     "Guna.UI2.WinForms/2.0.4.5": {
       "type": "package",
@@ -307,12 +307,12 @@
       "path": "system.codedom/7.0.0",
       "hashPath": "system.codedom.7.0.0.nupkg.sha512"
     },
-    "System.Data.SqlClient/4.8.5": {
+    "System.Data.SqlClient/4.8.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
-      "path": "system.data.sqlclient/4.8.5",
-      "hashPath": "system.data.sqlclient.4.8.5.nupkg.sha512"
+      "sha512": "sha512-2Ij/LCaTQRyAi5lAv7UUTV9R2FobC8xN9mE0fXBZohum/xLl8IZVmE98Rq5ugQHjCgTBRKqpXRb4ORulRdA6Ig==",
+      "path": "system.data.sqlclient/4.8.6",
+      "hashPath": "system.data.sqlclient.4.8.6.nupkg.sha512"
     },
     "System.Management/7.0.2": {
       "type": "package",

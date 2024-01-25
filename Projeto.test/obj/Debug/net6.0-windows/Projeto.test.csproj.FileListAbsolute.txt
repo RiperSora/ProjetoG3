@@ -74,3 +74,19 @@ D:\Visual Studio\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\refint\Projeto.
 D:\Visual Studio\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.pdb
 D:\Visual Studio\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.genruntimeconfig.cache
 D:\Visual Studio\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\ref\Projeto.test.dll
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.csproj.AssemblyReference.cache
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.AssemblyInfoInputs.cache
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.AssemblyInfo.cs
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.csproj.CoreCompileInputs.cache
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.dll
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\refint\Projeto.test.dll
+C:\Users\rafael.goliveira30\source\repos\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.pdb
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.csproj.AssemblyReference.cache
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.AssemblyInfoInputs.cache
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.AssemblyInfo.cs
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.csproj.CoreCompileInputs.cache
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.dll
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\refint\Projeto.test.dll
+C:\Users\wesley.vpsilva\source\repos\Projeto\ProjetoG3\Projeto.test\obj\Debug\net6.0-windows\Projeto.test.pdb

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,8 +28,8 @@ namespace ProjetoG3_Fotografo
 
         public void btnEventos()
         {
-            Evento2 evento2 = new Evento2();
-            evento2.Show();
+            Evento3 eventos = new Evento3();
+            eventos.Show();
             this.Close();
         }
 
@@ -70,6 +71,49 @@ namespace ProjetoG3_Fotografo
         private void bntCliente_Click_1(object sender, EventArgs e)
         {
             btnClientes();
+        }
+
+        private void btnAtualizarUsuario_Click(object sender, EventArgs e)
+        {
+
+            if(TxtNome.Text == "" || TxtSenha.Text == "" || TxtTelefone.Text == "" || TxtEmail.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos");
+            }
+            else
+            {
+                try
+                {
+                    DAL.AdmDAL admDAL = new DAL.AdmDAL();
+                    int id = Login.usuarioLogado.Id;
+                    admDAL.AtualizarAdm(id, TxtNome.Text, TxtEmail.Text, TxtTelefone.Text, TxtSenha.Text);
+                    if (admDAL != null)
+                    {
+                        MessageBox.Show("Adm atualizado com sucesso.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Adm não atualizado.");
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Erro ao acessar o banco de dados: " + ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ocorreu um erro inesperado: " + ex.Message);
+                }
+
+            }
+        }
+
+        private void Configuracao_Load(object sender, EventArgs e)
+        {
+            TxtNome.Text = Login.usuarioLogado.Nome;
+            TxtEmail.Text = Login.usuarioLogado.Email;
+            TxtSenha.Text = Login.usuarioLogado.Senha;
+            TxtTelefone.Text = Login.usuarioLogado.Telefone;
         }
     }
 }

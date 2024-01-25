@@ -18,7 +18,7 @@ namespace ProjetoG3_Fotografo
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-        string connString = @"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProjetoG3;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         #region metodos
 
@@ -36,9 +36,9 @@ namespace ProjetoG3_Fotografo
         }
         public void btn_Eventos()
         {
-            Evento2 eventos = new Evento2();
+            Evento3 eventos = new Evento3();
             eventos.Show();
-            this.Hide();
+            this.Close();
         }
         public void btn_Album()
         {
@@ -53,10 +53,17 @@ namespace ProjetoG3_Fotografo
             this.Hide();
         }
 
+        public void btn_logout()
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
 
         public void dadosCliente()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlConnection conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProjetoG3;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             conn.Open();
 
             SqlCommand cmd = new SqlCommand("SELECT * FROM Cliente", conn);
@@ -71,16 +78,32 @@ namespace ProjetoG3_Fotografo
 
         public void buscaCliente()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=FAC0539641W10-1;Initial Catalog=ClickProducoesDB;User ID=sa;Password=123456;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            string stringSql = DAL.AdmDAL.stringSQL;
+            SqlConnection conn = new SqlConnection(stringSql);
             conn.Open();
-
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Cliente WHERE NomeDoCliente LIKE '" + guna2TextBox1.Text + "%'", conn);
-
-            SqlDataReader dr = cmd.ExecuteReader();
-            BindingSource bs = new BindingSource();
-
-            bs.DataSource = dr;
-            gridCliente.DataSource = bs;
+            if (comboBox.Text == "")
+            {
+                comboBox.Text = "NomeDoCliente";
+                SqlCommand cmd = new SqlCommand("select * from Cliente where " + comboBox.Text + " like '%" + txtPesquisa.Text + "%' order by DataHoraCadastro desc", conn);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    BindingSource bs = new BindingSource();
+                    bs.DataSource = dr;
+                    gridCliente.DataSource = bs;
+                }
+            }
+            else
+            {
+                SqlCommand cmd = new SqlCommand("select * from Cliente where " + comboBox.Text + " like '%" + txtPesquisa.Text + "%' order by DataHoraCadastro desc", conn);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    BindingSource bs = new BindingSource();
+                    bs.DataSource = dr;
+                    gridCliente.DataSource = bs;
+                }
+            }
         }
 
         public void excluirCliente()
@@ -117,8 +140,9 @@ namespace ProjetoG3_Fotografo
 
         private void Funcionario_Load(object sender, EventArgs e)
         {
-
+            gridCliente.ColumnHeadersHeight = 40;
             dadosCliente();
+            nomeAdm.Text = Login.usuarioLogado.Nome;
 
         }
 
@@ -196,6 +220,11 @@ namespace ProjetoG3_Fotografo
         private void btnExcluirCliente_Click(object sender, EventArgs e)
         {
             excluirCliente();
+        }
+
+        private void fotoPerfil_Click(object sender, EventArgs e)
+        {
+            btn_logout();
         }
     }
 }

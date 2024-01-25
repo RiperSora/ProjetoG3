@@ -102,8 +102,8 @@
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCadastrarCliente2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.comboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtPesquisa = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnCadastrarCliente = new Guna.UI2.WinForms.Guna2Button();
@@ -120,8 +120,10 @@
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -137,6 +139,7 @@
             this.guna2Panel6.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -190,6 +193,7 @@
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel2.Controls.Add(this.pictureBox1);
             this.guna2Panel2.CustomizableEdges = customizableEdges3;
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -375,7 +379,6 @@
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gridCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gridCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.gridCliente.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
             this.gridCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -504,8 +507,8 @@
             // 
             // guna2Panel9
             // 
-            this.guna2Panel9.Controls.Add(this.guna2ComboBox1);
-            this.guna2Panel9.Controls.Add(this.guna2TextBox1);
+            this.guna2Panel9.Controls.Add(this.comboBox);
+            this.guna2Panel9.Controls.Add(this.txtPesquisa);
             this.guna2Panel9.CustomizableEdges = customizableEdges29;
             this.guna2Panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel9.Location = new System.Drawing.Point(45, 0);
@@ -514,53 +517,61 @@
             this.guna2Panel9.Size = new System.Drawing.Size(676, 70);
             this.guna2Panel9.TabIndex = 1;
             // 
-            // guna2ComboBox1
+            // comboBox
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.BorderRadius = 10;
-            this.guna2ComboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ComboBox1.CustomizableEdges = customizableEdges25;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(510, 17);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(163, 36);
-            this.guna2ComboBox1.TabIndex = 1;
+            this.comboBox.BackColor = System.Drawing.Color.Transparent;
+            this.comboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.comboBox.BorderRadius = 10;
+            this.comboBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox.CustomizableEdges = customizableEdges25;
+            this.comboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.comboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.comboBox.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.comboBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.comboBox.ItemHeight = 30;
+            this.comboBox.Items.AddRange(new object[] {
+            "IdUsuario",
+            "NomeDoCliente",
+            "RG",
+            "CPF",
+            "Endereco",
+            "Telefone",
+            "Email"});
+            this.comboBox.Location = new System.Drawing.Point(510, 17);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            this.comboBox.Size = new System.Drawing.Size(163, 36);
+            this.comboBox.TabIndex = 1;
             // 
-            // guna2TextBox1
+            // txtPesquisa
             // 
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.BorderRadius = 10;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2TextBox1.CustomizableEdges = customizableEdges27;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(3, 17);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox1.PlaceholderText = "Pesquisar cliente";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            this.guna2TextBox1.Size = new System.Drawing.Size(492, 36);
-            this.guna2TextBox1.TabIndex = 0;
-            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
+            this.txtPesquisa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPesquisa.BorderRadius = 10;
+            this.txtPesquisa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtPesquisa.CustomizableEdges = customizableEdges27;
+            this.txtPesquisa.DefaultText = "";
+            this.txtPesquisa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPesquisa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPesquisa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPesquisa.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPesquisa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPesquisa.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPesquisa.ForeColor = System.Drawing.Color.Black;
+            this.txtPesquisa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.txtPesquisa.Location = new System.Drawing.Point(3, 17);
+            this.txtPesquisa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPesquisa.Name = "txtPesquisa";
+            this.txtPesquisa.PasswordChar = '\0';
+            this.txtPesquisa.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtPesquisa.PlaceholderText = "Pesquisar cliente";
+            this.txtPesquisa.SelectedText = "";
+            this.txtPesquisa.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            this.txtPesquisa.Size = new System.Drawing.Size(492, 36);
+            this.txtPesquisa.TabIndex = 0;
+            this.txtPesquisa.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2ShadowPanel2
             // 
@@ -699,26 +710,29 @@
             // 
             // fotoPerfil
             // 
+            this.fotoPerfil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("fotoPerfil.BackgroundImage")));
+            this.fotoPerfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.fotoPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fotoPerfil.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.fotoPerfil.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.fotoPerfil.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.fotoPerfil.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.fotoPerfil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(186)))));
+            this.fotoPerfil.FillColor = System.Drawing.Color.Transparent;
             this.fotoPerfil.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.fotoPerfil.ForeColor = System.Drawing.Color.White;
-            this.fotoPerfil.Location = new System.Drawing.Point(134, 18);
+            this.fotoPerfil.Location = new System.Drawing.Point(148, 37);
             this.fotoPerfil.Name = "fotoPerfil";
             this.fotoPerfil.ShadowDecoration.CustomizableEdges = customizableEdges37;
             this.fotoPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.fotoPerfil.Size = new System.Drawing.Size(60, 60);
+            this.fotoPerfil.Size = new System.Drawing.Size(25, 25);
             this.fotoPerfil.TabIndex = 35;
+            this.fotoPerfil.Click += new System.EventHandler(this.fotoPerfil_Click);
             // 
             // nomeAdm
             // 
             this.nomeAdm.BackColor = System.Drawing.Color.Transparent;
             this.nomeAdm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nomeAdm.Location = new System.Drawing.Point(44, 38);
+            this.nomeAdm.Location = new System.Drawing.Point(67, 39);
             this.nomeAdm.Name = "nomeAdm";
             this.nomeAdm.Size = new System.Drawing.Size(75, 21);
             this.nomeAdm.TabIndex = 36;
@@ -768,6 +782,16 @@
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(30, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Funcionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -781,6 +805,7 @@
             this.Load += new System.EventHandler(this.Funcionario_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.guna2Panel2.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2ShadowPanel1.ResumeLayout(false);
@@ -799,6 +824,7 @@
             this.guna2Panel7.PerformLayout();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -839,7 +865,8 @@
         private Guna.UI2.WinForms.Guna2DataGridView gridCliente;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
         private Guna.UI2.WinForms.Guna2Button btnExcluirCliente;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtPesquisa;
+        private Guna.UI2.WinForms.Guna2ComboBox comboBox;
+        private PictureBox pictureBox1;
     }
 }
